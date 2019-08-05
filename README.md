@@ -1,5 +1,7 @@
 # Gōo-gí khuài-ik-thong 五語快易通
 
+![snapshot_official_site](https://user-images.githubusercontent.com/6355592/62449685-537d9b80-b79d-11e9-8996-49cd84655197.png)
+
 ## 官方紹介
 雲林縣辦理日常生活實用會話，五語（國、閩、客、原、英）快易通，數位化媒體製作計畫。光元2008年6月初版。
 
