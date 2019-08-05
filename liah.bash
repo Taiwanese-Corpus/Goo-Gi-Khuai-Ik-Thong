@@ -3,12 +3,12 @@
 #m f j 
 #target_kiap="m"
 # Huagi: g
-# Taigi: j f  
+# Taigi: m j f  
 # Haffa: c h d r z l"
 # Tsokgi: "a t b n p"
 # English: "e"
 
-target_kiap="g j f c h d r z l a t b n p e"
+target_kiap="g m j f c h d r z l a t b n p e"
 
 for kiap in $target_kiap
 do
