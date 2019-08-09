@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+
+<coffeecupjukebox version="4.5">
+
+  <jukebox
+   x="0"
+   y="0"
+   w="360"
+   h="302"
+   playonstartup="f"
+   loop="f"
+   shuffle="f"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="p_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+disableclicktoactiveprompt="false"
+  <rewindbutton
+   x="82"
+   y="27"
+   w="61"
+   h="43"
+   toggle="f"
+   btnupimg="p_files/previous.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="205"
+   y="27"
+   w="63"
+   h="43"
+   toggle="f"
+   btnupimg="p_files/next.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="143"
+   y="27"
+   w="61"
+   h="43"
+   toggle="t"
+   btnupimg="p_files/play.jpg"
+   btndownimg="p_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="272"
+   y="47"
+   w="35"
+   h="14"
+   toggle="t"
+   action="shuf"
+   visible="f"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="351"
+   y="246"
+   w="92"
+   h="21"
+   visible="f"
+  ></volume>
+
+  <progress
+   x="32"
+   y="262"
+   w="291"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="33"
+   y="75"
+   w="291"
+   h="166"
+   visible="t"
+  >
+  <node label="">
+    <node name="001" file="p_files/001.mp3" artist="" label="001Izuwa anema sanguwanguwa a kakanen i dut(palingulje)i tatakesiyan(kakituluan, kunkuan, gaku)?"/>
+    <node name="002" file="p_files/002.mp3" artist="" label="002aza sanguwanguwa a kakanen? liyav a lavace!"/>
+    <node name="003" file="p_files/003.mp3" artist="" label="003tjalja tjenglayan a en na sema tua kakanan nu azemezemetj."/>
+    <node name="004" file="p_files/004.mp3" artist="" label="004pai! makakesanga, tjasi kaivan nanga."/>
+    <node name="005" file="p_files/005.mp3" artist="" label="005kilimu kanu! kanu nu maculjuculju-anan."/>
+    <node name="006" file="p_files/006.mp3" artist="" label="006sasanguwa a ngata satja kaiven!"/>
+    <node name="007" file="p_files/007.mp3" artist="" label="007sanguwa a ngata sa damai."/>
+    <node name="008" file="p_files/008.mp3" artist="" label="008anema su kinatjengelayan tu su kanen? nanguwa a veljevelje a u kanen."/>
+    <node name="009" file="p_files/009.mp3" artist="" label="009maatianan a en a temekele a puita?"/>
+    <node name="010" file="p_files/010.mp3" artist="" label="010na sa keman sun tua nema? (anema su sa kemanan? )"/>
+    <node name="011" file="p_files/011.mp3" artist="" label="011na mavetu a en, djavadjavay!"/>
+    <node name="012" file="p_files/012.mp3" artist="" label="012Inianan a keman a en tua sa namaya tucu a kakanen."/>
+    <node name="013" file="p_files/013.mp3" artist="" label="013sasanguwa sa tja kaiven?"/>
+    <node name="014" file="p_files/014.mp3" artist="" label="014ui! sasanguwa a angata(alavac)!"/>
+    <node name="015" file="p_files/015.mp3" artist="" label="015na mavetuanga en alavac! pacencenanga!"/>
+    <node name="016" file="p_files/016.mp3" artist="" label="016na saljinga sun a temekele tua ucia tu sayda?"/>
+    <node name="017" file="p_files/017.mp3" artist="" label="017na sakeman a en tua uwacin."/>
+    <node name="018" file="p_files/018.mp3" artist="" label="018na-kemacu a en tua alju, nasa-keman mun?"/>
+    <node name="019" file="p_files/019.mp3" artist="" label="019maculju alavac! dj apesu-anan sakakan!"/>
+    <node name="020" file="p_files/020.mp3" artist="" label="020galjuwanan, palamuanga satjen a kaive."/>
+    <node name="021" file="p_files/021.mp3" artist="" label="021aza keman tua udjidjilje a daikun, bulay tua su maca."/>
+    <node name="022" file="p_files/022.mp3" artist="" label="022maya keman tua aljualju a pasusangase tua tja sikanan."/>
+    <node name="023" file="p_files/023.mp3" artist="" label="023Inia tjen a tjaljuetju nu kemakan e tjen."/>
+    <node name="024" file="p_files/024.mp3" artist="" label="024aza kakedrian inia tjen a penili tua tja kanen, tja kanen a gemudem."/>
+    <node name="025" file="p_files/025.mp3" artist="" label="025semuliave tjen tua ljacen(tja suliaven a ljacen, talivake e tjen)!"/>
+    <node name="026" file="p_files/026.mp3" artist="" label="026maculju! tja sikinemenem!"/>
+    <node name="027" file="p_files/027.mp3" artist="" label="027inia tjen a semuliyave tua avai. tja pacengecen a ita."/>
+    <node name="028" file="p_files/028.mp3" artist="" label="028keman su tua tinawdan ta vutjulje nua kuka(vuyu) a kinsa?"/>
+    <node name="029" file="p_files/029.mp3" artist="" label="029uri vemeli su tua alju?"/>
+    <node name="030" file="p_files/030.mp3" artist="" label="030nima sa kafyi(咖啡)? u salume a lavace!"/>
+    <node name="031" file="p_files/031.mp3" artist="" label="031Niaen sa inalan a 爆米花. (aicu a u inalan a爆米花, aicu niaen a inalan a爆米花)"/>
+    <node name="032" file="p_files/032.mp3" artist="" label="032tja kudainanga sa tjeza djamay? (sa tjeza djamay tja kudainanga? )"/>
+    <node name="033" file="p_files/033.mp3" artist="" label="033izua u tjalupun a pasu-udjidjilj(像紅色的)."/>
+    <node name="034" file="p_files/034.mp3" artist="" label="034aza uri djetjemananga, kipuitun(kemava) tjen a pakaliyave."/>
+    <node name="035" file="p_files/035.mp3" artist="" label="035tja ljekedrianga sa itun(kava), tja medrikitjeanga kasuy(kacakac, zubun)."/>
+    <node name="036" file="p_files/036.mp3" artist="" label="036sanuwa'u a su kasuy(kacakac, zubun)! (把你的褲子整理好! )"/>
+    <node name="037" file="p_files/037.mp3" artist="" label="037lutelutu a limalima na su itun(kava)!"/>
+    <node name="038" file="p_files/038.mp3" artist="" label="038sanuwa'u a vengtje na su kucu!"/>
+    <node name="039" file="p_files/039.mp3" artist="" label="039kucusetawuanan sa kemucukucu."/>
+    <node name="040" file="p_files/040.mp3" artist="" label="040aza uri enmutjaljeanga, pakilimu a kemapa sa emamigucu."/>
+    <node name="041" file="p_files/041.mp3" artist="" label="041kegrikedri sa kucu se tjaljekedri tjen a pagalju."/>
+    <node name="042" file="p_files/042.mp3" artist="" label="042pacangalale a lavac sa itun(kava, kaba)."/>
+    <node name="043" file="p_files/043.mp3" artist="" label="043na mavelide sa su siniitun(kinavan), pasalive sa su sicaingan."/>
+    <node name="044" file="p_files/044.mp3" artist="" label="044nu kalja djadjeljeman na pakaliyave tjen tua itun(kava衣服)."/>
+    <node name="045" file="p_files/045.mp3" artist="" label="045【nu tja siitun(sikava)】."/>
+    <node name="046" file="p_files/046.mp3" artist="" label="046tusa adaw uri emitun(kemava)tjen tua sisagaku a itun a semagaku."/>
+    <node name="047" file="p_files/047.mp3" artist="" label="047emitun(kemava) tjen tua siundudu nu uri undudu tjen."/>
+    <node name="048" file="p_files/048.mp3" artist="" label="048emitun(kemava)tjen tua malain a itun(kava) a semagaku nu masantjelulje a adav."/>
+    <node name="049" file="p_files/049.mp3" artist="" label="049aza u kaka tjaljaljak a u`aljay, nu kemasuy(zemubun) tua kedremedremele"/>
+    <node name="050" file="p_files/050.mp3" artist="" label="050izua ita u kucu siundundu sa ita kavakucu."/>
+    <node name="051" file="p_files/051.mp3" artist="" label="051tjengelai a kemucu tua vavavavav a kucu ti ina."/>
+    <node name="052" file="p_files/052.mp3" artist="" label="052izua nu masuilu a malakava, inia tja teveljen a vemat? ."/>
+    <node name="053" file="p_files/053.mp3" artist="" label="053nu makungai a itun(kava)tja kudainanga?"/>
+    <node name="054" file="p_files/054.mp3" artist="" label="054azua na setjawlanga tu ita cacayngan a su itun(kava)."/>
+    <node name="055" file="p_files/055.mp3" artist="" label="055ru paeljin(pusalatje)a en tai ina vemate aya, venaivai aya."/>
+    <node name="056" file="p_files/056.mp3" artist="" label="056inia(umaya)palingi tu(na) vauwan a tja itun(sikava)ana mavate sa namaljenguan pacengceng."/>
+    <node name="057" file="p_files/057.mp3" artist="" label="057kinuyanga na u salasaladje pita u itun a limalima."/>
+    <node name="058" file="p_files/058.mp3" artist="" label="058izua liyave a u puitja(siace)."/>
+    <node name="059" file="p_files/059.mp3" artist="" label="059pai! tja siiladjan a sama pulawla-ngan(umaan, tedepe)."/>
+    <node name="060" file="p_files/060.mp3" artist="" label="060Tja sikaycuwanan Ita kakanan a kaive."/>
+    <node name="061" file="p_files/061.mp3" artist="" label="061kemesakesa ti ina i kakesan(kakanan, cauka, suyziba)."/>
+    <node name="062" file="p_files/062.mp3" artist="" label="062aza u kaka tjaljaljak a vavayan, na emlen I tua aelengan."/>
+    <node name="063" file="p_files/063.mp3" artist="" label="063tima sun a mavanavanaw? pakilimu!"/>
+    <node name="064" file="p_files/064.mp3" artist="" label="064aza zidusiya ni sinsi pinizua I tua sasekezan."/>
+    <node name="065" file="p_files/065.mp3" artist="" label="065matjani a en a kemasi- vavav I tjaljetjalje ta kadjaman."/>
+    <node name="066" file="p_files/066.mp3" artist="" label="066aza u laulje(adupu)pinipatjalatje tua cekui."/>
+    <node name="067" file="p_files/067.mp3" artist="" label="067paseiljau sa pakelayan a pasa-ljaljisukan(tansu) aza su paljetja(kabun, itun)."/>
+    <node name="068" file="p_files/068.mp3" artist="" label="068sinipakelai a u zuga I kakaigian."/>
+    <node name="069" file="p_files/069.mp3" artist="" label="069izua men I kakituluwan tua tinnaw a kitulutulu."/>
+    <node name="070" file="p_files/070.mp3" artist="" label="070ti sinsi tjemawtjawtjaw tua saliman."/>
+    <node name="071" file="p_files/071.mp3" artist="" label="071ti sinsi pakatua suci a paljingas atua matjaljaljak na situ."/>
+    <node name="072" file="p_files/072.mp3" artist="" label="072macau a en a palimasutje tua u kaban."/>
+    <node name="073" file="p_files/073.mp3" artist="" label="073Maati(saygu, macau) a en a djemadjas tua ciawan ata ecap."/>
+    <node name="074" file="p_files/074.mp3" artist="" label="074izua cemugecugecuge, saw a pazuni tui tima?"/>
+    <node name="075" file="p_files/075.mp3" artist="" label="075pai! sueljevi a en. (tima uri maati a semueljevi tjai nu a en. )"/>
+    <node name="076" file="p_files/076.mp3" artist="" label="076su-kucu-anan sa zemuli."/>
+    <node name="077" file="p_files/077.mp3" artist="" label="077maya mapulac(mapuvalun)lja! tjumaanga en a kilimu."/>
+    <node name="078" file="p_files/078.mp3" artist="" label="078itua I cekui a sidjepetjdjepetj tua tilibi(遙控器)."/>
+    <node name="079" file="p_files/079.mp3" artist="" label="079saw pilimaw, uri kencengelje-anga tjen."/>
+    <node name="080" file="p_files/080.mp3" artist="" label="080matulivu sanu kakituluan, pai! palimasutju!"/>
+    <node name="081" file="p_files/081.mp3" artist="" label="081maya madrawdrav(paenetjuanga)a emevutje tua ljawljav(dinki)."/>
+    <node name="082" file="p_files/082.mp3" artist="" label="082ma-ati sun na mantjez a sema-tua u pan-kun-se? ."/>
+    <node name="083" file="p_files/083.mp3" artist="" label="083kipacadjaw tua ljawljaw, marekutje a en tu maculju sun."/>
+    <node name="084" file="p_files/084.mp3" artist="" label="084eljinguanan a velican azua cemel."/>
+    <node name="085" file="p_files/085.mp3" artist="" label="085uza pakunkunanga a i gaku(kunkuwan, kakituluwan)."/>
+    <node name="086" file="p_files/086.mp3" artist="" label="086patjagaveanga a u sipacegedan(sigacaljan)."/>
+    <node name="087" file="p_files/087.mp3" artist="" label="087inia en a sekata'ede."/>
+    <node name="088" file="p_files/088.mp3" artist="" label="088gudemuanan a su vaveciken, sa su na pacucun tua tilibi."/>
+    <node name="089" file="p_files/089.mp3" artist="" label="089saw takesiu(veciku), mavan(padjuludjulu)ta su sisekin."/>
+    <node name="090" file="p_files/090.mp3" artist="" label="090aza sewdu a tjemecatjak."/>
+    <node name="091" file="p_files/091.mp3" artist="" label="091aza maljupetje-anga sasenavan. (aza sasenavan a maljupetje-anga)"/>
+    <node name="092" file="p_files/092.mp3" artist="" label="092uri magudem-anga sa za'u."/>
+    <node name="093" file="p_files/093.mp3" artist="" label="093dje'esu-anga nu puwamin sun a ma kaya(aluvu, binziw)."/>
+    <node name="094" file="p_files/094.mp3" artist="" label="094nu uri vaika-anga sun, ljupetju-anga zaljum."/>
+    <node name="095" file="p_files/095.mp3" artist="" label="095maka dje'es-anga(puzaljum-anga) sun tua hana?"/>
+    <node name="096" file="p_files/096.mp3" artist="" label="096djemaljun-anga si-palimasudjan a adav!"/>
+    <node name="097" file="p_files/097.mp3" artist="" label="097palimasutju aza mala-'adupu sa velican! (aza mala-'adupu palimasutju sa velican! )"/>
+    <node name="098" file="p_files/098.mp3" artist="" label="098ma'ati a en a 'emeljin(pusaladje) a djemuwas tua ezun(madu)."/>
+    <node name="099" file="p_files/099.mp3" artist="" label="099sa mala eznn senaveanga."/>
+    <node name="100" file="p_files/100.mp3" artist="" label="100izua vaveliyan i pa'aya'ayav tua kakituluwan(gakuku, nkuwan)."/>
+    <node name="101" file="p_files/101.mp3" artist="" label="101matja liyaliyave a kakanan I dut(palingnlje) tua kakituluwan(gaku, kunkuwan)."/>
+    <node name="102" file="p_files/102.mp3" artist="" label="102inu a su kinaizuanau? i zuazua en i taipa(taihuk)"/>
+    <node name="103" file="p_files/103.mp3" artist="" label="103masan limalja a pasavavav sa uma."/>
+    <node name="104" file="p_files/104.mp3" artist="" label="104tjaw kitulu a semamaza, inia-nan a sedjalu alavac ti-madju."/>
+    <node name="105" file="p_files/105.mp3" artist="" label="105avan a tjadjalananga a tjen tua tja kinaizuanan."/>
+    <node name="106" file="p_files/106.mp3" artist="" label="106pasa-vili tjen i maza, uri maati sun djemumake tua kakipucemelan."/>
+    <node name="107" file="p_files/107.mp3" artist="" label="107nia en sa 'a'iladjan, ini a nisun."/>
+    <node name="108" file="p_files/108.mp3" artist="" label="108aza u salasalatj a ti Aci u ljaediedi."/>
+    <node name="109" file="p_files/109.mp3" artist="" label="109maka ljavin tjen a djemace salenguwa e tjen"/>
+    <node name="110" file="p_files/110.mp3" artist="" label="110aza i lizuk a pailailan izua si vaikan a maka vavav a djalan."/>
+    <node name="111" file="p_files/111.mp3" artist="" label="111a cemalivat tua djalan avan a uljawv na dinki a tja pacunan."/>
+    <node name="112" file="p_files/112.mp3" artist="" label="112a cemulivat tua djalan, pacun tjen pasa kavili, pasakanavalj, nu neka a zitusiya ma? ti tjen a cemalivat."/>
+    <node name="113" file="p_files/113.mp3" artist="" label="113nu uri emutubaitjen tjemalupun tjen tua angcinmaw"/>
+    <node name="114" file="p_files/114.mp3" artist="" label="114saselenguwaan nuaya, amin a sisatjuma a djalan."/>
+    <node name="115" file="p_files/115.mp3" artist="" label="115aza maka-tua bas, avan a masa sumusumus tjen."/>
+    <node name="116" file="p_files/116.mp3" artist="" label="116aza maka-tua bas, tja pa-iladjen a na selekuya."/>
+    <node name="117" file="p_files/117.mp3" artist="" label="117na paka tua kisiya en a sama taipa."/>
+    <node name="118" file="p_files/118.mp3" artist="" label="118na paka-tua 捷運 a sema 中和 ti madju."/>
+    <node name="119" file="p_files/119.mp3" artist="" label="119izua ljalje-vavavan tua bas, imaaya lima taidai(500"/>
+    <node name="120" file="p_files/120.mp3" artist="" label="120veliwanga tu drusa ta na kisiya a kippu."/>
+    <node name="121" file="p_files/121.mp3" artist="" label="121izua i maza kisan paveliveli tua kippu."/>
+    <node name="122" file="p_files/122.mp3" artist="" label="122kipavengetj e tjen anan a pakasangus nu uri ungutin tjen."/>
+    <node name="123" file="p_files/123.mp3" artist="" label="123pasa navalje tjen I zua tua sikicevun."/>
+    <node name="124" file="p_files/124.mp3" artist="" label="124tjacengecengen a tja pasacatja Avan a tja siselunguwaan."/>
+    <node name="125" file="p_files/125.mp3" artist="" label="125nu uri ljevavaw tjen tua haiya, tja sivecik a sinipukeljan a vecik."/>
+    <node name="126" file="p_files/126.mp3" artist="" label="126aza maka tua bas, temuvun tjen tua pakiyaw."/>
+    <node name="127" file="p_files/127.mp3" artist="" label="127upai tjumalji a en tu pasa inu a 中山路?"/>
+    <node name="128" file="p_files/128.mp3" artist="" label="128madjulu a malingac nu maka tua bas ti matju."/>
+    <node name="129" file="p_files/129.mp3" artist="" label="129ini a maati a mita tulu(mukelj) i luka."/>
+    <node name="130" file="p_files/130.mp3" artist="" label="130aza nu maka tua tjaljetjalje tjen, maka ljavin(navalje or livai) tjen."/>
+    <node name="131" file="p_files/131.mp3" artist="" label="131nu ma'epu tjen, Inia tjen a ma'aizin. (nakuya ma'aizin. )"/>
+    <node name="132" file="p_files/132.mp3" artist="" label="132iladju!"/>
+    <node name="133" file="p_files/133.mp3" artist="" label="133nu makaki-tulu-anga tja se'etjen."/>
+    <node name="134" file="p_files/134.mp3" artist="" label="134uri sabenulu?"/>
+    <node name="135" file="p_files/135.mp3" artist="" label="135se'etjuanan aza vangavangan."/>
+    <node name="136" file="p_files/136.mp3" artist="" label="136anema nu adavan tusasawni? niciwbi(lihai) tu sa sauni."/>
+    <node name="137" file="p_files/137.mp3" artist="" label="137maka djumak sun tua pinaulidan vecik? pai u kiayaman!"/>
+    <node name="138" file="p_files/138.mp3" artist="" label="138na makuda a daw? sa emudjaljeanga!"/>
+    <node name="139" file="p_files/139.mp3" artist="" label="139maya kivangavan a ecap!"/>
+    <node name="140" file="p_files/140.mp3" artist="" label="140su ka-ati na cemulu?"/>
+    <node name="141" file="p_files/141.mp3" artist="" label="141maya venelic a pa-atelen a cemele."/>
+    <node name="142" file="p_files/142.mp3" artist="" label="142maesananga sun tja sitekele tua zaljun sa kadaedan."/>
+    <node name="143" file="p_files/143.mp3" artist="" label="143nama pasaetjuanga su cungale, u tjiyakaw a sema zi papucemelan."/>
+    <node name="144" file="p_files/144.mp3" artist="" label="144ari vaiki a sema unduziw a kivangavan."/>
+    <node name="145" file="p_files/145.mp3" artist="" label="145tja sikipagalju a emeljev."/>
+    <node name="146" file="p_files/146.mp3" artist="" label="146pasaliv a en, djavai! inia makuda!"/>
+    <node name="147" file="p_files/147.mp3" artist="" label="147na salenguwa sa su kinakemudanan"/>
+    <node name="148" file="p_files/148.mp3" artist="" label="148sinsi, vaik a en a sema aluvu ui?"/>
+    <node name="149" file="p_files/149.mp3" artist="" label="149anemanema sa su papuinpican(tjanyapan? )?"/>
+    <node name="150" file="p_files/150.mp3" artist="" label="150anema u si kati a paeljin tjai nu sun?"/>
+    <node name="151" file="p_files/151.mp3" artist="" label="151maleva en tua u sini keljangan tjai nu sun! namaya(umalji)en u ta!"/>
+    <node name="152" file="p_files/152.mp3" artist="" label="152patjevutaw(alapu)a su vaveciken atua su inpic."/>
+    <node name="153" file="p_files/153.mp3" artist="" label="153tja ljenguwaen a si djadjasan tua inpic."/>
+    <node name="154" file="p_files/154.mp3" artist="" label="154kalidrualavac sa vecik sumangn sa umalju!"/>
+    <node name="155" file="p_files/155.mp3" artist="" label="155u pakeciyu a su pasavavaw."/>
+    <node name="156" file="p_files/156.mp3" artist="" label="156inu ti sinsi tucn? I zua i tjai(pasa)vavaw ti sinsi."/>
+    <node name="157" file="p_files/157.mp3" artist="" label="157maya mapulac! u tuluwayanga"/>
+    <node name="158" file="p_files/158.mp3" artist="" label="158kipagalju! kinemenemeu!"/>
+    <node name="159" file="p_files/159.mp3" artist="" label="159galugu-alavac(malicen)! Inia en a ma-ati a kisupu(kitulu)."/>
+    <node name="160" file="p_files/160.mp3" artist="" label="160saw ljupetju aza suydu!"/>
+    <node name="161" file="p_files/161.mp3" artist="" label="161masalu lja u siusi! Djavadjavai(kalevaw) tusa pinakatusu adaw!"/>
+    <node name="162" file="p_files/162.mp3" artist="" label="162aizu a u sinikazu tjai nu sun!"/>
+    <node name="163" file="p_files/163.mp3" artist="" label="163dravui! na segalju-anga en."/>
+    <node name="164" file="p_files/164.mp3" artist="" label="164anema su pinizuwa itua papu-lauljan(papu-adupuan)? ."/>
+    <node name="165" file="p_files/165.mp3" artist="" label="165inia maguda! Umaljuanan(a puita)."/>
+    <node name="166" file="p_files/166.mp3" artist="" label="166anema su kalikimen?"/>
+    <node name="167" file="p_files/167.mp3" artist="" label="167makuda sun? Saedu sa u tjiyalje."/>
+    <node name="168" file="p_files/168.mp3" artist="" label="168izua mala su vetjek?"/>
+    <node name="169" file="p_files/169.mp3" artist="" label="169kisamuljau! kisamuljau! (kedrengu! katalivaku! kigemegemu! )"/>
+    <node name="170" file="p_files/170.mp3" artist="" label="170tjaljezuanga a malalikuliku tucu."/>
+    <node name="171" file="p_files/171.mp3" artist="" label="171nguwanguwangata(bulaiangata)a su kinalakudan(kinasengesengan)."/>
+    <node name="172" file="p_files/172.mp3" artist="" label="172anema tja kivavngavangan?"/>
+    <node name="173" file="p_files/173.mp3" artist="" label="173tisunanga!"/>
+    <node name="174" file="p_files/174.mp3" artist="" label="174pazuni a u si vuljuan(tua bulu)!"/>
+    <node name="175" file="p_files/175.mp3" artist="" label="175tjengelai a en a sema tua ljaljicavan I lalusungun ta sacemele."/>
+    <node name="176" file="p_files/176.mp3" artist="" label="176nguwanguwangata sa I maza ljaljizavan"/>
+    <node name="177" file="p_files/177.mp3" artist="" label="177senai a mapuljat!"/>
+    <node name="178" file="p_files/178.mp3" artist="" label="178nguwanguwa sa zengelaw na sa senai."/>
+    <node name="179" file="p_files/179.mp3" artist="" label="179nguwanguwa sa susi senayan."/>
+    <node name="180" file="p_files/180.mp3" artist="" label="180tjalja tjengelayan a en tua situcuwan a senai."/>
+    <node name="181" file="p_files/181.mp3" artist="" label="181aza sasenayananga paru u nasi."/>
+    <node name="182" file="p_files/182.mp3" artist="" label="182maati sun a kemavakav a patjeinu?"/>
+    <node name="183" file="p_files/183.mp3" artist="" label="183pitjaliyav tjen tu tjelu tjai madju."/>
+    <node name="184" file="p_files/184.mp3" artist="" label="184neka nu na maya tua djalavac(kipadut) tjen a maka(sema) gadu."/>
+    <node name="185" file="p_files/185.mp3" artist="" label="185inia tjen na venala tua tja sika-laliguligu tusa adaw."/>
+    <node name="186" file="p_files/186.mp3" artist="" label="186azua nanguwa a siunduwan."/>
+    <node name="187" file="p_files/187.mp3" artist="" label="187pasalivanga su senai."/>
+    <node name="188" file="p_files/188.mp3" artist="" label="188kelju penakiyavi, ui?"/>
+    <node name="189" file="p_files/189.mp3" artist="" label="189nu makakituluanga, tjengelai a mem a kivangavan tua makakikim(uniuni)"/>
+    <node name="190" file="p_files/190.mp3" artist="" label="190na makudanga a malaliguligu?"/>
+    <node name="191" file="p_files/191.mp3" artist="" label="191anemanga(umayanga) tu nguwanguwa sa sikivangavangan!"/>
+    <node name="192" file="p_files/192.mp3" artist="" label="192tisunayanga a kivangavan!"/>
+    <node name="193" file="p_files/193.mp3" artist="" label="193bulayangata aza sipakulaluwan a zua situ."/>
+    <node name="194" file="p_files/194.mp3" artist="" label="194aza mala aunuwan(kakedriyan)tjengelai maauljuc aya, milimilingan aya! ."/>
+    <node name="195" file="p_files/195.mp3" artist="" label="195aza inia ruundu madjulu a mekudrale(medrapan胖)!"/>
+    <node name="196" file="p_files/196.mp3" artist="" label="196sasanguwa a zengelaw sika tjengelai a semenai timatjn."/>
+    <node name="197" file="p_files/197.mp3" artist="" label="197kemeljan a en tu tjengelai sun a ljezaya sema-gadu."/>
+    <node name="198" file="p_files/198.mp3" artist="" label="198na saljinga a en savaik a ljemizaw tua iga."/>
+    <node name="199" file="p_files/199.mp3" artist="" label="199uri patagiljeanga nu ngida sa temalidulidu?"/>
+    <node name="200" file="p_files/200.mp3" artist="" label="200inu a ma'ati a babuluan?"/>
+
+  </node>
+
+  </tree>
+
+  <label
+   x="269"
+   y="50"
+   w="53"
+   h="16"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="f"
+  ></label>
+
+  <scrolllabel
+   x="32"
+   y="245"
+   w="291"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  </jukebox>
+
+</coffeecupjukebox>

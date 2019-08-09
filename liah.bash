@@ -8,6 +8,10 @@
 # Tsokgi: "a t b n p"
 # English: "e"
 
+
+curl "http://163.21.182.5/ez5language/ezlearn/FM/{g,m,j,f,c,h,d,r,z,l,a,t,b,n,p,e}.xml" --create-dirs -o "./xml/#1.xml"
+exit
+
 target_kiap="g m j f c h d r z l a t b n p e"
 
 for kiap in $target_kiap
