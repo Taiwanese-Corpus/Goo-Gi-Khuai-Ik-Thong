@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+
+<coffeecupjukebox version="4.5">
+
+  <jukebox
+   x="0"
+   y="0"
+   w="360"
+   h="302"
+   playonstartup="f"
+   loop="f"
+   shuffle="f"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="t_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+disableclicktoactiveprompt="false"
+  <rewindbutton
+   x="82"
+   y="27"
+   w="61"
+   h="43"
+   toggle="f"
+   btnupimg="t_files/previous.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="205"
+   y="27"
+   w="63"
+   h="43"
+   toggle="f"
+   btnupimg="t_files/next.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="143"
+   y="27"
+   w="61"
+   h="43"
+   toggle="t"
+   btnupimg="t_files/play.jpg"
+   btndownimg="t_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="272"
+   y="47"
+   w="35"
+   h="14"
+   toggle="t"
+   action="shuf"
+   visible="f"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="351"
+   y="246"
+   w="92"
+   h="21"
+   visible="f"
+  ></volume>
+
+  <progress
+   x="32"
+   y="262"
+   w="291"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="33"
+   y="75"
+   w="291"
+   h="166"
+   visible="t"
+  >
+  <node label="">
+    <node name="001" file="t_files/001.mp3" artist="" label="001nanu cyux niqan na lingay pqwasn"/>
+    <node name="002" file="t_files/002.mp3" artist="" label="002cingay ay! naiqan hya!"/>
+    <node name="003" file="t_files/003.mp3" artist="" label="003smoya saku musa maniq nniqan hngan"/>
+    <node name="004" file="t_files/004.mp3" artist="" label="004masok hmapuy gbyan la, wah maniq la!"/>
+    <node name="005" file="t_files/005.mp3" artist="" label="005mwani nyux kilux, haziy qaniq ay!"/>
+    <node name="006" file="t_files/006.mp3" artist="" label="006hbuyaw balay niqun gbyan"/>
+    <node name="007" file="t_files/007.mp3" artist="" label="007blaq balay ninqun ramat qani"/>
+    <node name="008" file="t_files/008.mp3" artist="" label="008iyat su qaniq cikay nanu sbalay ga? aw ay! buqoh qu niqun mu"/>
+    <node name="009" file="t_files/009.mp3" artist="" label="009nway saku nbuw qutux kziy ocya ma?"/>
+    <node name="010" file="t_files/010.mp3" artist="" label="010iyat su qaniq cikay nanu?"/>
+    <node name="011" file="t_files/011.mp3" artist="" label="011tnngi saku la, mhuway su balay"/>
+    <node name="012" file="t_files/012.mp3" artist="" label="012ini saku qaniq nniqan miya qani"/>
+    <node name="013" file="t_files/013.mp3" artist="" label="013hbuyaw ga, nniqan gbyan soni?"/>
+    <node name="014" file="t_files/014.mp3" artist="" label="014aw ay! hbuyaw balay."/>
+    <node name="015" file="t_files/015.mp3" artist="" label="015mtngi ku balay, iyat toyay maniq la!"/>
+    <node name="016" file="t_files/016.mp3" artist="" label="016nbuw su boq kibahu, ini ga, sayra?"/>
+    <node name="017" file="t_files/017.mp3" artist="" label="017smoya ku balay maniq owacyen"/>
+    <node name="018" file="t_files/018.mp3" artist="" label="018nyux ku mras cikay pya, syon simu maniq pi?"/>
+    <node name="019" file="t_files/019.mp3" artist="" label="019kilux iyan! Sawuy a ru qaniy lozi."/>
+    <node name="020" file="t_files/020.mp3" artist="" label="020naga cikay obeh masoq kbalay niqan gbyan la!"/>
+    <node name="021" file="t_files/021.mp3" artist="" label="021maniq su ninzin ga, musa blaq roziq su"/>
+    <node name="022" file="t_files/022.mp3" artist="" label="022laxi qaniq iyan pya thbun, zik na maniq mami."/>
+    <node name="023" file="t_files/023.mp3" artist="" label="023maniq mami ga, laxi agan qway tmucing pyatu."/>
+    <node name="024" file="t_files/024.mp3" artist="" label="024laqi laxi wayay maniq, masoq maniq kwara qsahuy sara."/>
+    <node name="025" file="t_files/025.mp3" artist="" label="025maniq su ramat bnuya ga, tblaq hi su."/>
+    <node name="026" file="t_files/026.mp3" artist="" label="026ktay, kilux ay!"/>
+    <node name="027" file="t_files/027.mp3" artist="" label="027NULL"/>
+    <node name="028" file="t_files/028.mp3" artist="" label="028qaniq su mami ngta ga?"/>
+    <node name="029" file="t_files/029.mp3" artist="" label="029baziy su pya sgas pi?"/>
+    <node name="030" file="t_files/030.mp3" artist="" label="030ima qmzyap kaxe? talagay blaq sokan!"/>
+    <node name="031" file="t_files/031.mp3" artist="" label="031knalay ku nanak pomihwa qani"/>
+    <node name="032" file="t_files/032.mp3" artist="" label="032NULL"/>
+    <node name="033" file="t_files/033.mp3" artist="" label="033maki qutux mtasiq na qububu"/>
+    <node name="034" file="t_files/034.mp3" artist="" label="034hzyaq kayan la, plukus ta cingay."/>
+    <node name="035" file="t_files/035.mp3" artist="" label="035cipoq lukus la, yopun rtung uzi la"/>
+    <node name="036" file="t_files/036.mp3" artist="" label="036NULL"/>
+    <node name="037" file="t_files/037.mp3" artist="" label="037'zingi lukus su"/>
+    <node name="038" file="t_files/038.mp3" artist="" label="038blaq tmumu gasin kucyu"/>
+    <node name="039" file="t_files/039.mp3" artist="" label="039sbun ta kakayzik zik nz pkucyu"/>
+    <node name="040" file="t_files/040.mp3" artist="" label="040qwalax la, hay hazi plukuc lukus kapa ki gomukucyu"/>
+    <node name="041" file="t_files/041.mp3" artist="" label="041cipo iyan pkcyun ga mqhut cikay"/>
+    <node name="042" file="t_files/042.mp3" artist="" label="042cingay iyan pila biran lukusoba qani"/>
+    <node name="043" file="t_files/043.mp3" artist="" label="043cyux ssyuk mlukus ru mysaw tngtaq la"/>
+    <node name="044" file="t_files/044.mp3" artist="" label="044qmisan ga mlukus ta lukus sahuy ki bukin"/>
+    <node name="045" file="t_files/045.mp3" artist="" label="045hrhun balay kusun lukus qani"/>
+    <node name="046" file="t_files/046.mp3" artist="" label="046plukus ta kusan pinqwasan kira"/>
+    <node name="047" file="t_files/047.mp3" artist="" label="047plukus ta kusan na mqbaq slokah hi"/>
+    <node name="048" file="t_files/048.mp3" artist="" label="048baqun ta mlukus m'zyuy musa qwasan biru sincisan"/>
+    <node name="049" file="t_files/049.mp3" artist="" label="049sgalu balay ktan sswe mlikuy mlukus kyopunnyucyay"/>
+    <node name="050" file="t_files/050.mp3" artist="" label="050maki qutux kucyu galiq ki kucyu lbitkyuhin"/>
+    <node name="051" file="t_files/051.mp3" artist="" label="051yaya mu ga, smoya smi kawakucyu"/>
+    <node name="052" file="t_files/052.mp3" artist="" label="052baq shya kruma lukus, laxi squni smi."/>
+    <node name="053" file="t_files/053.mp3" artist="" label="053cyux qzyan qsya qalux qu lukus, swa'un ta la pi?"/>
+    <node name="054" file="t_files/054.mp3" artist="" label="054wan mhotaw qutux ngatoq lukus su."/>
+    <node name="055" file="t_files/055.mp3" artist="" label="055pragan ku mahoq lukus ru mugiy lukus yaya mu krryax."/>
+    <node name="056" file="t_files/056.mp3" artist="" label="056bali si ga giqas lukus pkusun, ini uraw ru lequn ta mkuw blaq la."/>
+    <node name="057" file="t_files/057.mp3" artist="" label="057nyux sliqan rangi ringan lukus mu la."/>
+    <node name="058" file="t_files/058.mp3" artist="" label="058cingay balay lukus qsahu maku."/>
+    <node name="059" file="t_files/059.mp3" artist="" label="059hata mtama ska na ngasan!"/>
+    <node name="060" file="t_files/060.mp3" artist="" label="060qaniq ta hpuyan gbyan beh nniqan"/>
+    <node name="061" file="t_files/061.mp3" artist="" label="061yaya cyux phapuy qnaniq beh hpuyan"/>
+    <node name="062" file="t_files/062.mp3" artist="" label="062sswe knerin ga, cyux m'bi beh ‘byan nya."/>
+    <node name="063" file="t_files/063.mp3" artist="" label="063ima cyux mima beh pman, helaw hazi ay!"/>
+    <node name="064" file="t_files/064.mp3" artist="" label="064turuy na sinsi ga, cyux syun beh skwan turuy."/>
+    <node name="065" file="t_files/065.mp3" artist="" label="065sasan soni ga, mtakuy saku kahun yatux taka"/>
+    <node name="066" file="t_files/066.mp3" artist="" label="066biru maku ga, cyux maku syun qsahuy skwan"/>
+    <node name="067" file="t_files/067.mp3" artist="" label="067NULL"/>
+    <node name="068" file="t_files/068.mp3" artist="" label="068cyux saku squzi ska pslyan ptasn mu."/>
+    <node name="069" file="t_files/069.mp3" artist="" label="069nyux myan mzuy tenno beh qhu tenno."/>
+    <node name="070" file="t_files/070.mp3" artist="" label="070cyux mlawa beh razyo sinsin"/>
+    <node name="071" file="t_files/071.mp3" artist="" label="071pkayan hray qu yaba ki yyaba laqi"/>
+    <node name="072" file="t_files/072.mp3" artist="" label="072baq saku smzyuy sabu biru mu."/>
+    <node name="073" file="t_files/073.mp3" artist="" label="073baq saku magan nanaq pyatu ki qway."/>
+    <node name="074" file="t_files/074.mp3" artist="" label="074kya squliq tmucing blihun san mita ima?"/>
+    <node name="075" file="t_files/075.mp3" artist="" label="075pragiy saku mgih blihun"/>
+    <node name="076" file="t_files/076.mp3" artist="" label="076alax kucyu ru si sripa."/>
+    <node name="077" file="t_files/077.mp3" artist="" label="077laxi nkux, baq saku smpung pcingan mwah ngasan."/>
+    <node name="078" file="t_files/078.mp3" artist="" label="078qaya mtzyaw cyux babaw lalan."/>
+    <node name="079" file="t_files/079.mp3" artist="" label="079usa mima qba, pqaniq ta nniqniun qlyan."/>
+    <node name="080" file="t_files/080.mp3" artist="" label="080uraw iyan cyaws' la, leqiy smzyut cikay."/>
+    <node name="081" file="t_files/081.mp3" artist="" label="081laxi zyungi muyut pilaw rengki."/>
+    <node name="082" file="t_files/082.mp3" artist="" label="082baq su mwah cikay pankons' ga?"/>
+    <node name="083" file="t_files/083.mp3" artist="" label="083stwahiq cikay ayng pilaw, ngungu saku psbway su na."/>
+    <node name="084" file="t_files/084.mp3" artist="" label="084NULL"/>
+    <node name="085" file="t_files/085.mp3" artist="" label="085nyux hngzyang pcinang pqwasan la."/>
+    <node name="086" file="t_files/086.mp3" artist="" label="086skurut saku hminas m'abi la."/>
+    <node name="087" file="t_files/087.mp3" artist="" label="087ini saku kmi m'abi"/>
+    <node name="088" file="t_files/088.mp3" artist="" label="088mosoq miru brwan lga, ana ta mita tensi."/>
+    <node name="089" file="t_files/089.mp3" artist="" label="089usa mita biru, lama smsun pspung nrwan."/>
+    <node name="090" file="t_files/090.mp3" artist="" label="090cyux hmbin htgan qsya."/>
+    <node name="091" file="t_files/091.mp3" artist="" label="091cyux sutan qu sakaw qwahan qba la."/>
+    <node name="092" file="t_files/092.mp3" artist="" label="092NULL"/>
+    <node name="093" file="t_files/093.mp3" artist="" label="093obeh suqun uba qwahan qba la."/>
+    <node name="094" file="t_files/094.mp3" artist="" label="094zik shriq su ga, blaq muyt htgan qsya."/>
+    <node name="095" file="t_files/095.mp3" artist="" label="095wan su qsyaun ppah la ga."/>
+    <node name="096" file="t_files/096.mp3" artist="" label="096nyux tehok pcingan smapoh la."/>
+    <node name="097" file="t_files/097.mp3" artist="" label="097blaq smsun rban inlaxan, aki ta baqun musa muling"/>
+    <node name="098" file="t_files/098.mp3" artist="" label="098baq saku smom tubung"/>
+    <node name="099" file="t_files/099.mp3" artist="" label="099qwahiy kwara tubung qani."/>
+    <node name="100" file="t_files/100.mp3" artist="" label="100qszyat qwasan, cyux maki qutux spiyang biran qaya."/>
+    <node name="101" file="t_files/101.mp3" artist="" label="101lingay qwasan sami ga, cingay balay nniqan."/>
+    <node name="102" file="t_files/102.mp3" artist="" label="102cyux su maki inu? nyux saku maki taypey"/>
+    <node name="103" file="t_files/103.mp3" artist="" label="103qani ga, magan tpanga na ngasan."/>
+    <node name="104" file="t_files/104.mp3" artist="" label="104nisiy mwah pqwasan qani hiya, ini nya qnbaq iyan sqani."/>
+    <node name="105" file="t_files/105.mp3" artist="" label="105nyux sami squn maki qutux hkngyan biran."/>
+    <node name="106" file="t_files/106.mp3" artist="" label="106aring sqa ru tkura ‘zin lga, ‘lun su ngasan."/>
+    <node name="107" file="t_files/107.mp3" artist="" label="107qani ga ptman mu, iyat su rwa."/>
+    <node name="108" file="t_files/108.mp3" artist="" label="108aci ga, gluw mu beh qwasan, maki tonari mu."/>
+    <node name="109" file="t_files/109.mp3" artist="" label="109hkangi ta syaw tuqi ga, musa mblaq."/>
+    <node name="110" file="t_files/110.mp3" artist="" label="110hkangi ta tuqi hogan ga, mluw ta hongu hknyan."/>
+    <node name="111" file="t_files/111.mp3" artist="" label="111hminas ta tuqi turuy ga, mita ta pilaw mleng tuqi."/>
+    <node name="112" file="t_files/112.mp3" artist="" label="112hminas ta tuqiy turuy ga, lequn ta mita llaw ki ‘zin, ungat turuy hminas ta,"/>
+    <node name="113" file="t_files/113.mp3" artist="" label="113mqbubu ta mtama otobay"/>
+    <node name="114" file="t_files/114.mp3" artist="" label="114anzeng ga, tuqi spiyang na osa ta ngasan."/>
+    <node name="115" file="t_files/115.mp3" artist="" label="115gaga mzyup turuy ga, qsuw bziq masoq lga mkaraw."/>
+    <node name="116" file="t_files/116.mp3" artist="" label="116sbiq squliq ptman ta sahuy kisya"/>
+    <node name="117" file="t_files/117.mp3" artist="" label="117mluw saku kisya musa taypey"/>
+    <node name="118" file="t_files/118.mp3" artist="" label="118hiya ga mluw cyeyun musa conho"/>
+    <node name="119" file="t_files/119.mp3" artist="" label="119gleng magan kbhun qara hkngyan ga, maki ngan turuy la."/>
+    <node name="120" file="t_files/120.mp3" artist="" label="120maziy saku sazing kippu kisya"/>
+    <node name="121" file="t_files/121.mp3" artist="" label="121nyux ziton biran kippu sqani"/>
+    <node name="122" file="t_files/122.mp3" artist="" label="122qmuyut ta turuy ga, mskut ta gasin hwinuk"/>
+    <node name="123" file="t_files/123.mp3" artist="" label="123suruw qutux qara tuqi ga, tkura ta ‘law la. 124"/>
+    <node name="124" file="t_files/124.mp3" artist="" label="124NULL"/>
+    <node name="125" file="t_files/125.mp3" artist="" label="125mluw ta takusi ga, syun ta tunux banggo nya"/>
+    <node name="126" file="t_files/126.mp3" artist="" label="126mluw ta yuruy lgan ga, smsun ta gegay."/>
+    <node name="127" file="t_files/127.mp3" artist="" label="127kyali saku cikay muci nanu musa tuqi consan qasa."/>
+    <node name="128" file="t_files/128.mp3" artist="" label="128helaw balay kging tunux nya."/>
+    <node name="129" file="t_files/129.mp3" artist="" label="129iyat baqun mqinah tuqi wahan squliq."/>
+    <node name="130" file="t_files/130.mp3" artist="" label="130mkaraw ru mbziq tka ga hkangi ta syaw."/>
+    <node name="131" file="t_files/131.mp3" artist="" label="131mgluw ta hkangi tuqi ga, ini ta pruruw."/>
+    <node name="132" file="t_files/132.mp3" artist="" label="132tama ha!"/>
+    <node name="133" file="t_files/133.mp3" artist="" label="133masoq mpuw la, squni biru qwasan."/>
+    <node name="134" file="t_files/134.mp3" artist="" label="134smoya su m'zuy mari pi?"/>
+    <node name="135" file="t_files/135.mp3" artist="" label="135sku qu qaya pzian su ha."/>
+    <node name="136" file="t_files/136.mp3" artist="" label="136nanu ryax soni, soni ga ryax hngawan."/>
+    <node name="137" file="t_files/137.mp3" artist="" label="137baqun su mluw balay na nrwan ga. tlamay suku cikay."/>
+    <node name="138" file="t_files/138.mp3" artist="" label="138mnanu qu kayan na tanux, qwalax la!"/>
+    <node name="139" file="t_files/139.mp3" artist="" label="139laxi agan qatap mzuy."/>
+    <node name="140" file="t_files/140.mp3" artist="" label="140baqun su psgluw matas pi 1"/>
+    <node name="141" file="t_files/141.mp3" artist="" label="141laxi hmut mulin syup."/>
+    <node name="142" file="t_files/142.mp3" artist="" label="142cyux su kyapun matu la, qeri nbuw qsya."/>
+    <node name="143" file="t_files/143.mp3" artist="" label="143tqilis mumu tari su la, hwakay su musa ngasan slokah hi."/>
+    <node name="144" file="t_files/144.mp3" artist="" label="144NULL"/>
+    <node name="145" file="t_files/145.mp3" artist="" label="145thwaziy qmlu sa blihun."/>
+    <node name="146" file="t_files/146.mp3" artist="" label="146swali saku! nway qiri!"/>
+    <node name="147" file="t_files/147.mp3" artist="" label="147blaq ktan qsliq su ay!"/>
+    <node name="148" file="t_files/148.mp3" artist="" label="148sinsi! musa saku stanux cikay ma?"/>
+    <node name="149" file="t_files/149.mp3" artist="" label="149nanu cyux qsahuy hako enpic su?"/>
+    <node name="150" file="t_files/150.mp3" artist="" label="150nanu musa saku spraw isu?"/>
+    <node name="151" file="t_files/151.mp3" artist="" label="151mqas saku balay mqbaq isu! kun uzi!"/>
+    <node name="152" file="t_files/152.mp3" artist="" label="152agan brwan ki enpic su."/>
+    <node name="153" file="t_files/153.mp3" artist="" label="153mshzyu ming su enpic."/>
+    <node name="154" file="t_files/154.mp3" artist="" label="154mslaq iyan niru su, somi ru bruy lozi."/>
+    <node name="155" file="t_files/155.mp3" artist="" label="155pragay su smpung kinwagiq su."/>
+    <node name="156" file="t_files/156.mp3" artist="" label="156cyux maki inu mwani sinsi."/>
+    <node name="157" file="t_files/157.mp3" artist="" label="157pragay su smpung kinwagiq su."/>
+    <node name="158" file="t_files/158.mp3" artist="" label="158khangi cikay inlungan."/>
+    <node name="159" file="t_files/159.mp3" artist="" label="159smyang iyan, ini usa tunux mita biru."/>
+    <node name="160" file="t_files/160.mp3" artist="" label="160usa qmuyut htgan qsya."/>
+    <node name="161" file="t_files/161.mp3" artist="" label="161pragay su smpung kinwagiq su."/>
+    <node name="162" file="t_files/162.mp3" artist="" label="162pragay su smpung kinwagiq su."/>
+    <node name="163" file="t_files/163.mp3" artist="" label="163swali cikay! nyux saku mcuqi la."/>
+    <node name="164" file="t_files/164.mp3" artist="" label="164nanu cyux su syun skwan biru su?"/>
+    <node name="165" file="t_files/165.mp3" artist="" label="165nway qiri! tbahi kbalay lozi."/>
+    <node name="166" file="t_files/166.mp3" artist="" label="166nanu qaya cyux su hkngyun?"/>
+    <node name="167" file="t_files/167.mp3" artist="" label="167hmswa? mxan ktu mu."/>
+    <node name="168" file="t_files/168.mp3" artist="" label="168maki qsuyan ki sswe knerin ki mlikuy su?"/>
+    <node name="169" file="t_files/169.mp3" artist="" label="169lokah! lokah!"/>
+    <node name="170" file="t_files/170.mp3" artist="" label="170misuw ga, masoq mspung la."/>
+    <node name="171" file="t_files/171.mp3" artist="" label="171blaq balay pcwagan su."/>
+    <node name="172" file="t_files/172.mp3" artist="" label="172nnanu qu pzi'un ta"/>
+    <node name="173" file="t_files/173.mp3" artist="" label="173tehok isu la!"/>
+    <node name="174" file="t_files/174.mp3" artist="" label="174ktay tuqi na sbu maku mari."/>
+    <node name="175" file="t_files/175.mp3" artist="" label="175smoya saku musa mita ngayan na qsinuw."/>
+    <node name="176" file="t_files/176.mp3" artist="" label="176mitunux balay ktan inktan qani."/>
+    <node name="177" file="t_files/177.mp3" artist="" label="177wah msqun ta mqwas ha!"/>
+    <node name="178" file="t_files/178.mp3" artist="" label="178blaq balay pongan qwas qani."/>
+    <node name="179" file="t_files/179.mp3" artist="" label="179blaq balay pongun nqwas su."/>
+    <node name="180" file="t_files/180.mp3" artist="" label="180sliq maku balay minqwasan ga, mhilaw qbaqan."/>
+    <node name="181" file="t_files/181.mp3" artist="" label="181minqwasan ga, tninun mu."/>
+    <node name="182" file="t_files/182.mp3" artist="" label="182baq su mlngiq musa twahiq."/>
+    <node name="183" file="t_files/183.mp3" artist="" label="183gluw sami magan cyugan spngan"/>
+    <node name="184" file="t_files/184.mp3" artist="" label="184smoya ta msobeh hlahuy ga, blaq balay na zyaw."/>
+    <node name="185" file="t_files/185.mp3" artist="" label="185wan sami sheriqun mspung soni la."/>
+    <node name="186" file="t_files/186.mp3" artist="" label="186qenu qutux balaq na un'ro."/>
+    <node name="187" file="t_files/187.mp3" artist="" label="187cyux pzyaw qwasan su la!"/>
+    <node name="188" file="t_files/188.mp3" artist="" label="188pzuy ta ckay mspung qara ga?"/>
+    <node name="189" file="t_files/189.mp3" artist="" label="189hngawan mqwas biru ga, smoya sami mkzyap hkangi"/>
+    <node name="190" file="t_files/190.mp3" artist="" label="190mhananu spngan nha?"/>
+    <node name="191" file="t_files/191.mp3" artist="" label="191swa blaq balay pzi'an."/>
+    <node name="192" file="t_files/192.mp3" artist="" label="192isu pzuy la!"/>
+    <node name="193" file="t_files/193.mp3" artist="" label="193blaq bal'ay mssuyut nya takan rangi qwasan qasa."/>
+    <node name="194" file="t_files/194.mp3" artist="" label="194kwara qlaqi ga, smoyan mzuy ru mung pqzwan."/>
+    <node name="195" file="t_files/195.mp3" artist="" label="195ini su soya mzuy hi ga, musa kthuy."/>
+    <node name="196" file="t_files/196.mp3" artist="" label="196blaq qu hngzyang nya, nanu yasa ga, sliq na balay mqwas."/>
+    <node name="197" file="t_files/197.mp3" artist="" label="197baqun maku sliq su karaw hlahuy"/>
+    <node name="198" file="t_files/198.mp3" artist="" label="198mnglun saku musa mita ega'."/>
+    <node name="199" file="t_files/199.mp3" artist="" label="199knwan t'aring pkita ngayan."/>
+    <node name="200" file="t_files/200.mp3" artist="" label="200beh inu qu baqun ta mzuy kyopan mari."/>
+  </node>
+
+  </tree>
+
+  <label
+   x="269"
+   y="50"
+   w="53"
+   h="16"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="f"
+  ></label>
+
+  <scrolllabel
+   x="32"
+   y="245"
+   w="291"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  </jukebox>
+
+</coffeecupjukebox>

@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+
+<coffeecupjukebox version="4.5">
+
+  <jukebox
+   x="0"
+   y="0"
+   w="360"
+   h="302"
+   playonstartup="f"
+   loop="f"
+   shuffle="f"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="b_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+disableclicktoactiveprompt="false"
+  <rewindbutton
+   x="82"
+   y="27"
+   w="61"
+   h="43"
+   toggle="f"
+   btnupimg="b_files/previous.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="205"
+   y="27"
+   w="63"
+   h="43"
+   toggle="f"
+   btnupimg="b_files/next.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="143"
+   y="27"
+   w="61"
+   h="43"
+   toggle="t"
+   btnupimg="b_files/play.jpg"
+   btndownimg="b_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="272"
+   y="47"
+   w="35"
+   h="14"
+   toggle="t"
+   action="shuf"
+   visible="f"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="351"
+   y="246"
+   w="92"
+   h="21"
+   visible="f"
+  ></volume>
+
+  <progress
+   x="32"
+   y="262"
+   w="291"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="33"
+   y="75"
+   w="291"
+   h="166"
+   visible="t"
+  >
+  <node label="">
+    <node name="001" file="b_files/001.mp3" artist="" label="001pasnanavan tia aida maisuan na kaununkaunun ha?"/>
+    <node name="002" file="b_files/002.mp3" artist="" label="002masial kaununkaunun hai mastan tu madia!"/>
+    <node name="003" file="b_files/003.mp3" artist="" label="003saikin hai madima kusia sanavan dngian kakaunan baun."/>
+    <node name="004" file="b_files/004.mp3" artist="" label="004sanavan tu qaisin hai qa naq tu nga nin, tudain baunin ta qaisin!"/>
+    <node name="005" file="b_files/005.mp3" artist="" label="005maku baqisang hai kavava a baun!"/>
+    <node name="006" file="b_files/006.mp3" artist="" label="006bastan basial tu paitu sanavan tu qaisin!"/>
+    <node name="007" file="b_files/007.mp3" artist="" label="007sian tu sang lav hai masial tu kaunun."/>
+    <node name="008" file="b_files/008.mp3" artist="" label="008adu na a sas kaununkaunun? ung! saikin hai na asa maun nis bunbun."/>
+    <node name="009" file="b_files/009.mp3" artist="" label="009adu baq tu ik na muqna qu mas utia tan?"/>
+    <node name="010" file="b_files/010.mp3" artist="" label="010adu na asa kasu baun tu tikis?"/>
+    <node name="011" file="b_files/011.mp3" artist="" label="011abuqa nin saikin u ni nang!"/>
+    <node name="012" file="b_files/012.mp3" artist="" label="012ngia ngik binaun sai tin tu kaununkaunun."/>
+    <node name="013" file="b_files/013.mp3" artist="" label="013haip tu sanavan hai madia a sang lav na kaunun?"/>
+    <node name="014" file="b_files/014.mp3" artist="" label="014ni tu bikua, mastan madia a min!"/>
+    <node name="015" file="b_files/015.mp3" artist="" label="015abuqanin saikin na nin baqtu baun!"/>
+    <node name="016" file="b_files/016.mp3" artist="" label="016asa kasu naqu bas kaununkaunun adu saida tan?"/>
+    <node name="017" file="b_files/017.mp3" artist="" label="017asik baunun bas qkinalin bubuan tan."/>
+    <node name="018" file="b_files/018.mp3" artist="" label="018mi nadas saikin kabasia adu naasa kamu baunun."/>
+    <node name="019" file="b_files/019.mp3" artist="" label="019maba qi sang tangu sav maiup pat kau nu nin."/>
+    <node name="020" file="b_files/020.mp3" artist="" label="020paitu sanavan mal uang ngat na maupin tia."/>
+    <node name="021" file="b_files/021.mp3" artist="" label="021baun ni manang qas tu daikun hai ma pin sihalli mata."/>
+    <node name="022" file="b_files/022.mp3" artist="" label="022katu na baun ni tanangaus baun ni aminamin."/>
+    <node name="023" file="b_files/023.mp3" artist="" label="023na baun hai katu sida hasi matiktik ki maluku."/>
+    <node name="024" file="b_files/024.mp3" artist="" label="024uvaz hai katu siqailis mas kaunun, asa isian sala aminamin hai a minun maun."/>
+    <node name="025" file="b_files/025.mp3" artist="" label="025maun ni sang lav hai, mapi sihal li lutbu."/>
+    <node name="026" file="b_files/026.mp3" artist="" label="026ma baqi sang asa ma na nulu!"/>
+    <node name="027" file="b_files/027.mp3" artist="" label="027muchi hai katu madia a kaunun maq tu baun tu tasa."/>
+    <node name="028" file="b_files/028.mp3" artist="" label="028na baun kasu maitulku tu qaisin?"/>
+    <node name="029" file="b_files/029.mp3" artist="" label="029na ma maliv kasu kamasia puaq tan?"/>
+    <node name="030" file="b_files/030.mp3" artist="" label="030sima pinibaqis kavi tia? mahansum sakun!"/>
+    <node name="031" file="b_files/031.mp3" artist="" label="031sinhai itu anakanak kai u nian tu busqi atipul."/>
+    <node name="032" file="b_files/032.mp3" artist="" label="032kinit nan tu sang lav hai napikunna sian.?"/>
+    <node name="033" file="b_files/033.mp3" artist="" label="033aida inak ka tasa kama nangqas tu tamung."/>
+    <node name="034" file="b_files/034.mp3" artist="" label="034diqanin hai min ma kadav vin asatu madia a painukun na ulus."/>
+    <node name="035" file="b_files/035.mp3" artist="" label="035ulus hai atikis sisvaqun hai ma putul."/>
+    <node name="036" file="b_files/036.mp3" artist="" label="036pisi halav va sisvaqun tu sis lutan na."/>
+    <node name="037" file="b_files/037.mp3" artist="" label="037sida dava ulus sa siqaidus."/>
+    <node name="038" file="b_files/038.mp3" artist="" label="038pisi alav va sapil tu dun na maluqus."/>
+    <node name="039" file="b_files/039.mp3" artist="" label="039kun sapul tu tanangaus hai tangs painukan ni kuchudista."/>
+    <node name="040" file="b_files/040.mp3" artist="" label="040na qu na nanin kavava mainuk ki kapa sin kapasapil."/>
+    <node name="041" file="b_files/041.mp3" artist="" label="041sapil hai a tikis kunsapilan hai na sauq tun."/>
+    <node name="042" file="b_files/042.mp3" artist="" label="042sian tu ulus daing hai namas buav tu madia a sui."/>
+    <node name="043" file="b_files/043.mp3" artist="" label="043ulus pinainuk hai masisuqnis a mudi hai muliva."/>
+    <node name="044" file="b_files/044.mp3" artist="" label="044qamisan hai painukan amin pakakunmaun tu ulus."/>
+    <node name="045" file="b_files/045.mp3" artist="" label="045andi uluspainukun hai madami a lutbu."/>
+    <node name="046" file="b_files/046.mp3" artist="" label="046haip hai painukan ni kaiunin tu ulus munpasnanavan."/>
+    <node name="047" file="b_files/047.mp3" artist="" label="047mais tinnangkul hai asa tu mainuk ki tinnanangkul tu ulus."/>
+    <node name="048" file="b_files/048.mp3" artist="" label="048mail ka tau qai azuq mainuk ni kat mang tu ulus mun pasnanavan."/>
+    <node name="049" file="b_files/049.mp3" artist="" label="049masinauba hai painukan ni kaspal sisvaqun hai masihal sadun."/>
+    <node name="050" file="b_files/050.mp3" artist="" label="050aida inak tasa qaihav sapil sin mas sapa sapil."/>
+    <node name="051" file="b_files/051.mp3" artist="" label="051tina hai madima kunsapilan ni naqvas sapil"/>
+    <node name="052" file="b_files/052.mp3" artist="" label="052aida ulus sa mindikla nitu maq tu auskunun mapasaq."/>
+    <node name="053" file="b_files/053.mp3" artist="" label="053ulus hai ulan ni mataqnun hai napikun?"/>
+    <node name="054" file="b_files/054.mp3" artist="" label="054isu ulus hai muuman na tasa a mudi."/>
+    <node name="055" file="b_files/055.mp3" artist="" label="055kananauk saikin minnangaz tina mapasaq mavali ulus."/>
+    <node name="056" file="b_files/056.mp3" artist="" label="056ni a satu mainuk ki baqlu tu ulus a satu ma sa ninsin nga pinainuk kan."/>
+    <node name="057" file="b_files/057.mp3" artist="" label="057inak takiman tu ulus hai anliqliqun ni katus dangan."/>
+    <node name="058" file="b_files/058.mp3" artist="" label="058madia inaka painuk ngadaq tu ulus."/>
+    <node name="059" file="b_files/059.mp3" artist="" label="059kata hai mun san mukdavan tia mal a nuqu."/>
+    <node name="060" file="b_files/060.mp3" artist="" label="060kata hai na i sian mukdavan tia baun ni pinitu sanavan tu qaisin."/>
+    <node name="061" file="b_files/061.mp3" artist="" label="061tina hai isan pitaaian tia maanat pandian."/>
+    <node name="062" file="b_files/062.mp3" artist="" label="062masinauba hai isan isai tia tu asasabaqan."/>
+    <node name="063" file="b_files/063.mp3" artist="" label="063sima I san tal tu tu san adu kavavaang!"/>
+    <node name="064" file="b_files/064.mp3" artist="" label="064masnanava tu pautpaut hai malusia pananangian tia."/>
+    <node name="065" file="b_files/065.mp3" artist="" label="065haip tu laqmin hai mutinkul saikin sia kadangdang tia."/>
+    <node name="066" file="b_files/066.mp3" artist="" label="066inak tu haqil hai anuk sia pananangin kum mu tia."/>
+    <node name="067" file="b_files/067.mp3" artist="" label="067pava ulus nainnga makaiha sia pananangin tia."/>
+    <node name="068" file="b_files/068.mp3" artist="" label="068inak tu qaningu hai kaiiav sia lulus annan tia."/>
+    <node name="069" file="b_files/069.mp3" artist="" label="069i sian kata nanangian tinnau tia mupatas."/>
+    <node name="070" file="b_files/070.mp3" artist="" label="070masnanava hai maku supika madmad laupaku."/>
+    <node name="071" file="b_files/071.mp3" artist="" label="071masnanava hai maku busbus pakasia tamatina pa madmad."/>
+    <node name="072" file="b_files/072.mp3" artist="" label="072saikin hai maqan siap kan anak masang kun kavang"/>
+    <node name="073" file="b_files/073.mp3" artist="" label="073saikin hai haiiap kananak sida mas maluku sin qaltis."/>
+    <node name="074" file="b_files/074.mp3" artist="" label="074aida bunun matuntun hilav, una uav sadu tu simaq."/>
+    <node name="075" file="b_files/075.mp3" artist="" label="075simaq min nangaz daku matua i hilav."/>
+    <node name="076" file="b_files/076.mp3" artist="" label="076u manava sapil la uat kun kitan."/>
+    <node name="077" file="b_files/077.mp3" artist="" label="077katu masalpu nakapibaupa saikin tiktik mulumaq."/>
+    <node name="078" file="b_files/078.mp3" artist="" label="078ispisisinqal dinki hai i sian pankaka tia."/>
+    <node name="079" file="b_files/079.mp3" artist="" label="079sinava va ima nakitnga ta baun mas pit tunqu vali."/>
+    <node name="080" file="b_files/080.mp3" artist="" label="080nangian pasnanavan hai matbang pisihalav masang kun."/>
+    <node name="081" file="b_files/081.mp3" artist="" label="081katu sipungul tasquav va dinki."/>
+    <node name="082" file="b_files/082.mp3" artist="" label="082maq tuas mukiv kusian patasan alulunkuan tia?"/>
+    <node name="083" file="b_files/083.mp3" artist="" label="083sidaqda mas siqiu sapud tia, mapisin saikin na sik la ngan nas."/>
+    <node name="084" file="b_files/084.mp3" artist="" label="084mihumisang taku navava ismut ta."/>
+    <node name="085" file="b_files/085.mp3" artist="" label="085pasnanavan tu taiktaik hai tu i ia in."/>
+    <node name="086" file="b_files/086.mp3" artist="" label="086saikin masabaq hai latas ma nin."/>
+    <node name="087" file="b_files/087.mp3" artist="" label="087Saikin hai nik matudul."/>
+    <node name="088" file="b_files/088.mp3" artist="" label="088qanaq tungan nin su patasan hai maqtu in sadu qaningu."/>
+    <node name="089" file="b_files/089.mp3" artist="" label="089sadua i patasan, aupa na ta na munin(sikinin)."/>
+    <node name="090" file="b_files/090.mp3" artist="" label="090in suman nazum hai aidang nga musdi."/>
+    <node name="091" file="b_files/091.mp3" artist="" label="091tal iman hai laqdu tan na dazum."/>
+    <node name="092" file="b_files/092.mp3" artist="" label="092sikin hai na mungain is uka."/>
+    <node name="093" file="b_files/093.mp3" artist="" label="093qanaq tun munata hai asa tu si navan."/>
+    <node name="094" file="b_files/094.mp3" artist="" label="094iskuavan tu ta na ngaus, pav va dazum masuku."/>
+    <node name="095" file="b_files/095.mp3" artist="" label="095ma susul kasu puaq tia?"/>
+    <node name="096" file="b_files/096.mp3" artist="" label="096maasik tu taiktaik hai tuna dipin."/>
+    <node name="097" file="b_files/097.mp3" artist="" label="097pisi halava ismu tan, masang kun at takunava."/>
+    <node name="098" file="b_files/098.mp3" artist="" label="098saikin hai maqtu mindaqaz ma qaisqais taunkul tan."/>
+    <node name="099" file="b_files/099.mp3" artist="" label="099ma taunkul lan hai asa tu sinavan."/>
+    <node name="100" file="b_files/100.mp3" artist="" label="100pasnanavan tu anta sipal hai, aida tasa lumaq qa mamalivan."/>
+    <node name="101" file="b_files/101.mp3" artist="" label="101inam pasnanavan dingalan hai madia a kakaunan."/>
+    <node name="102" file="b_files/102.mp3" artist="" label="102an ta. i sasu dangian, i sia nik taihuku tan."/>
+    <node name="103" file="b_files/103.mp3" artist="" label="103sain hai tais daza hima tu kaiunian lumaq."/>
+    <node name="104" file="b_files/104.mp3" artist="" label="104saiia hai laupang kusia pasnanavan niang maqan siap."/>
+    <node name="105" file="b_files/105.mp3" artist="" label="105kata hai taki tusdang dai lad tu mai asang."/>
+    <node name="106" file="b_files/106.mp3" artist="" label="106buk tanavili hai na sadu kasu mapisihal li lutbu."/>
+    <node name="107" file="b_files/107.mp3" artist="" label="107andi hai I nak tu alunqaun nitu isuu."/>
+    <node name="108" file="b_files/108.mp3" artist="" label="108inak tu katusdangan a ti hai inak tu man ni ngalan."/>
+    <node name="109" file="b_files/109.mp3" artist="" label="109bu nanan hai ka na sisila at nama sisihal."/>
+    <node name="110" file="b_files/110.mp3" artist="" label="110isan asan tuda bunanan. bunu hai asatu makasian nan atal bunanan."/>
+    <node name="111" file="b_files/111.mp3" artist="" label="111mais angqai nan hai asatu sadui nangqas sanglav tu tinki."/>
+    <node name="112" file="b_files/112.mp3" artist="" label="112angqaisan nan hai asa sadu. tanaskaun tanavili uka putput hai angqai bunanan."/>
+    <node name="113" file="b_files/113.mp3" artist="" label="113tundaza utuvai hai asa tu tamuhungan ni maqat tu tamuhun"/>
+    <node name="114" file="b_files/114.mp3" artist="" label="114masihal mais makasian lubaq tuk tasa tu nan."/>
+    <node name="115" file="b_files/115.mp3" artist="" label="115tun nada tanangaus hai asa tusdailad bun nada."/>
+    <node name="116" file="b_files/116.mp3" artist="" label="116tun nada hai mais sadu manaingaz hai pal anuquan."/>
+    <node name="117" file="b_files/117.mp3" artist="" label="117saikin hai tunnada munsian taihuku."/>
+    <node name="118" file="b_files/118.mp3" artist="" label="118saia hai tunnada tinkikasulin munsia tunhu."/>
+    <node name="119" file="b_files/119.mp3" artist="" label="119tanangaus himasama tu nan hai aida tunnanadan tu lumq."/>
+    <node name="120" file="b_files/120.mp3" artist="" label="120saikin hai maimaliv vin dusa tu kipa"/>
+    <node name="121" file="b_files/121.mp3" artist="" label="121iti hai aidan kanaanak mabalivi kipu."/>
+    <node name="122" file="b_files/122.mp3" artist="" label="122mais ntin hai patisqutan ni samu uvi tan."/>
+    <node name="123" file="b_files/123.mp3" artist="" label="123mais unisin hai taunasian supaq nan hai mun tanas kaun."/>
+    <node name="124" file="b_files/124.mp3" artist="" label="124pisdangun na naqna na u ka kanang."/>
+    <node name="125" file="b_files/125.mp3" artist="" label="125mais kunada haiahai sipulav uat ma patasava."/>
+    <node name="126" file="b_files/126.mp3" artist="" label="126tun nada vasu tangus masipul istun nada tu sui."/>
+    <node name="127" file="b_files/127.mp3" artist="" label="127maqtu kasu taqu tu makaq mun san chunsan bi lu tia."/>
+    <node name="128" file="b_files/128.mp3" artist="" label="128saiia tun nada vasu hai pisai nungu bungu."/>
+    <node name="129" file="b_files/129.mp3" artist="" label="129mukdavan na hai katu tinnanang kul."/>
+    <node name="130" file="b_files/130.mp3" artist="" label="130ku nastu pais nanada hatal hai maka sana tanaskaun."/>
+    <node name="131" file="b_files/131.mp3" artist="" label="131pais nailad hai katu malintuad."/>
+    <node name="132" file="b_files/132.mp3" artist="" label="132malanuqu!"/>
+    <node name="133" file="b_files/133.mp3" artist="" label="133sadu kanaqtun hai sukunava patasan."/>
+    <node name="134" file="b_files/134.mp3" artist="" label="134a sas pisqasipang ngi muli?"/>
+    <node name="135" file="b_files/135.mp3" artist="" label="135tangusav masangkung na pisqasibagun na."/>
+    <node name="136" file="b_files/136.mp3" artist="" label="136malka pia haip, haip hai mal u tu qanian."/>
+    <node name="137" file="b_files/137.mp3" artist="" label="137maqan siap kasu kilim maman tu patasan, na sa dua ngat."/>
+    <node name="138" file="b_files/138.mp3" artist="" label="138nata diqanin hai makua? qudananin!"/>
+    <node name="139" file="b_files/139.mp3" artist="" label="139katu makusia qaqaltis pisqasipang."/>
+    <node name="140" file="b_files/140.mp3" artist="" label="140maqtu kasu naunautun ha?"/>
+    <node name="141" file="b_files/141.mp3" artist="" label="141katu qatpang nata kunav isbutan!"/>
+    <node name="142" file="b_files/142.mp3" artist="" label="142kasu mamas i hai, asa qu i dazum uat malu."/>
+    <node name="143" file="b_files/143.mp3" artist="" label="143isu a tanas tama hai milulu, na nasu kas munsan papaiuan."/>
+    <node name="144" file="b_files/144.mp3" artist="" label="144munsan kata naisiq tia pisqasipang."/>
+    <node name="145" file="b_files/145.mp3" artist="" label="145masuku hilav asa nanaukun."/>
+    <node name="146" file="b_files/146.mp3" artist="" label="146ni tu mikua maupatia."/>
+    <node name="147" file="b_files/147.mp3" artist="" label="147sadun kasu hai maman tuk."/>
+    <node name="148" file="b_files/148.mp3" artist="" label="148masnanava adu maqtuik kusian unanatan tia?"/>
+    <node name="149" file="b_files/149.mp3" artist="" label="149isu padadanian ispapatas hai maqa i kum buta?"/>
+    <node name="150" file="b_files/150.mp3" artist="" label="150saikin hai maq tu minnaqaz su kudakuda tu maq qa?"/>
+    <node name="151" file="b_files/151.mp3" artist="" label="151manaskal sadu mas su, saikin hai maupa amin!"/>
+    <node name="152" file="b_files/152.mp3" artist="" label="152sida isu a papatasan sin ispapatas."/>
+    <node name="153" file="b_files/153.mp3" artist="" label="153manabu ispapatas hai asa mamantuk."/>
+    <node name="154" file="b_files/154.mp3" artist="" label="154sinpatas hai kamani qaisqaissav uat uq nav mapatas."/>
+    <node name="155" file="b_files/155.mp3" artist="" label="155saikin hai minnaqad masu masipul mas naqvas."/>
+    <node name="156" file="b_files/156.mp3" artist="" label="156masnanava laupa ku hai iisa? adu i nanada tia."/>
+    <node name="157" file="b_files/157.mp3" artist="" label="157katu masalpu! saikin hai nataqu masu tu napikun!"/>
+    <node name="158" file="b_files/158.mp3" artist="" label="158ma nanu lua tu tikis."/>
+    <node name="159" file="b_files/159.mp3" artist="" label="159maqalinga! saikin hai nitu maq tu masipul patasan."/>
+    <node name="160" file="b_files/160.mp3" artist="" label="160unauava sukunan nazum ma masuku."/>
+    <node name="161" file="b_files/161.mp3" artist="" label="161uninang masnanava mihumisang."/>
+    <node name="162" file="b_files/162.mp3" artist="" label="162sain tu sinsaiv qaimansut hai na paisu sian."/>
+    <node name="163" file="b_files/163.mp3" artist="" label="163mihumisang saikin hai halasan nin."/>
+    <node name="164" file="b_files/164.mp3" artist="" label="164maq su aidun panangian patasan tia?"/>
+    <node name="165" file="b_files/165.mp3" artist="" label="165nitu mikua, na muq nang tu musan."/>
+    <node name="166" file="b_files/166.mp3" artist="" label="166maq i su u kilimun tu?"/>
+    <node name="167" file="b_files/167.mp3" artist="" label="167mikuaq tu, I nak tian hai masak bit.?"/>
+    <node name="168" file="b_files/168.mp3" artist="" label="168a du aida su a masituqas sin masinauba?"/>
+    <node name="169" file="b_files/169.mp3" artist="" label="169min tama sada!"/>
+    <node name="170" file="b_files/170.mp3" artist="" label="170laupaku pintataip hai qanaq tungin."/>
+    <node name="171" file="b_files/171.mp3" artist="" label="171masihal I su a kinukudan."/>
+    <node name="172" file="b_files/172.mp3" artist="" label="172namaq mita pisqasibangun?"/>
+    <node name="173" file="b_files/173.mp3" artist="" label="173mun nasu uanin!"/>
+    <node name="174" file="b_files/174.mp3" artist="" label="174sadu I nak tu pismali tu, pikun."/>
+    <node name="175" file="b_files/175.mp3" artist="" label="175saikin hai madima mun san sasaipukan tu lubaq."/>
+    <node name="176" file="b_files/176.mp3" artist="" label="176I ti tu minihumis tus a hai manauaz saduan."/>
+    <node name="177" file="b_files/177.mp3" artist="" label="177muskun ka ta kahudas sad!"/>
+    <node name="178" file="b_files/178.mp3" artist="" label="178sian tu quads sing av hai masihal taa daun."/>
+    <node name="179" file="b_files/179.mp3" artist="" label="179kahudas kasu hai masihal taadaun."/>
+    <node name="180" file="b_files/180.mp3" artist="" label="180I nak kadimaun tu sing av hai maqlu tu kaiunian."/>
+    <node name="181" file="b_files/181.mp3" artist="" label="181sing av hai I nak tu sin i humis."/>
+    <node name="182" file="b_files/182.mp3" artist="" label="182maq tu kasu saudai da tia apap."/>
+    <node name="183" file="b_files/183.mp3" artist="" label="183kata hai savai duma tu tau tu sinipul."/>
+    <node name="184" file="b_files/184.mp3" artist="" label="184si ais ku mas tus a tu minihumis hai masihal tu sinun mangan."/>
+    <node name="185" file="b_files/185.mp3" artist="" label="185kata haip tu pintataip hai savaian ta."/>
+    <node name="186" file="b_files/186.mp3" artist="" label="186saiian hai nanu tu masihal tu tin nanang kul."/>
+    <node name="187" file="b_files/187.mp3" artist="" label="187masiliva i su a sinkahudas!"/>
+    <node name="188" file="b_files/188.mp3" artist="" label="188kata hai pisqasibang ngi siachi tan qa?"/>
+    <node name="189" file="b_files/189.mp3" artist="" label="189qanaq tun hai kata hai pisqasibang mas qanituad."/>
+    <node name="190" file="b_files/190.mp3" artist="" label="190pintataip hai makuain tu qanaqtun in?"/>
+    <node name="191" file="b_files/191.mp3" artist="" label="191maviatu masihal pisqasibangun."/>
+    <node name="192" file="b_files/192.mp3" artist="" label="192na suin na pisqasibang!"/>
+    <node name="193" file="b_files/193.mp3" artist="" label="193adai da isnanavan maiup talum hai masihal taadaun."/>
+    <node name="194" file="b_files/194.mp3" artist="" label="194uvad amin hai madima pisqasibang taada I tu qabas tu qalinga."/>
+    <node name="195" file="b_files/195.mp3" artist="" label="195nitu madima tin nangkul hai na tin qulpiq."/>
+    <node name="196" file="b_files/196.mp3" artist="" label="196I sai tia sin av hai mazunzun aupa madima saiia kahudas."/>
+    <node name="197" file="b_files/197.mp3" artist="" label="197saikin hai maqan siap kasu hai tunluludun."/>
+    <node name="198" file="b_files/198.mp3" artist="" label="198saikin hai asa sadu mas qaningu."/>
+    <node name="199" file="b_files/199.mp3" artist="" label="199pisnanaskal hai lakua kit nga?"/>
+    <node name="200" file="b_files/200.mp3" artist="" label="200i isaq maq tu lamatu mas mali?"/>
+
+  </node>
+
+  </tree>
+
+  <label
+   x="269"
+   y="50"
+   w="53"
+   h="16"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="f"
+  ></label>
+
+  <scrolllabel
+   x="32"
+   y="245"
+   w="291"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  </jukebox>
+
+</coffeecupjukebox>

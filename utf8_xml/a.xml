@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+
+<coffeecupjukebox version="4.5">
+
+  <jukebox
+   x="0"
+   y="0"
+   w="360"
+   h="302"
+   playonstartup="f"
+   loop="f"
+   shuffle="f"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="a_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+disableclicktoactiveprompt="false"
+  <rewindbutton
+   x="82"
+   y="27"
+   w="61"
+   h="43"
+   toggle="f"
+   btnupimg="a_files/previous.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="205"
+   y="27"
+   w="63"
+   h="43"
+   toggle="f"
+   btnupimg="a_files/next.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="143"
+   y="27"
+   w="61"
+   h="43"
+   toggle="t"
+   btnupimg="a_files/play.jpg"
+   btndownimg="a_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="272"
+   y="47"
+   w="35"
+   h="14"
+   toggle="t"
+   action="shuf"
+   visible="f"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="351"
+   y="246"
+   w="92"
+   h="21"
+   visible="f"
+  ></volume>
+
+  <progress
+   x="32"
+   y="262"
+   w="291"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="33"
+   y="75"
+   w="291"
+   h="166"
+   visible="t"
+  >
+  <node label="">
+    <node name="001" file="a_files/001.mp3" artist="" label="001Ingata nu cacudadan ira haw ku Ma’an a kapahay a Kaka’enen?"/>
+    <node name="002" file="a_files/002.mp3" artist="" label="002Hubaw! U nika Adihay nu alsu’ay a kak’enen!"/>
+    <node name="003" file="a_files/003.mp3" artist="" label="003U saka ulahan satu aku u nika taira i nu labi’iyan a patiyamay."/>
+    <node name="004" file="a_files/004.mp3" artist="" label="004Mapatatatu ku sakalaby, amalabytu!"/>
+    <node name="005" file="a_files/005.mp3" artist="" label="005Ba’den hen, kalamkamen a Kemaen!"/>
+    <node name="006" file="a_files/006.mp3" artist="" label="006U tadamaanay a sakalaby!"/>
+    <node name="007" file="a_files/007.mp3" artist="" label="007Alsu’ kina sinabel!"/>
+    <node name="008" file="a_files/008.mp3" artist="" label="008Mangalay haw tu Sui-kuo? Hayi! A u pauly ku Maku."/>
+    <node name="009" file="a_files/009.mp3" artist="" label="009Kapah haw Kaku a minanum aca tu tei?"/>
+    <node name="010" file="a_files/010.mp3" artist="" label="010Mangalay haw kisu a kemaen tu maan?"/>
+    <node name="011" file="a_files/011.mp3" artist="" label="011Mabecultu kaku, samanantu!"/>
+    <node name="012" file="a_files/012.mp3" artist="" label="012Caay hen ka tahkaen kaku tu matiniay"/>
+    <node name="013" file="a_files/013.mp3" artist="" label="013Tadamaan haw ku sakalaby aniny?"/>
+    <node name="014" file="a_files/014.mp3" artist="" label="014Hai, tadamaan awaay ku sasuwalen."/>
+    <node name="015" file="a_files/015.mp3" artist="" label="015Mabecul kaku, Ca’aytu pakakaen!"/>
+    <node name="016" file="a_files/016.mp3" artist="" label="016Mangalay haw kisu tu salang nu sui-kuu, anu u sai-da?"/>
+    <node name="017" file="a_files/017.mp3" artist="" label="017Mangalay haw kisu a kemaen tu u-wa-cien?"/>
+    <node name="018" file="a_files/018.mp3" artist="" label="018Mangalay haw kamu a kemaen tu piy-ang? ini ku ni’ala’an aku."/>
+    <node name="019" file="a_files/019.mp3" artist="" label="019Tada ba’det, iyupen han a mibasaw, ta kemean."/>
+    <node name="020" file="a_files/020.mp3" artist="" label="020Tala’en hen, a Malabytu."/>
+    <node name="021" file="a_files/021.mp3" artist="" label="021Anu kemaen tu nin-cing, skakapah nu mata."/>
+    <node name="022" file="a_files/022.mp3" artist="" label="022I a’ayaw nu kaen, aka ka’adihay ku nika kemaen tu lalala’en!"/>
+    <node name="023" file="a_files/023.mp3" artist="" label="023Yu kemean, aka piyala tu alapit a mikinking tu kaising!"/>
+    <node name="024" file="a_files/024.mp3" artist="" label="024Aka kapily Tu kakaenen ku wawa, heminen ku i salaay!"/>
+    <node name="025" file="a_files/025.mp3" artist="" label="025Kapah ku tireng a kemean Tu dateng."/>
+    <node name="026" file="a_files/026.mp3" artist="" label="026Ba’det! Pina’uny!"/>
+    <node name="027" file="a_files/027.mp3" artist="" label="027Aka Ka’adihay ku nika kemean tu pak-cang, cacayen aca!"/>
+    <node name="028" file="a_files/028.mp3" artist="" label="028kemaen haw kisu tu nipatitiyan tunu a hemay?"/>
+    <node name="029" file="a_files/029.mp3" artist="" label="029A micakay haw kisu tu mien-hua-tang?"/>
+    <node name="030" file="a_files/030.mp3" artist="" label="030U nu nima a nisakabeian? kiya hatinytu ku bangsis!"/>
+    <node name="031" file="a_files/031.mp3" artist="" label="031U nisagaan aku a pau-mi-hua kinian."/>
+    <node name="032" file="a_files/032.mp3" artist="" label="032A maanen kina usaw tu sinabel?"/>
+    <node name="033" file="a_files/033.mp3" artist="" label="033Ira ku cacay a kulawlawan a tuper aku."/>
+    <node name="034" file="a_files/034.mp3" artist="" label="034Si’nawtu ku remiad, sa adihayen ku nika sibuduy."/>
+    <node name="035" file="a_files/035.mp3" artist="" label="035Adidiwtu ku buduy, apuru’tu ku calaped."/>
+    <node name="036" file="a_files/036.mp3" artist="" label="036Sakapahen ku La-lien nu calaped."/>
+    <node name="037" file="a_files/037.mp3" artist="" label="037"/>
+    <node name="038" file="a_files/038.mp3" artist="" label="038Sakapahen ku Ka’us nu cukap."/>
+    <node name="039" file="a_files/039.mp3" artist="" label="039Kaw wa-ca henay, ta sicukap."/>
+    <node name="040" file="a_files/040.mp3" artist="" label="040Uradantu, kalamkamen a sibuduy atu sicukap tunu saky urad"/>
+    <node name="041" file="a_files/041.mp3" artist="" label="041Tada adiaiw ku cukap, likecu tu adidi’w."/>
+    <node name="042" file="a_files/042.mp3" artist="" label="042Matekes ku aca nina kabung."/>
+    <node name="043" file="a_files/043.mp3" artist="" label="043Mabelih ku nika sibuduy, patelac ku nipikubit."/>
+    <node name="044" file="a_files/044.mp3" artist="" label="044I Kasi’nawan, sibuduy amin tu i lalumaay atu nu banuhaay."/>
+    <node name="045" file="a_files/045.mp3" artist="" label="045Dihku kina buduy a sabuguyan."/>
+    <node name="046" file="a_files/046.mp3" artist="" label="046A sibuduy tunu cacudadan aniny a remiad a micudad."/>
+    <node name="047" file="a_files/047.mp3" artist="" label="047Anu u pilailayan a tuki, aw Nu sapilailay ku buduy."/>
+    <node name="048" file="a_files/048.mp3" artist="" label="048I saka tulu a remiad namilipay, sirumaay ku buduy."/>
+    <node name="049" file="a_files/049.mp3" artist="" label="049Masakaulahan a melawan ku saba a sicalaped tu Niw-cai-ku."/>
+    <node name="050" file="a_files/050.mp3" artist="" label="050Malka cacay ku nu kidudungay atu nu balakuay a cukap aku."/>
+    <node name="051" file="a_files/051.mp3" artist="" label="051Maulah ku wina a sitingri’ay a cukap."/>
+    <node name="052" file="a_files/052.mp3" artist="" label="052Ira ku micerahay a buduy, aka kumudy mibaca’."/>
+    <node name="053" file="a_files/053.mp3" artist="" label="053A maan hantu, mapa’in-ki ku buduy?"/>
+    <node name="054" file="a_files/054.mp3" artist="" label="054Maperu’ ku cacay a sakubit nu buduy isu."/>
+    <node name="055" file="a_files/055.mp3" artist="" label="055Hina padamg kaku tu wina a mibaca’, mipawaly."/>
+    <node name="056" file="a_files/056.mp3" artist="" label="056A u baluhay kihaw ku ca’dungen, anu tamlactu, malisimettu, kapahtu."/>
+    <node name="057" file="a_files/057.mp3" artist="" label="057Macerit nu kaput ku ledung aku."/>
+    <node name="058" file="a_files/058.mp3" artist="" label="058Adihay ku tadisawak aku a buduy."/>
+    <node name="059" file="a_files/059.mp3" artist="" label="059Ta, i hinasera a Maru’!"/>
+    <node name="060" file="a_files/060.mp3" artist="" label="060A i kakaenan kita a malaby."/>
+    <node name="061" file="a_files/061.mp3" artist="" label="061Micacak ku wina i aniba tu ma'an."/>
+    <node name="062" file="a_files/062.mp3" artist="" label="062Mabuty’ ku saba i kakabuti'an nira."/>
+    <node name="063" file="a_files/063.mp3" artist="" label="063Cima ku mililucay i piliucan? kalamkamen!"/>
+    <node name="064" file="a_files/064.mp3" artist="" label="064I tilaen nu pasebanaay apakarirengan ku karireng nira."/>
+    <node name="065" file="a_files/065.mp3" artist="" label="065Matulu’ kaku i lu-ti aniny a dabak."/>
+    <node name="066" file="a_files/066.mp3" artist="" label="066Mapately ku cudad aku i lalabu nu sasudacan nu sapad."/>
+    <node name="067" file="a_files/067.mp3" artist="" label="067Ca’iten ku paraktu aku i pabuduyan."/>
+    <node name="068" file="a_files/068.mp3" artist="" label="068Maca’it ku nikulitan aku i li-tang."/>
+    <node name="069" file="a_files/069.mp3" artist="" label="069Mitien-naw kita i pitien-nawan a luma’."/>
+    <node name="070" file="a_files/070.mp3" artist="" label="070Mihu-su ku pasebanaay."/>
+    <node name="071" file="a_files/071.mp3" artist="" label="071U su-ci ku sakasasuwal nu pasebanaay atu siwawaay."/>
+    <node name="072" file="a_files/072.mp3" artist="" label="072Mabana’ kaku a milisimet tu pacudadan."/>
+    <node name="073" file="a_files/073.mp3" artist="" label="073Akutu ku miyalaay tu kaising atu alapit."/>
+    <node name="074" file="a_files/074.mp3" artist="" label="074Melawy ma! cima ku mikungkungay tu panan."/>
+    <node name="075" file="a_files/075.mp3" artist="" label="075Cima ku mamipadang i takuwan a mibuhat tu panan?"/>
+    <node name="076" file="a_files/076.mp3" artist="" label="076Helugen ku cukap, a sisu-li-pa."/>
+    <node name="077" file="a_files/077.mp3" artist="" label="077Aka ka’adihay ku balucu’ katangasaantu ku tuki taluma’tu kaku."/>
+    <node name="078" file="a_files/078.mp3" artist="" label="078Ira i kudul nu sapad ku yaw-kung-ci."/>
+    <node name="079" file="a_files/079.mp3" artist="" label="079Uly! Kamananaw tu kamay, a malahuktu."/>
+    <node name="080" file="a_files/080.mp3" artist="" label="080Laklaksaan ku picudadan, lisimeten."/>
+    <node name="081" file="a_files/081.mp3" artist="" label="081Aka kapawan a mipaneng tu ding-ki."/>
+    <node name="082" file="a_files/082.mp3" artist="" label="082Madegay haw kisu a taynyhen i pang-kung-se."/>
+    <node name="083" file="a_files/083.mp3" artist="" label="083Piliyasy tu lamal nu ciw-cing, maberuha kisu."/>
+    <node name="084" file="a_files/084.mp3" artist="" label="084Pakalibut tisuwan, balahiaca ku lanang."/>
+    <node name="085" file="a_files/085.mp3" artist="" label="085Masunitu ku kingking nu cacudadan."/>
+    <node name="086" file="a_files/086.mp3" artist="" label="086Makakerur ku buti’ aku."/>
+    <node name="087" file="a_files/087.mp3" artist="" label="087Ca`ay ka’ ala ku kakemetan aku."/>
+    <node name="088" file="a_files/088.mp3" artist="" label="088Maherek ku sasuriten, kiya mimelaw tu televi."/>
+    <node name="089" file="a_files/089.mp3" artist="" label="089Pimelawy tu cudad a mirasur tu sapikaw-se."/>
+    <node name="090" file="a_files/090.mp3" artist="" label="090Mulsa’ ku tagal nu nanun."/>
+    <node name="091" file="a_files/091.mp3" artist="" label="091Masu’et ku kamananawan."/>
+    <node name="092" file="a_files/092.mp3" artist="" label="092A awaaytu ku sa-bun."/>
+    <node name="093" file="a_files/093.mp3" artist="" label="093Maherek a temayi’, cebusen tu nanum."/>
+    <node name="094" file="a_files/094.mp3" artist="" label="094Yu a miliyas, kelecen ku tagal nu nanum."/>
+    <node name="095" file="a_files/095.mp3" artist="" label="095Mabasbastu haw isu ku baura?"/>
+    <node name="096" file="a_files/096.mp3" artist="" label="096Katangasaantu ku pi'asikan a remiad."/>
+    <node name="097" file="a_files/097.mp3" artist="" label="097Lisimeten ku nisawadan a tatipeluk ta patahkal."/>
+    <node name="098" file="a_files/098.mp3" artist="" label="098A mipadang kaku a misipu tu sasingaran."/>
+    <node name="099" file="a_files/099.mp3" artist="" label="099A subawan kina sasingaran."/>
+    <node name="100" file="a_files/100.mp3" artist="" label="100I a’ayaw nu cacudadan, ira ku ta'angay a se-cang."/>
+    <node name="101" file="a_files/101.mp3" artist="" label="101I ngata nu cacudadan niyam, adihay ku kungkuan."/>
+    <node name="102" file="a_files/102.mp3" artist="" label="102I cuwa a maru' kiso? I Taipey kako a maru’."/>
+    <node name="103" file="a_files/103.mp3" artist="" label="103U limaay a katatungrh kina nipatireng."/>
+    <node name="104" file="a_files/104.mp3" artist="" label="104Mahkatainy cira tina cacudaden, matakahhen tu itiniay."/>
+    <node name="105" file="a_files/105.mp3" artist="" label="105I Malcaday a lalalna ku kakitilaan niyam."/>
+    <node name="106" file="a_files/106.mp3" artist="" label="106Namakainy talakawilien, a matepatu isu ku katala’isinan."/>
+    <node name="107" file="a_files/107.mp3" artist="" label="107U nu maku kinian a Kamaru’an, caay kau misu."/>
+    <node name="108" file="a_files/108.mp3" artist="" label="108Ci A-ci u kaput nu maku a Micudad, U biyaw Aku cira."/>
+    <node name="109" file="a_files/109.mp3" artist="" label="109Paka lilisy a remakat, kai awaay Ku maan."/>
+    <node name="110" file="a_files/110.mp3" artist="" label="110Yu Remakat I patiyamay, Pakaira-y I Kudulay A kayakay."/>
+    <node name="111" file="a_files/111.mp3" artist="" label="111Yu miketun tu lalan, pimelawy tu likat nu Ding-ki u lahngangay u langdaway."/>
+    <node name="112" file="a_files/112.mp3" artist="" label="112Yu miketun tu lalan, pimelawy tu kawanan atu kawili, away ku karireng kiya mitalib."/>
+    <node name="113" file="a_files/113.mp3" artist="" label="113Yu maka ut-tu-bay, kasihel-mettu."/>
+    <node name="114" file="a_files/114.mp3" artist="" label="114Cacay ku sakataluma’ a lalan, u nikaaway nu ma’an."/>
+    <node name="115" file="a_files/115.mp3" artist="" label="115Yu midakaw tu karireng, pal’ayawen ku ma’puday, ta midakaway."/>
+    <node name="116" file="a_files/116.mp3" artist="" label="116I lalabu nu karireng piliyasi pakamaren ku matuasay."/>
+    <node name="117" file="a_files/117.mp3" artist="" label="117Maka silamay kaku a talaTaipei."/>
+    <node name="118" file="a_files/118.mp3" artist="" label="118Maka cie-yun cira a talaChun-uhu."/>
+    <node name="119" file="a_files/119.mp3" artist="" label="119I a`ayaw lima a patekenan a awas, ira ku pitalaan tu ba-su."/>
+    <node name="120" file="a_files/120.mp3" artist="" label="120Tusa ku nicakayan aku tu paya nu silamalay."/>
+    <node name="121" file="a_files/121.mp3" artist="" label="121Iny ku lunuksanay a picakayan tu paya a ki-kai."/>
+    <node name="122" file="a_files/122.mp3" artist="" label="122yu aparakat, sakapahen ku satatelec."/>
+    <node name="123" file="a_files/123.mp3" artist="" label="123i a’ayaway a kalalitemuhan nu lalan, talakawananen!"/>
+    <node name="124" file="a_files/124.mp3" artist="" label="124Patudungen ku raay nu la’ed ngaay awaay ku maan."/>
+    <node name="125" file="a_files/125.mp3" artist="" label="125yu midakaw tu haiya, suriten ku haw-ma nu karireng."/>
+    <node name="126" file="a_files/126.mp3" artist="" label="126Pirasury tu karibuwa’ a midakaw tu ba-su."/>
+    <node name="127" file="a_files/127.mp3" artist="" label="127Pasuwali kaku, a maanen a taira i Cung-san-Ru."/>
+    <node name="128" file="a_files/128.mp3" artist="" label="128Mainawartu cira a midakaw tu karireng."/>
+    <node name="129" file="a_files/129.mp3" artist="" label="129Aka kabekac i sa`diban!"/>
+    <node name="130" file="a_files/130.mp3" artist="" label="130Pakakawanany a remakat a micakat ma’pud i lu-ti."/>
+    <node name="131" file="a_files/131.mp3" artist="" label="131yu masilsil a rumakat i lalan, aka kacacukeruh!"/>
+    <node name="132" file="a_files/132.mp3" artist="" label="132Kamaru’!"/>
+    <node name="133" file="a_files/133.mp3" artist="" label="133Maherek a mi’asip, taheben ku cudad."/>
+    <node name="134" file="a_files/134.mp3" artist="" label="134Mangalay haw kisu a mimali?"/>
+    <node name="135" file="a_files/135.mp3" artist="" label="135Lisimeten hen ku sasalamaan."/>
+    <node name="136" file="a_files/136.mp3" artist="" label="136Sakapina a remiad namilipay aniny? u pilipayan aniny."/>
+    <node name="137" file="a_files/137.mp3" artist="" label="137A matepa isu haw ku marucekay a surit? Tanengayma aku."/>
+    <node name="138" file="a_files/138.mp3" artist="" label="138Macuwa ku remiad i putallay? Uraden."/>
+    <node name="139" file="a_files/139.mp3" artist="" label="139Aka pisalama tu sasa'it!"/>
+    <node name="140" file="a_files/140.mp3" artist="" label="140Dengay haw kisu a patatules?"/>
+    <node name="141" file="a_files/141.mp3" artist="" label="141Aka pacebasaan a mibalah tu tatuny’!"/>
+    <node name="142" file="a_files/142.mp3" artist="" label="142Lalisan kisu, sisa adihayen ku nipinanum atu pahanhany!"/>
+    <node name="143" file="a_files/143.mp3" artist="" label="143Maduka ku tusur isu, kayaten nu maku kisu a tala’isin."/>
+    <node name="144" file="a_files/144.mp3" artist="" label="144Taira kita i kakabekacan a mihulul."/>
+    <node name="145" file="a_files/145.mp3" artist="" label="145A naunhan ku nipiedeb’ tu panan."/>
+    <node name="146" file="a_files/146.mp3" artist="" label="146Ma`nenaca! awaay ku maan!"/>
+    <node name="147" file="a_files/147.mp3" artist="" label="147kapah a melawan kisu!"/>
+    <node name="148" file="a_files/148.mp3" artist="" label="148pasebanaay! A tala i tatai'an kaku?"/>
+    <node name="149" file="a_files/149.mp3" artist="" label="149U maan ku iraay i pa’in-pi-cuan numisu?"/>
+    <node name="150" file="a_files/150.mp3" artist="" label="150U maan ku papadangen aku i tisuwan?"/>
+    <node name="151" file="a_files/151.mp3" artist="" label="151Lipahak kaku a mabana` i tisuwan! mahaen kaku!"/>
+    <node name="152" file="a_files/152.mp3" artist="" label="152Alaen ku sasuritan nu misn atu in-pi-cu."/>
+    <node name="153" file="a_files/153.mp3" artist="" label="153Sakapahen ku nipikapet tu in-pi-cu."/>
+    <node name="154" file="a_files/154.mp3" artist="" label="154Rapirapsa ku nisurtan, buricen, liyawen a misurit!"/>
+    <node name="155" file="a_files/155.mp3" artist="" label="155Padangen aku kisu a miditek tu tarakaw nu misu."/>
+    <node name="156" file="a_files/156.mp3" artist="" label="156I cuwa ku pasabanaay aniny? i tungruh."/>
+    <node name="157" file="a_files/157.mp3" artist="" label="157Aka ka’adihay ku balucu’, a pasubanaan nu maku kisu, anu maanen."/>
+    <node name="158" file="a_files/158.mp3" artist="" label="158Na’unen!"/>
+    <node name="159" file="a_files/159.mp3" artist="" label="159Sacinglawsaan! A maanen nu maku a micudad."/>
+    <node name="160" file="a_files/160.mp3" artist="" label="160Sakapahen ku nipipu’et tu tangal nu nanum."/>
+    <node name="161" file="a_files/161.mp3" artist="" label="161Aray pasebanaay! kalipahak i pasubanaan a lisin!"/>
+    <node name="162" file="a_files/162.mp3" artist="" label="162U sapabely i tisuwan kina nitabu."/>
+    <node name="163" file="a_files/163.mp3" artist="" label="163Ma’nen aca`! ma`utangtu kaku."/>
+    <node name="164" file="a_files/164.mp3" artist="" label="164U maan ku patelien isu i pacudadan?"/>
+    <node name="165" file="a_files/165.mp3" artist="" label="165Siruma! liyawenhantu"/>
+    <node name="166" file="a_files/166.mp3" artist="" label="166U maan ku kilimman nu misu?"/>
+    <node name="167" file="a_files/167.mp3" artist="" label="167Mamaan? Adada ku tiyad aku."/>
+    <node name="168" file="a_files/168.mp3" artist="" label="168Ira haw ku lalumaan nu misu?"/>
+    <node name="169" file="a_files/169.mp3" artist="" label="169Sakilmelen! Sakilmelen!"/>
+    <node name="170" file="a_files/170.mp3" artist="" label="170Maherektu ku nikadademec aniny."/>
+    <node name="171" file="a_files/171.mp3" artist="" label="171Kappah ku nikadademak isu!"/>
+    <node name="172" file="a_files/172.mp3" artist="" label="172A umaan ku sakalhulul nu mita?"/>
+    <node name="173" file="a_files/173.mp3" artist="" label="173lsutu."/>
+    <node name="174" file="a_files/174.mp3" artist="" label="174Melawy ku nipamaly aku."/>
+    <node name="175" file="a_files/175.mp3" artist="" label="175Maulah kaku a taira i tung-u-yen."/>
+    <node name="176" file="a_files/176.mp3" artist="" label="176Uruma ku bangcal nu hiliyut itiny."/>
+    <node name="177" file="a_files/177.mp3" artist="" label="177Malacacay kita a remadiw!"/>
+    <node name="178" file="a_files/178.mp3" artist="" label="178Assu’ a tengilen ku wayway nina radiw."/>
+    <node name="179" file="a_files/179.mp3" artist="" label="179Assu’ a tengilen ku radiw isu."/>
+    <node name="180" file="a_files/180.mp3" artist="" label="180U saka’ulahan aku a radiw, u liu-sing-ke."/>
+    <node name="181" file="a_files/181.mp3" artist="" label="181U urip nu maku ku radiw."/>
+    <node name="182" file="a_files/182.mp3" artist="" label="182Hacuwa ku nikaraay nu nipidanguy isu?"/>
+    <node name="183" file="a_files/183.mp3" artist="" label="183U niyam a kaput tulu ku piki-adihayan tu sa’usy."/>
+    <node name="184" file="a_files/184.mp3" artist="" label="184U kapahay ku nika talauma’umahan."/>
+    <node name="185" file="a_files/185.mp3" artist="" label="185Madence kami aniny a remiad."/>
+    <node name="186" file="a_files/186.mp3" artist="" label="186U kapahay a lailay kiraan."/>
+    <node name="187" file="a_files/187.mp3" artist="" label="187Milaliw ku ngiha nu radiw isu."/>
+    <node name="188" file="a_files/188.mp3" artist="" label="188Misiya-ci kita?"/>
+    <node name="189" file="a_files/189.mp3" artist="" label="189Yu pacena’ ku nipicudad, maulah kami a malalimek a makakilim a malhulul."/>
+    <node name="190" file="a_files/190.mp3" artist="" label="190Macuwa ku nikadademec?"/>
+    <node name="191" file="a_files/191.mp3" artist="" label="191Kiya hatinytu ku nika kapah nina sasalamaan!"/>
+    <node name="192" file="a_files/192.mp3" artist="" label="192Isutu ku misalamaay."/>
+    <node name="193" file="a_files/193.mp3" artist="" label="193Kappah ku nipilibaw nira micudaday Q"/>
+    <node name="194" file="a_files/194.mp3" artist="" label="194Maulah amin ku wawa a mihulul atu mitengil tu kung-ku."/>
+    <node name="195" file="a_files/195.mp3" artist="" label="195Anu caay kaulah a milailay, a masusu’."/>
+    <node name="196" file="a_files/196.mp3" artist="" label="196Assu’ ku ngiha, sisa maulah cira a remadiw."/>
+    <node name="197" file="a_files/197.mp3" artist="" label="197Mabana` kaku tu nika maulah kisu a tala lutuk."/>
+    <node name="198" file="a_files/198.mp3" artist="" label="198Mangalay kaku a mimelaw tu tien-ing."/>
+    <node name="199" file="a_files/199.mp3" artist="" label="199Hacuwa a Malingatu apaaraw?"/>
+    <node name="200" file="a_files/200.mp3" artist="" label="200I cuwa ku pilan-ciwan?"/>
+
+
+  </node>
+
+  </tree>
+
+  <label
+   x="269"
+   y="50"
+   w="53"
+   h="16"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="f"
+  ></label>
+
+  <scrolllabel
+   x="32"
+   y="245"
+   w="291"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  </jukebox>
+
+</coffeecupjukebox>

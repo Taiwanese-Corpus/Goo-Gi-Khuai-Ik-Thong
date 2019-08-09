@@ -12,3 +12,16 @@
 * Kheh-gí 客語: c h d r z l
 * Tsok-gí 族語: a t b n p
 * Ing-gí 英語: e
+
+## XML tsuán CSV
+```
+find xml/ -name '*.xml'  -exec bash -c 'grep "<node name=" {} | awk -F "[/\"]" "{print \$2, \$4, \$5, substr(\$9, 4)}" OFS=, >  {}.csv' \;
+```
+
+```
+cat xml/a.xml | iconv -f big5 -t utf-8
+```
+
+```
+sed "s/$(echo -ne '\ude86')//g" xml/d.xml
+```

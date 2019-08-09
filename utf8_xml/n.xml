@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+
+<coffeecupjukebox version="4.5">
+
+  <jukebox
+   x="0"
+   y="0"
+   w="360"
+   h="302"
+   playonstartup="f"
+   loop="f"
+   shuffle="f"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="n_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+disableclicktoactiveprompt="false"
+  <rewindbutton
+   x="82"
+   y="27"
+   w="61"
+   h="43"
+   toggle="f"
+   btnupimg="n_files/previous.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="205"
+   y="27"
+   w="63"
+   h="43"
+   toggle="f"
+   btnupimg="n_files/next.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="143"
+   y="27"
+   w="61"
+   h="43"
+   toggle="t"
+   btnupimg="n_files/play.jpg"
+   btndownimg="n_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="272"
+   y="47"
+   w="35"
+   h="14"
+   toggle="t"
+   action="shuf"
+   visible="f"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="351"
+   y="246"
+   w="92"
+   h="21"
+   visible="f"
+  ></volume>
+
+  <progress
+   x="32"
+   y="262"
+   w="291"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="33"
+   y="75"
+   w="291"
+   h="166"
+   visible="t"
+  >
+  <node label="">
+    <node name="001" file="n_files/001.mp3" artist="" label="001uLaya a imaran a akanan Da adaLeP i taksian?"/>
+    <node name="002" file="n_files/002.mp3" artist="" label="002saDu a imaran a akanan!"/>
+    <node name="003" file="n_files/003.mp3" artist="" label="003ku kinasagar muka mekana na neniwaniwan marmengan."/>
+    <node name="004" file="n_files/004.mp3" artist="" label="004pudareLa Da salabian alamuLa ekan!"/>
+    <node name="005" file="n_files/005.mp3" artist="" label="005kamlamuwi mekan Da biasDya!"/>
+    <node name="006" file="n_files/006.mp3" artist="" label="006kinalabian i salaw kaLuba"/>
+    <node name="007" file="n_files/007.mp3" artist="" label="007imaran iDi na irupan."/>
+    <node name="008" file="n_files/008.mp3" artist="" label="008ekanDiya Da buwabuwa? aywa! mekanaku Da beLebL."/>
+    <node name="009" file="n_files/009.mp3" artist="" label="009Tmkela kuDya Da satakiLan Da kulispa i?"/>
+    <node name="010" file="n_files/010.mp3" artist="" label="010akanyu Da sayma Da akanan?"/>
+    <node name="011" file="n_files/011.mp3" artist="" label="011semangalan, beDekerkuLa!"/>
+    <node name="012" file="n_files/012.mp3" artist="" label="012aDikuDya mekan Da kemaDi Da akanan. ."/>
+    <node name="013" file="n_files/013.mp3" artist="" label="013na irupan kana isalabi i kaLuba a?"/>
+    <node name="014" file="n_files/014.mp3" artist="" label="014inaba a! salaw kaLuba!"/>
+    <node name="015" file="n_files/015.mp3" artist="" label="015beTekerku aDikuLa, pakaekanLa!"/>
+    <node name="016" file="n_files/016.mp3" artist="" label="016marangeryu tmeker Da tinuwaemu na buwabuwa anDi Da sayda."/>
+    <node name="017" file="n_files/017.mp3" artist="" label="017marange rku mekan Da siniyanDa biTenung kana sikiyu."/>
+    <node name="018" file="n_files/018.mp3" artist="" label="018kinasuku Da waLu Da sayma i aekan mu?"/>
+    <node name="019" file="n_files/019.mp3" artist="" label="019semaLaLetun iyupi Dya aw ekanLa."/>
+    <node name="020" file="n_files/020.mp3" artist="" label="020mengaraya ta Diya Da palamu kana salabian!"/>
+    <node name="021" file="n_files/021.mp3" artist="" label="021ekanDa ninjing pakainaba Da maTa."/>
+    <node name="022" file="n_files/022.mp3" artist="" label="022aDiDyata mekan Da tinaLek aDi kwarngaway mekan DaDuma Da akanan."/>
+    <node name="023" file="n_files/023.mp3" artist="" label="023aDi pyatepitan Da kaysing na TaTingal an maakanta."/>
+    <node name="024" file="n_files/024.mp3" artist="" label="024aDita pamili Da akanan an LaLakta takipteDaw mekan."/>
+    <node name="025" file="n_files/025.mp3" artist="" label="025ekaekan Da kulang pakainaba kanu DaDek."/>
+    <node name="026" file="n_files/026.mp3" artist="" label="026taranapaw! Da salaw semaLaLetung!"/>
+    <node name="027" file="n_files/027.mp3" artist="" label="027aDita maekan Da esaDu Da pinakesang, saya an mekanta."/>
+    <node name="028" file="n_files/028.mp3" artist="" label="028aekanyu Da inuri Da paDaka Da terekuk na tinaLek."/>
+    <node name="029" file="n_files/029.mp3" artist="" label="029TaTima yu Da niLuwaLuwan Da takumuL na waLu?"/>
+    <node name="030" file="n_files/030.mp3" artist="" label="030imanay merawraw Da kahuy? salaw uLinguL!"/>
+    <node name="031" file="n_files/031.mp3" artist="" label="031kuyku na semeket penaLeTuk kana kinerang na beras. ."/>
+    <node name="032" file="n_files/032.mp3" artist="" label="032kuwadakudayan ina sama na irupan?"/>
+    <node name="033" file="n_files/033.mp3" artist="" label="033uLayaku kabung asaya DemalemDem tu edat."/>
+    <node name="034" file="n_files/034.mp3" artist="" label="034LitekLa na wari aw paTeL La Da kiruwan."/>
+    <node name="035" file="n_files/035.mp3" artist="" label="035makitengLa na kiruwan, aw LikeTiLa na kaTakaT."/>
+    <node name="036" file="n_files/036.mp3" artist="" label="036seketu kemeDeng tu kakeDengan kana kaTakaT."/>
+    <node name="037" file="n_files/037.mp3" artist="" label="037keskesu tu aseL kana kiruwan."/>
+    <node name="038" file="n_files/038.mp3" artist="" label="038pasketi benetebet tu tatilu kana Tukap."/>
+    <node name="039" file="n_files/039.mp3" artist="" label="039an piyakuse ta i semunung taDiya Da buwi. ."/>
+    <node name="040" file="n_files/040.mp3" artist="" label="040paduki mikiruwan na kappa aw pihangkang, maaudaL La."/>
+    <node name="041" file="n_files/041.mp3" artist="" label="041makiteng na Tukap aw paruareeT."/>
+    <node name="042" file="n_files/042.mp3" artist="" label="042paDangal tu Tima kanDi na gaytu."/>
+    <node name="043" file="n_files/043.mp3" artist="" label="043mubeliyas na pinikiruwanan aw paTepeL na pinukuyan."/>
+    <node name="044" file="n_files/044.mp3" artist="" label="044miyakiruwan ta Da miliyas aw Da pungsi an kaguluwan."/>
+    <node name="045" file="n_files/045.mp3" artist="" label="045ina kiruwan i salaw sadeku kanta pikiruwanaw."/>
+    <node name="046" file="n_files/046.mp3" artist="" label="046piyakipin ta Da pinarisan kanDi na wari muka i taksian."/>
+    <node name="047" file="n_files/047.mp3" artist="" label="047an takakesita Da pareguwagu i mikiruwan ta kantu Tepa."/>
+    <node name="048" file="n_files/048.mp3" artist="" label="048an sincisan na wari i a semenengLa ta kiruwn muka i takesian."/>
+    <node name="049" file="n_files/049.mp3" artist="" label="049wadi na mainayan an mikaTakaT Da paruareeT i kasagasagar."/>
+    <node name="050" file="n_files/050.mp3" artist="" label="050uLayaku Tukap a kaLiT aw akire` nirka asa. ."/>
+    <node name="051" file="n_files/051.mp3" artist="" label="051sagar mi Tukap Da asaT i likuDan i nanaLi."/>
+    <node name="052" file="n_files/052.mp3" artist="" label="052aDuma a kiruwan i merarunu dar, aDita puwakasa benase."/>
+    <node name="053" file="n_files/053.mp3" artist="" label="053na kiruwan antu TaLpuay Da edat kana TaTuri i takudayaw?"/>
+    <node name="054" file="n_files/054.mp3" artist="" label="054muTerak tu pukuy a saya kanu kiruwan."/>
+    <node name="055" file="n_files/055.mp3" artist="" label="055marayas ku puLang kan nanaLi benas、 benaybay Da kiruwan."/>
+    <node name="056" file="n_files/056.mp3" artist="" label="056pakaam Da bekal Da pinikiruwan aDiDya karikesis i."/>
+    <node name="057" file="n_files/057.mp3" artist="" label="057aseL kanku kiruwan i tu siriTaw kanku risarisan."/>
+    <node name="058" file="n_files/058.mp3" artist="" label="058saDu ku kiruwan na cyoki."/>
+    <node name="059" file="n_files/059.mp3" artist="" label="059ma TengaDawa ta i sabak i punapunan."/>
+    <node name="060" file="n_files/060.mp3" artist="" label="060malabimi kana rawang akaakanan."/>
+    <node name="061" file="n_files/061.mp3" artist="" label="061demaduru Da akanan i sawka i nanaLi."/>
+    <node name="062" file="n_files/062.mp3" artist="" label="062wadina babayan i mieDeng katu kiyaDengan."/>
+    <node name="063" file="n_files/063.mp3" artist="" label="063imanay na demadirus Diya i dadirusan? padukeduki."/>
+    <node name="064" file="n_files/064.mp3" artist="" label="064tu paliDing kana palaladam. pinaDanga i palaliDingan."/>
+    <node name="065" file="n_files/065.mp3" artist="" label="065mu ateLku Da raripaan Da ruma a semaluwan."/>
+    <node name="066" file="n_files/066.mp3" artist="" label="066ku reTaanay i kakeDengan ku tilin."/>
+    <node name="067" file="n_files/067.mp3" artist="" label="067kiruwan na paDaDeeL i saitan kana apeapeTan"/>
+    <node name="068" file="n_files/068.mp3" artist="" label="068ku Turina TinawTaw sinait i waaDukan kana ruma."/>
+    <node name="069" file="n_files/069.mp3" artist="" label="069kaaDumi isabak kana takakesian na tynnaw meladaladam Da tynnaw."/>
+    <node name="070" file="n_files/070.mp3" artist="" label="070pamayku na palaladam."/>
+    <node name="071" file="n_files/071.mp3" artist="" label="071pusalay na palaladam. kantu maiDangan kana temakakesi."/>
+    <node name="072" file="n_files/072.mp3" artist="" label="072maLaDamku pariapeD kananku aliyuT."/>
+    <node name="073" file="n_files/073.mp3" artist="" label="073saygu ku mi TaTingal."/>
+    <node name="074" file="n_files/074.mp3" artist="" label="074nauwiDiya i manay na TemuwakeTuk kana aLepan."/>
+    <node name="075" file="n_files/075.mp3" artist="" label="075i manay karuwa TemaTuwaL Da aLeban kanku?"/>
+    <node name="076" file="n_files/076.mp3" artist="" label="076lapusu na Tukap, piselipa."/>
+    <node name="077" file="n_files/077.mp3" artist="" label="077a Di kaulep kemiyanger, kapa lamuku muruma."/>
+    <node name="078" file="n_files/078.mp3" artist="" label="078na paperes pakawang i uLaya i isaT kana etu."/>
+    <node name="079" file="n_files/079.mp3" artist="" label="079uwa sabesabi nulima, kalalaukta."/>
+    <node name="080" file="n_files/080.mp3" artist="" label="080kabarabarang ina rawang, pariapeTuDiya."/>
+    <node name="081" file="n_files/081.mp3" artist="" label="081aDikababalu emebut kana dingki."/>
+    <node name="082" file="n_files/082.mp3" artist="" label="082maruwayu Dwa palamu Diya i 辦公室?"/>
+    <node name="083" file="n_files/083.mp3" artist="" label="083udawidawiL. antu saLtungay yu kana LawLaw."/>
+    <node name="084" file="n_files/084.mp3" artist="" label="084bangabangaw yu Diya uwa saLTagan na Talun Diya."/>
+    <node name="085" file="n_files/085.mp3" artist="" label="085maruniLa na tuki i taksian."/>
+    <node name="086" file="n_files/086.mp3" artist="" label="086maapas kuLa."/>
+    <node name="087" file="n_files/087.mp3" artist="" label="087muliiD ku aLepe."/>
+    <node name="088" file="n_files/088.mp3" artist="" label="088pasekaDu Diya nu nanauwan na tiliL. aw nauLa Da tiribi."/>
+    <node name="089" file="n_files/089.mp3" artist="" label="089uwanau Da tiliL. padang Da kiya Limawan."/>
+    <node name="090" file="n_files/090.mp3" artist="" label="090matuaetu a enay na sanun."/>
+    <node name="091" file="n_files/091.mp3" artist="" label="091mapuLeD na sabapsaban Da lima."/>
+    <node name="092" file="n_files/092.mp3" artist="" label="092daLep La mukipeteD na sabun."/>
+    <node name="093" file="n_files/093.mp3" artist="" label="093an piya ta muTai, ta Laudaw Da enay."/>
+    <node name="094" file="n_files/094.mp3" artist="" label="094an baburek kaD. i puLetu na enay Diya."/>
+    <node name="095" file="n_files/095.mp3" artist="" label="095nu puenayay La na apuT?"/>
+    <node name="096" file="n_files/096.mp3" artist="" label="096penauwaLa na tuki Da saseLapan."/>
+    <node name="097" file="n_files/097.mp3" artist="" label="097apitu semeket. na ateLan na kadupu aw pukiwanan."/>
+    <node name="098" file="n_files/098.mp3" artist="" label="098papuLang ku emiTul kana lataw."/>
+    <node name="099" file="n_files/099.mp3" artist="" label="099a sabsaban Diya ina lataw."/>
+    <node name="100" file="n_files/100.mp3" artist="" label="100inguwayan i taksian i uLaya, a maTina amenaniwan Da manay Diya."/>
+    <node name="101" file="n_files/101.mp3" artist="" label="101idaLep kaniyam taksian i saDu a mutatiyam Da akanan."/>
+    <node name="102" file="n_files/102.mp3" artist="" label="102kaaDu yu isuwa? kuyku i kaaDuku i taype siyen."/>
+    <node name="103" file="n_files/103.mp3" artist="" label="103LuLwaTa martaDar ina ruma."/>
+    <node name="104" file="n_files/104.mp3" artist="" label="104amawu Dya DaDuwa i taksian taytaw, aDiDya maladam kaDini. ."/>
+    <node name="105" file="n_files/105.mp3" artist="" label="105mukasami Da sayadalan Da kinakaDuwan."/>
+    <node name="106" file="n_files/106.mp3" artist="" label="106an kemayukaDini muliyus piyarawiri aTebungta kana kyanauwan."/>
+    <node name="107" file="n_files/107.mp3" artist="" label="107nanku kaTenga Dawan i Dini, ameLinanu."/>
+    <node name="108" file="n_files/108.mp3" artist="" label="108kurisan temaksi i aci i nanku turanan i ruma. ."/>
+    <node name="109" file="n_files/109.mp3" artist="" label="109melingidan takawang i dalan i arekeDta."/>
+    <node name="110" file="n_files/110.mp3" artist="" label="110kemakawang ta i singki i makaLangta katu Tepa na kayakay."/>
+    <node name="111" file="n_files/111.mp3" artist="" label="111sasalaw ta Da dalan i menau ta kentu edat kana LawLaw."/>
+    <node name="112" file="n_files/112.mp3" artist="" label="112an sasalaw ta Da dalan i paseket menau i tarawri kay tarawaLan, an uniyan Da paliDing i semalaw taLa."/>
+    <node name="113" file="n_files/113.mp3" artist="" label="113mipaliDing ta Da utubay i mikabungta Datu Tepa."/>
+    <node name="114" file="n_files/114.mp3" artist="" label="114mawmaw iDinadalan karuwata Tempa iruma."/>
+    <node name="115" file="n_files/115.mp3" artist="" label="115an muyaisaT ta Da paliDing i, kinunguwayan na muadare, likuDan na muwaysaT."/>
+    <node name="116" file="n_files/116.mp3" artist="" label="116a TengaDawan isaT i paliDing i beray ta kana kakuwalengan na Taw."/>
+    <node name="117" file="n_files/117.mp3" artist="" label="117muysaT ku Da igiyu paredek i taypak"/>
+    <node name="118" file="n_files/118.mp3" artist="" label="118muysaT Da cye in paredek i con he tay taw."/>
+    <node name="119" file="n_files/119.mp3" artist="" label="119nguwayan Da LuwaTaleman meer i uLaya ngarayan Da paliDing."/>
+    <node name="120" file="n_files/120.mp3" artist="" label="120TemimakuLa Da Duwaya a kippuDa igiyu."/>
+    <node name="121" file="n_files/121.mp3" artist="" label="121uLaya a menaniwan Da kippu kaDi a."/>
+    <node name="122" file="n_files/122.mp3" artist="" label="122anure pakakawangta Da paliDing i penareT ta Diya. ."/>
+    <node name="123" file="n_files/123.mp3" artist="" label="123masaL La na benarat na dalan i Tekip piya rawaLan."/>
+    <node name="124" file="n_files/124.mp3" artist="" label="124simear Tayan. i akaar keDan."/>
+    <node name="125" file="n_files/125.mp3" artist="" label="125musaTta Da hayya i ta tilinay emapeT tu banggu kana paliDin."/>
+    <node name="126" file="n_files/126.mp3" artist="" label="126uruwaysaT ta Da bas i penadang ta Da gingpiya."/>
+    <node name="127" file="n_files/127.mp3" artist="" label="127kakaLan ku i Con-San-Lu, kemudakuda ta muka, paladamuku Diya?"/>
+    <node name="128" file="n_files/128.mp3" artist="" label="128mames malupaw Da paliDing taytaw."/>
+    <node name="129" file="n_files/129.mp3" artist="" label="129aDita papabekas i baybay."/>
+    <node name="130" file="n_files/130.mp3" artist="" label="130muwaysaT、muwadare ta Da tataDan i makarawaLan ta kawang."/>
+    <node name="131" file="n_files/131.mp3" artist="" label="131an waapita Da wadalanan i aDita masuwasuLud."/>
+    <node name="132" file="n_files/132.mp3" artist="" label="132kaLa kaTengaDaw Diya!"/>
+    <node name="133" file="n_files/133.mp3" artist="" label="133piyaLa emayip i paaTaban La na tiliL."/>
+    <node name="134" file="n_files/134.mp3" artist="" label="134marager yu malinay Da mali?"/>
+    <node name="135" file="n_files/135.mp3" artist="" label="135apeTu semeket na ayaman malinay."/>
+    <node name="136" file="n_files/136.mp3" artist="" label="136pukasamaya na saliyusan garem na wari? na pukapitu saliyusan. ."/>
+    <node name="137" file="n_files/137.mp3" artist="" label="137paka Debung yu kana pamawu na tilin? i temaLama kuDiya!"/>
+    <node name="138" file="n_files/138.mp3" artist="" label="138kemuda kuda na awari i paTaran? maudaL."/>
+    <node name="139" file="n_files/139.mp3" artist="" label="139aDita maalak miayam Da garetim."/>
+    <node name="140" file="n_files/140.mp3" artist="" label="140karuwa yu temaLam TemuriTuri paTungu TunguL?"/>
+    <node name="141" file="n_files/141.mp3" artist="" label="141aDita patateras eLa emataL Da rimekan."/>
+    <node name="142" file="n_files/142.mp3" artist="" label="142kanbo yuLa karaemeT Temekel Da enay kelayaTan Diya nu tawlepan."/>
+    <node name="143" file="n_files/143.mp3" artist="" label="143kurepanana nu sungal i, ti rerabangu yu Diya muka i kiyanauwan."/>
+    <node name="144" file="n_files/144.mp3" artist="" label="144kayta malinaya i un-do-ba."/>
+    <node name="145" file="n_files/145.mp3" artist="" label="145temawar ta emaLeb Da aLeban."/>
+    <node name="146" file="n_files/146.mp3" artist="" label="146沒關係!"/>
+    <node name="147" file="n_files/147.mp3" artist="" label="147salikesik nupiniTangalan an menauta!"/>
+    <node name="148" file="n_files/148.mp3" artist="" label="148karuwa ku muka i puwataiyan Diya? sinsi!"/>
+    <node name="149" file="n_files/149.mp3" artist="" label="149uLiya amanay kanu abakan kana TaTurian?"/>
+    <node name="150" file="n_files/150.mp3" artist="" label="150kararuwa ku puLang Da manay kanu?"/>
+    <node name="151" file="n_files/151.mp3" artist="" label="151semangal ta Da ikaLaDam kanu! aw kuyku Daya!"/>
+    <node name="152" file="n_files/152.mp3" artist="" label="152dikesi nanu tatiliLan awna TaTuri."/>
+    <node name="153" file="n_files/153.mp3" artist="" label="153demikes ta Da TaTuri i ta pateDeLaw ta DaDek."/>
+    <node name="154" file="n_files/154.mp3" artist="" label="154me ngiyawngiyaw DaDu nu tinilinan, isausu aw asaLu Dya temiliL."/>
+    <node name="155" file="n_files/155.mp3" artist="" label="155ti puLangay yu benakesyu Danu ikaasaT."/>
+    <node name="156" file="n_files/156.mp3" artist="" label="156uLaya isuwa na sinsi garem? uLaya i makasaT."/>
+    <node name="157" file="n_files/157.mp3" artist="" label="157ti paladamaw yu semeket. aDi kawlep kemiyanger."/>
+    <node name="158" file="n_files/158.mp3" artist="" label="158taranapaw!"/>
+    <node name="159" file="n_files/159.mp3" artist="" label="159rauTenganamaw! aDiku pakaaip Da tiliL!"/>
+    <node name="160" file="n_files/160.mp3" artist="" label="160uwa puLetu na sanun."/>
+    <node name="161" file="n_files/161.mp3" artist="" label="161wari Da sinsi kasmangal! sinsi semangaln!"/>
+    <node name="162" file="n_files/162.mp3" artist="" label="162a baberay kanu i na pakasagar."/>
+    <node name="163" file="n_files/163.mp3" artist="" label="163igelayan! puwarikuLa!"/>
+    <node name="164" file="n_files/164.mp3" artist="" label="164amanay nireTa i tuwaLay kana tiliL?"/>
+    <node name="165" file="n_files/165.mp3" artist="" label="165kuDamaya! asaLu Diya masaL."/>
+    <node name="166" file="n_files/166.mp3" artist="" label="166amanay nu inaaya?"/>
+    <node name="167" file="n_files/167.mp3" artist="" label="167makuda? aw nanaku tiyaL."/>
+    <node name="168" file="n_files/168.mp3" artist="" label="168uLaya nu wawadiyan?"/>
+    <node name="169" file="n_files/169.mp3" artist="" label="169pakirebi! pakirebi!"/>
+    <node name="170" file="n_files/170.mp3" artist="" label="170puludus taLa mareari."/>
+    <node name="171" file="n_files/171.mp3" artist="" label="171inaba nu ikuwa aDu."/>
+    <node name="172" file="n_files/172.mp3" artist="" label="172kalinay ta Da manay."/>
+    <node name="173" file="n_files/173.mp3" artist="" label="173yuyu La."/>
+    <node name="174" file="n_files/174.mp3" artist="" label="174nauwi an benararetuk ku Da mali."/>
+    <node name="175" file="n_files/175.mp3" artist="" label="175salaw ku sagar muka i tobucEn"/>
+    <node name="176" file="n_files/176.mp3" artist="" label="176salaw bulay tu inadawayan kaDini."/>
+    <node name="177" file="n_files/177.mp3" artist="" label="177aLa mukasaya ta semenay!"/>
+    <node name="178" file="n_files/178.mp3" artist="" label="178salaw bulay tu idadaway kanDi kana senay."/>
+    <node name="179" file="n_files/179.mp3" artist="" label="179inaba nu senay an kiLengaw ta"/>
+    <node name="180" file="n_files/180.mp3" artist="" label="180kukinasagaran naLengaw Dasenay i muna mubalibalis na senay."/>
+    <node name="181" file="n_files/181.mp3" artist="" label="181iDi na sasenayan i kamawan Daku kabaawan."/>
+    <node name="182" file="n_files/182.mp3" artist="" label="182kemudakuda Da padawyL an temaLasu yu?"/>
+    <node name="183" file="n_files/183.mp3" artist="" label="183makeserta semalaw Da tuluwa tinse."/>
+    <node name="184" file="n_files/184.mp3" artist="" label="184salaw kainabayan mudaLep ta Da kekeng."/>
+    <node name="185" file="n_files/185.mp3" artist="" label="185salaway taLa kana marpawkawka"/>
+    <node name="186" file="n_files/186.mp3" artist="" label="186inaba a reguwaguan iDu."/>
+    <node name="187" file="n_files/187.mp3" artist="" label="187semanan nu Lengaw an semenay yu."/>
+    <node name="188" file="n_files/188.mp3" artist="" label="188malinayata kana marpatala na pukuy"/>
+    <node name="189" file="n_files/189.mp3" artist="" label="189an katawlepan i sagaremi malinay Da maDimuDimuT Da waLaseDan."/>
+    <node name="190" file="n_files/190.mp3" artist="" label="190kumudakuda La na mare pawkawka?"/>
+    <node name="191" file="n_files/191.mp3" artist="" label="191iuwa Da inaba ina kalalinayan!"/>
+    <node name="192" file="n_files/192.mp3" artist="" label="192yuyu La."/>
+    <node name="193" file="n_files/193.mp3" artist="" label="193inaba paruni Da palingalung iDiyu na melalaDam."/>
+    <node name="194" file="n_files/194.mp3" artist="" label="194a waLak Diya i sagar malinalinay aw kiLengaw Da matimatiyan."/>
+    <node name="195" file="n_files/195.mp3" artist="" label="195an aDi ta sagare un-do i uwalane ta."/>
+    <node name="196" file="n_files/196.mp3" artist="" label="196bulay Da Lengaw taytaw Diyama sagar semenay."/>
+    <node name="197" file="n_files/197.mp3" artist="" label="197maLaDam ku Da sagaryu paseki Da Denan."/>
+    <node name="198" file="n_files/198.mp3" artist="" label="198marangr ku muka menauwa Da kacdo."/>
+    <node name="199" file="n_files/199.mp3" artist="" label="199wangsaL an asuwa na parkuwakuda?"/>
+    <node name="200" file="n_files/200.mp3" artist="" label="200isuwa kaaDuyan babuLuan Da lankiyu?"/>
+
+  </node>
+
+  </tree>
+
+  <label
+   x="269"
+   y="50"
+   w="53"
+   h="16"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="f"
+  ></label>
+
+  <scrolllabel
+   x="32"
+   y="245"
+   w="291"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  </jukebox>
+
+</coffeecupjukebox>
