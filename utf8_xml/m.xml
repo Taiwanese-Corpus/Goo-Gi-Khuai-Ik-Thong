@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+
+<coffeecupjukebox version="4.5">
+
+  <jukebox
+   x="0"
+   y="0"
+   w="360"
+   h="302"
+   playonstartup="f"
+   loop="f"
+   shuffle="f"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="m_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+disableclicktoactiveprompt="false"
+  <rewindbutton
+   x="82"
+   y="27"
+   w="61"
+   h="43"
+   toggle="f"
+   btnupimg="m_files/previous.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="205"
+   y="27"
+   w="63"
+   h="43"
+   toggle="f"
+   btnupimg="m_files/next.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="143"
+   y="27"
+   w="61"
+   h="43"
+   toggle="t"
+   btnupimg="m_files/play.jpg"
+   btndownimg="m_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="272"
+   y="47"
+   w="35"
+   h="14"
+   toggle="t"
+   action="shuf"
+   visible="f"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="351"
+   y="246"
+   w="92"
+   h="21"
+   visible="f"
+  ></volume>
+
+  <progress
+   x="32"
+   y="262"
+   w="291"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="33"
+   y="75"
+   w="291"
+   h="166"
+   visible="t"
+  >
+  <node label="">
+    <node name="001" file="m_files/001.mp3" artist="" label="001學校附近有啥物好食的物件？"/>
+    <node name="002" file="m_files/002.mp3" artist="" label="002好食的物件？彼著濟囉！"/>
+    <node name="003" file="m_files/003.mp3" artist="" label="003我上愛去夜市仔食物件。"/>
+    <node name="004" file="m_files/004.mp3" artist="" label="004暗頓攢好囉！來食飯。"/>
+    <node name="005" file="m_files/005.mp3" artist="" label="005趁燒，緊食！"/>
+    <node name="006" file="m_files/006.mp3" artist="" label="006暗頓誠腥臊。"/>
+    <node name="007" file="m_files/007.mp3" artist="" label="007這項菜真好食。"/>
+    <node name="008" file="m_files/008.mp3" artist="" label="008敢欲食一寡果子？好啊！我欲食芎蕉。"/>
+    <node name="009" file="m_files/009.mp3" artist="" label="009我會使閣啉一杯茶無？"/>
+    <node name="010" file="m_files/010.mp3" artist="" label="010你欲食一寡物件無？"/>
+    <node name="011" file="m_files/011.mp3" artist="" label="011我食飽矣，多謝！"/>
+    <node name="012" file="m_files/012.mp3" artist="" label="012我毋捌食過這款物件。"/>
+    <node name="013" file="m_files/013.mp3" artist="" label="013今仔日的暗頓有澎湃無？"/>
+    <node name="014" file="m_files/014.mp3" artist="" label="014𣍐䆀！真膨湃！"/>
+    <node name="015" file="m_files/015.mp3" artist="" label="015我食𢓜足飽，吃𣍐落去矣！"/>
+    <node name="016" file="m_files/016.mp3" artist="" label="016你欲啉果汁抑是汽水？"/>
+    <node name="017" file="m_files/017.mp3" artist="" label="017我想欲食蚵仔煎。"/>
+    <node name="018" file="m_files/018.mp3" artist="" label="018我有紮一寡糖仔，恁欲食無？"/>
+    <node name="019" file="m_files/019.mp3" artist="" label="019傷燒矣！先歕歕咧才食。"/>
+    <node name="020" file="m_files/020.mp3" artist="" label="020暗頓稍等一下著好囉！"/>
+    <node name="021" file="m_files/021.mp3" artist="" label="021食紅菜頭對你的目睭有好處。"/>
+    <node name="022" file="m_files/022.mp3" artist="" label="022毋通佇飯前食赫呢濟四秀仔。"/>
+    <node name="023" file="m_files/023.mp3" artist="" label="023食飯的時陣，毋通提箸叩碗。"/>
+    <node name="024" file="m_files/024.mp3" artist="" label="024囝仔人毋通撿食，愛共盤仔內的物件食予清氣。"/>
+    <node name="025" file="m_files/025.mp3" artist="" label="025食青菜對你的身體有幫助。"/>
+    <node name="026" file="m_files/026.mp3" artist="" label="026真燒喔！愛細膩！"/>
+    <node name="027" file="m_files/027.mp3" artist="" label="027肉粽毋通食傷多，干那會當食一粒！"/>
+    <node name="028" file="m_files/028.mp3" artist="" label="028你欲食雞肉飯無？"/>
+    <node name="029" file="m_files/029.mp3" artist="" label="029你欲買棉絲糖無？"/>
+    <node name="030" file="m_files/030.mp3" artist="" label="030啥人泡的咖啡？哪會遮爾芳！"/>
+    <node name="031" file="m_files/031.mp3" artist="" label="031這是家己磅的米芳。"/>
+    <node name="032" file="m_files/032.mp3" artist="" label="032遮的菜尾欲按怎處理咧？"/>
+    <node name="033" file="m_files/033.mp3" artist="" label="033我有一頂茄仔色的帽仔。"/>
+    <node name="034" file="m_files/034.mp3" artist="" label="034天氣反冷囉！愛加穿衫。"/>
+    <node name="035" file="m_files/035.mp3" artist="" label="035衫傷細領，褲嘛變較短矣。"/>
+    <node name="036" file="m_files/036.mp3" artist="" label="036共褲的拉鏈脫予好。"/>
+    <node name="037" file="m_files/037.mp3" artist="" label="037手袖撇起來。"/>
+    <node name="038" file="m_files/038.mp3" artist="" label="038鞋帶縛予好。"/>
+    <node name="039" file="m_files/039.mp3" artist="" label="039穿鞋仔進前愛先穿襪仔。"/>
+    <node name="040" file="m_files/040.mp3" artist="" label="040落雨矣，緊共雨幔佮靴管穿予好。"/>
+    <node name="041" file="m_files/041.mp3" artist="" label="041鞋仔傷細雙，穿起來有淡薄仔緪。"/>
+    <node name="042" file="m_files/042.mp3" artist="" label="042這領裘仔的價數傷貴"/>
+    <node name="043" file="m_files/043.mp3" artist="" label="043衫穿顛倒反，鈕仔閣頂鈕鬥下鈕。"/>
+    <node name="044" file="m_files/044.mp3" artist="" label="044寒天逐家攏穿衛生衣佮膨紗衫。"/>
+    <node name="045" file="m_files/045.mp3" artist="" label="045這領衫穿起來誠燒。"/>
+    <node name="046" file="m_files/046.mp3" artist="" label="046今仔日愛穿制服去學校。"/>
+    <node name="047" file="m_files/047.mp3" artist="" label="047體育課的時陣愛穿運動衫。"/>
+    <node name="048" file="m_files/048.mp3" artist="" label="048拜三會當穿便服去學校。"/>
+    <node name="049" file="m_files/049.mp3" artist="" label="049小弟穿牛仔褲看起來真古錐。"/>
+    <node name="050" file="m_files/050.mp3" artist="" label="050我有一雙布鞋佮一雙皮鞋。"/>
+    <node name="051" file="m_files/051.mp3" artist="" label="051媽媽愛穿懸屐仔。"/>
+    <node name="052" file="m_files/052.mp3" artist="" label="052會退色的衫，毋通濫做伙洗。"/>
+    <node name="053" file="m_files/053.mp3" artist="" label="053衫沐著墨水，欲按怎？"/>
+    <node name="054" file="m_files/054.mp3" artist="" label="054你的衫，鈕仔落一鈕。"/>
+    <node name="055" file="m_files/055.mp3" artist="" label="055我定定共媽媽鬥洗衫、鬥披衫。"/>
+    <node name="056" file="m_files/056.mp3" artist="" label="056無一定愛穿新衫，整齊清氣著好矣。"/>
+    <node name="057" file="m_files/057.mp3" artist="" label="057我的手袖予同學扭破去矣！"/>
+    <node name="058" file="m_files/058.mp3" artist="" label="058我有足濟領[衣甲]仔。"/>
+    <node name="059" file="m_files/059.mp3" artist="" label="059咱來客廳坐。"/>
+    <node name="060" file="m_files/060.mp3" artist="" label="060阮佇飯廳食暗頓。"/>
+    <node name="061" file="m_files/061.mp3" artist="" label="061媽媽佇灶跤煮物件。"/>
+    <node name="062" file="m_files/062.mp3" artist="" label="062妹妹佇伊的房間睏。"/>
+    <node name="063" file="m_files/063.mp3" artist="" label="063啥人佇浴間洗身軀？卡緊咧！"/>
+    <node name="064" file="m_files/064.mp3" artist="" label="064老師的車停佇車庫內底。"/>
+    <node name="065" file="m_files/065.mp3" artist="" label="065今仔日早起，我對樓梯跋落來。"/>
+    <node name="066" file="m_files/066.mp3" artist="" label="066我的課本囥佇屜仔內底。"/>
+    <node name="067" file="m_files/067.mp3" artist="" label="067共你的裘仔提去衫仔櫥內吊起來。"/>
+    <node name="068" file="m_files/068.mp3" artist="" label="068我畫的圖掛佇禮堂。"/>
+    <node name="069" file="m_files/069.mp3" artist="" label="069阮佇電腦教室拍電腦。"/>
+    <node name="070" file="m_files/070.mp3" artist="" label="070老師拄好咧放送。"/>
+    <node name="071" file="m_files/071.mp3" artist="" label="071老師用手機仔佮家長聯絡。"/>
+    <node name="072" file="m_files/072.mp3" artist="" label="072我會曉家己款冊包。"/>
+    <node name="073" file="m_files/073.mp3" artist="" label="073我會曉家己提碗箸。"/>
+    <node name="074" file="m_files/074.mp3" artist="" label="074有人咧扣門，去看覓仔是啥人？"/>
+    <node name="075" file="m_files/075.mp3" artist="" label="075啥人會當替我開門？"/>
+    <node name="076" file="m_files/076.mp3" artist="" label="076共鞋仔褪掉，穿淺拖仔。"/>
+    <node name="077" file="m_files/077.mp3" artist="" label="077免煩腦，我會準時轉來。"/>
+    <node name="078" file="m_files/078.mp3" artist="" label="078控機仔囥佇桌仔頂。"/>
+    <node name="079" file="m_files/079.mp3" artist="" label="079手去洗洗咧，來食晝。"/>
+    <node name="080" file="m_files/080.mp3" artist="" label="080教室傷亂，收收咧！"/>
+    <node name="081" file="m_files/081.mp3" artist="" label="081愛會記得關電火。"/>
+    <node name="082" file="m_files/082.mp3" artist="" label="082你敢會當來辦公室一下？"/>
+    <node name="083" file="m_files/083.mp3" artist="" label="083離酒精燈較遠咧，我驚你會予伊燙著。"/>
+    <node name="084" file="m_files/084.mp3" artist="" label="084麻煩你去倒糞埽。"/>
+    <node name="085" file="m_files/085.mp3" artist="" label="085學校的鐘仔聲霆矣。"/>
+    <node name="086" file="m_files/086.mp3" artist="" label="086我睏過頭矣。"/>
+    <node name="087" file="m_files/087.mp3" artist="" label="087我睏𣍐去。"/>
+    <node name="088" file="m_files/088.mp3" artist="" label="088功課寫完，才會當看電視。"/>
+    <node name="089" file="m_files/089.mp3" artist="" label="089去看冊，準備考試。"/>
+    <node name="090" file="m_files/090.mp3" artist="" label="090水道頭佇咧滴水。"/>
+    <node name="091" file="m_files/091.mp3" artist="" label="091水槽仔塞著咧。"/>
+    <node name="092" file="m_files/092.mp3" artist="" label="092雪文強欲用完矣。"/>
+    <node name="093" file="m_files/093.mp3" artist="" label="093對便所出來，愛沖水。"/>
+    <node name="094" file="m_files/094.mp3" artist="" label="094欲走進前，愛會記得共水關予緪。"/>
+    <node name="095" file="m_files/095.mp3" artist="" label="095你沃花袂？"/>
+    <node name="096" file="m_files/096.mp3" artist="" label="096拚掃的時間到矣。"/>
+    <node name="097" file="m_files/097.mp3" artist="" label="097共字紙款予好，提出去。"/>
+    <node name="098" file="m_files/098.mp3" artist="" label="098我會鬥拭窗仔門。"/>
+    <node name="099" file="m_files/099.mp3" artist="" label="099遮的窗仔門愛洗洗咧。"/>
+    <node name="100" file="m_files/100.mp3" artist="" label="100學校對面，有一間超級市場。"/>
+    <node name="101" file="m_files/101.mp3" artist="" label="101阮學校附近有足濟餐廳。"/>
+    <node name="102" file="m_files/102.mp3" artist="" label="102你蹛佇叨位？我蹛佇台北縣。"/>
+    <node name="103" file="m_files/103.mp3" artist="" label="103這棟大樓有五層。"/>
+    <node name="104" file="m_files/104.mp3" artist="" label="104伊拄來這間學校，逐項代誌攏較青疏。"/>
+    <node name="105" file="m_files/105.mp3" artist="" label="105咱蹛佇仝一條街仔。"/>
+    <node name="106" file="m_files/106.mp3" artist="" label="106對遮左斡，你著會當揣著健康中心矣。"/>
+    <node name="107" file="m_files/107.mp3" artist="" label="107這是我的位，毋是你的。"/>
+    <node name="108" file="m_files/108.mp3" artist="" label="108阿吉仔是我的同學，嘛是我的厝邊。"/>
+    <node name="109" file="m_files/109.mp3" artist="" label="109行路愛倚路邊較安全。"/>
+    <node name="110" file="m_files/110.mp3" artist="" label="110佇市區內底，行路的人愛行天橋。"/>
+    <node name="111" file="m_files/111.mp3" artist="" label="111過大路愛看青紅燈。"/>
+    <node name="112" file="m_files/112.mp3" artist="" label="112過大路愛先看兩爿，無車才通過去。"/>
+    <node name="113" file="m_files/113.mp3" artist="" label="113騎機車愛戴安全帽。"/>
+    <node name="114" file="m_files/114.mp3" artist="" label="114安全是通到厝內唯一的路。"/>
+    <node name="115" file="m_files/115.mp3" artist="" label="115坐車的時，愛先讓予人落車才擱上車。"/>
+    <node name="116" file="m_files/116.mp3" artist="" label="116佇車頂要讓位予需要的人。"/>
+    <node name="117" file="m_files/117.mp3" artist="" label="117我坐火車去台北。"/>
+    <node name="118" file="m_files/118.mp3" artist="" label="118伊坐捷運到中和。"/>
+    <node name="119" file="m_files/119.mp3" artist="" label="119頭前五百公尺著有公車牌仔。"/>
+    <node name="120" file="m_files/120.mp3" artist="" label="120我買兩張火車票。"/>
+    <node name="121" file="m_files/121.mp3" artist="" label="121遮有自動賣票機。"/>
+    <node name="122" file="m_files/122.mp3" artist="" label="122開車進前愛縛安全帶。"/>
+    <node name="123" file="m_files/123.mp3" artist="" label="123後一个雙叉路口斡正手爿。"/>
+    <node name="124" file="m_files/124.mp3" artist="" label="124離較遠，較安全。"/>
+    <node name="125" file="m_files/125.mp3" artist="" label="125坐計程車愛共車牌號碼記落來。"/>
+    <node name="126" file="m_files/126.mp3" artist="" label="126坐公車愛準備銀角仔。"/>
+    <node name="127" file="m_files/127.mp3" artist="" label="127你敢會當共我講中山路欲按怎行？"/>
+    <node name="128" file="m_files/128.mp3" artist="" label="128伊足𠢕暈車。"/>
+    <node name="129" file="m_files/129.mp3" artist="" label="129亭仔跤毋通走相逐。"/>
+    <node name="130" file="m_files/130.mp3" artist="" label="130行樓梯要倚正手爿。"/>
+    <node name="131" file="m_files/131.mp3" artist="" label="131排隊毋通搡來搡去。"/>
+    <node name="132" file="m_files/132.mp3" artist="" label="132請坐！"/>
+    <node name="133" file="m_files/133.mp3" artist="" label="133讀完矣！共課本闔起來。"/>
+    <node name="134" file="m_files/134.mp3" artist="" label="134你欲耍球無？"/>
+    <node name="135" file="m_files/135.mp3" artist="" label="135先共𨑨迌物仔收起來。"/>
+    <node name="136" file="m_files/136.mp3" artist="" label="136今仔日拜幾？今仔日禮拜日。"/>
+    <node name="137" file="m_files/137.mp3" artist="" label="137你會曉揣出正確的字無？我試看覓。"/>
+    <node name="138" file="m_files/138.mp3" artist="" label="138外口天氣按怎？落雨矣！"/>
+    <node name="139" file="m_files/139.mp3" artist="" label="139鉸刀毋通提來耍。"/>
+    <node name="140" file="m_files/140.mp3" artist="" label="140你會使連看覓無？"/>
+    <node name="141" file="m_files/141.mp3" artist="" label="141糞埽毋通烏白擲。"/>
+    <node name="142" file="m_files/142.mp3" artist="" label="142你感冒矣，愛加啉寡滾水佮歇睏。"/>
+    <node name="143" file="m_files/143.mp3" artist="" label="143你的跤頭趺受傷矣，我扶你去健康中心。"/>
+    <node name="144" file="m_files/144.mp3" artist="" label="144咱去運動埕𨑨迌。"/>
+    <node name="145" file="m_files/145.mp3" artist="" label="145門愛輕輕仔關。"/>
+    <node name="146" file="m_files/146.mp3" artist="" label="146失禮！無要緊！"/>
+    <node name="147" file="m_files/147.mp3" artist="" label="147你看起來袂䆀！"/>
+    <node name="148" file="m_files/148.mp3" artist="" label="148老師！我會使去便所無？"/>
+    <node name="149" file="m_files/149.mp3" artist="" label="149你的鉛筆盒仔內底有啥物件？"/>
+    <node name="150" file="m_files/150.mp3" artist="" label="150我會當替你做啥物？"/>
+    <node name="151" file="m_files/151.mp3" artist="" label="151真歡喜佮你熟似！我嘛是！"/>
+    <node name="152" file="m_files/152.mp3" artist="" label="152共你的簿仔佮鉛筆提起來。"/>
+    <node name="153" file="m_files/153.mp3" artist="" label="153夯筆的姿勢愛正確。"/>
+    <node name="154" file="m_files/154.mp3" artist="" label="154寫甲傷潦草，拭掉重寫。"/>
+    <node name="155" file="m_files/155.mp3" artist="" label="155我量看你偌懸。"/>
+    <node name="156" file="m_files/156.mp3" artist="" label="156老師這馬佇叨位？老師佇樓頂。"/>
+    <node name="157" file="m_files/157.mp3" artist="" label="157免煩惱！我會教你按怎做。"/>
+    <node name="158" file="m_files/158.mp3" artist="" label="158較細膩咧！"/>
+    <node name="159" file="m_files/159.mp3" artist="" label="159傷吵矣！我讀𣍐落去！"/>
+    <node name="160" file="m_files/160.mp3" artist="" label="160去共水道頭關予好。"/>
+    <node name="161" file="m_files/161.mp3" artist="" label="161多謝老師！教師節快樂！"/>
+    <node name="162" file="m_files/162.mp3" artist="" label="162這份禮物是欲送予你的。"/>
+    <node name="163" file="m_files/163.mp3" artist="" label="163歹勢！我傷晏來矣。"/>
+    <node name="164" file="m_files/164.mp3" artist="" label="164你佇冊櫥仔內底囥啥物件？"/>
+    <node name="165" file="m_files/165.mp3" artist="" label="165無要緊！閣重做一擺。"/>
+    <node name="166" file="m_files/166.mp3" artist="" label="166你咧揣啥物件？"/>
+    <node name="167" file="m_files/167.mp3" artist="" label="167你按怎？我腹肚痛。"/>
+    <node name="168" file="m_files/168.mp3" artist="" label="168你敢有兄弟姊妹？"/>
+    <node name="169" file="m_files/169.mp3" artist="" label="169加油！加油！"/>
+    <node name="170" file="m_files/170.mp3" artist="" label="170這馬比賽結束矣。"/>
+    <node name="171" file="m_files/171.mp3" artist="" label="171你做了誠好。"/>
+    <node name="172" file="m_files/172.mp3" artist="" label="172咱欲耍啥物？"/>
+    <node name="173" file="m_files/173.mp3" artist="" label="173著你囉！"/>
+    <node name="174" file="m_files/174.mp3" artist="" label="174看我按怎開球。"/>
+    <node name="175" file="m_files/175.mp3" artist="" label="175我愛去動物園𨑨迌。"/>
+    <node name="176" file="m_files/176.mp3" artist="" label="176遮的風景誠媠。"/>
+    <node name="177" file="m_files/177.mp3" artist="" label="177咱鬥陣來唱歌。"/>
+    <node name="178" file="m_files/178.mp3" artist="" label="178這首歌的伴奏誠好聽。"/>
+    <node name="179" file="m_files/179.mp3" artist="" label="179你唱歌誠好聽。"/>
+    <node name="180" file="m_files/180.mp3" artist="" label="180我上佮意的音樂是流行歌。"/>
+    <node name="181" file="m_files/181.mp3" artist="" label="181音樂是我的性命。"/>
+    <node name="182" file="m_files/182.mp3" artist="" label="182你會當泅偌遠？"/>
+    <node name="183" file="m_files/183.mp3" artist="" label="183阮這隊贏三分。"/>
+    <node name="184" file="m_files/184.mp3" artist="" label="184親近大自然是一層真好的代誌。"/>
+    <node name="185" file="m_files/185.mp3" artist="" label="185今仔日的比賽阮輸矣。"/>
+    <node name="186" file="m_files/186.mp3" artist="" label="186彼是一項真好的運動。"/>
+    <node name="187" file="m_files/187.mp3" artist="" label="187你唱走音去矣！"/>
+    <node name="188" file="m_files/188.mp3" artist="" label="188咱來行棋，好無？"/>
+    <node name="189" file="m_files/189.mp3" artist="" label="189下課的時陣，阮愛耍宓相揣。"/>
+    <node name="190" file="m_files/190.mp3" artist="" label="190比賽的結果按怎？"/>
+    <node name="191" file="m_files/191.mp3" artist="" label="191哪會遮好耍！"/>
+    <node name="192" file="m_files/192.mp3" artist="" label="192換你耍矣！"/>
+    <node name="193" file="m_files/193.mp3" artist="" label="193彼个學生的𥰔仔歕了誠好。"/>
+    <node name="194" file="m_files/194.mp3" artist="" label="194囡仔人攏愛𨑨迌佮聽故事。"/>
+    <node name="195" file="m_files/195.mp3" artist="" label="195無愛運動會變大箍。"/>
+    <node name="196" file="m_files/196.mp3" artist="" label="196伊的聲音誠甜，所以伊真愛唱歌。"/>
+    <node name="197" file="m_files/197.mp3" artist="" label="197我知影你愛山。"/>
+    <node name="198" file="m_files/198.mp3" artist="" label="198我想欲去看電影。"/>
+    <node name="199" file="m_files/199.mp3" artist="" label="199表演當時欲開始？"/>
+    <node name="200" file="m_files/200.mp3" artist="" label="200啥物所在會當拍籃球？"/>
+    <node name="201" file="m_files/201.mp3" artist="" label="201衫、短、褲、闊、人、媠、鼻、直。"/>
+    <node name="202" file="m_files/202.mp3" artist="" label="2020、1、2、3、4、5、6、7、8、9、10。"/>
+    <node name="203" file="m_files/203.mp3" artist="" label="20311、12、13、14、15、16、17、18、19、20。"/>
+    <node name="204" file="m_files/204.mp3" artist="" label="20421、22、23、24、25、26、27、28、29、30。"/>
+    <node name="205" file="m_files/205.mp3" artist="" label="20510、20、30、40、50、60、70、80、90。"/>
+    <node name="206" file="m_files/206.mp3" artist="" label="206一千、一萬、十萬、百萬、千萬、一億。"/>
+
+  </node>
+
+  </tree>
+
+  <label
+   x="269"
+   y="50"
+   w="53"
+   h="16"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="f"
+  ></label>
+
+  <scrolllabel
+   x="32"
+   y="245"
+   w="291"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  </jukebox>
+
+</coffeecupjukebox>

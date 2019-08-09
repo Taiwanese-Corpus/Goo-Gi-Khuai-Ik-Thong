@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+
+<coffeecupjukebox version="4.5">
+
+  <jukebox
+   x="0"
+   y="0"
+   w="360"
+   h="302"
+   playonstartup="f"
+   loop="f"
+   shuffle="f"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="e_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+disableclicktoactiveprompt="false"
+  <rewindbutton
+   x="82"
+   y="27"
+   w="61"
+   h="43"
+   toggle="f"
+   btnupimg="e_files/previous.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="205"
+   y="27"
+   w="63"
+   h="43"
+   toggle="f"
+   btnupimg="e_files/next.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="143"
+   y="27"
+   w="61"
+   h="43"
+   toggle="t"
+   btnupimg="e_files/play.jpg"
+   btndownimg="e_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="272"
+   y="47"
+   w="35"
+   h="14"
+   toggle="t"
+   action="shuf"
+   visible="f"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="351"
+   y="246"
+   w="92"
+   h="21"
+   visible="f"
+  ></volume>
+
+  <progress
+   x="32"
+   y="262"
+   w="291"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="33"
+   y="75"
+   w="291"
+   h="166"
+   visible="t"
+  >
+  <node label="">
+    <node name="001" file="e_files/001.mp3" artist="" label="001Is there anything good to eat around the school?"/>
+    <node name="002" file="e_files/002.mp3" artist="" label="002Good to eat? Oh, lots of things!"/>
+    <node name="003" file="e_files/003.mp3" artist="" label="003I love eating out at the night market."/>
+    <node name="004" file="e_files/004.mp3" artist="" label="004Dinner is ready! Please come to the table."/>
+    <node name="005" file="e_files/005.mp3" artist="" label="005Let's eat while the food is hot."/>
+    <node name="006" file="e_files/006.mp3" artist="" label="006What a big dinner!"/>
+    <node name="007" file="e_files/007.mp3" artist="" label="007The dish is very delicious."/>
+    <node name="008" file="e_files/008.mp3" artist="" label="008Would you like some fruit? That's great! May I have a banana?"/>
+    <node name="009" file="e_files/009.mp3" artist="" label="009May I have another cup of tea?"/>
+    <node name="010" file="e_files/010.mp3" artist="" label="010Would you like something to eat ?"/>
+    <node name="011" file="e_files/011.mp3" artist="" label="011I'm so full, thanks."/>
+    <node name="012" file="e_files/012.mp3" artist="" label="012I've never tried this before."/>
+    <node name="013" file="e_files/013.mp3" artist="" label="013It was an excellent dinner, wasn't it?"/>
+    <node name="014" file="e_files/014.mp3" artist="" label="014Yes, it was excellent."/>
+    <node name="015" file="e_files/015.mp3" artist="" label="015I'm so stuffed. I can't have any more."/>
+    <node name="016" file="e_files/016.mp3" artist="" label="016Which would you like, juice or soda?"/>
+    <node name="017" file="e_files/017.mp3" artist="" label="017I would like to have an egg and oyster omelet."/>
+    <node name="018" file="e_files/018.mp3" artist="" label="018I've brought along some candies! Do you want to try some?"/>
+    <node name="019" file="e_files/019.mp3" artist="" label="019It's too hot! Cool it down a bit before starting to eat."/>
+    <node name="020" file="e_files/020.mp3" artist="" label="020Dinner will be ready soon."/>
+    <node name="021" file="e_files/021.mp3" artist="" label="021Carrots are good for your eyes."/>
+    <node name="022" file="e_files/022.mp3" artist="" label="022Don't eat too many snacks before dinner."/>
+    <node name="023" file="e_files/023.mp3" artist="" label="023Don't drum on your bowl with chopsticks at table."/>
+    <node name="024" file="e_files/024.mp3" artist="" label="024Don't be so picky! Eat everything on your plate."/>
+    <node name="025" file="e_files/025.mp3" artist="" label="025Vegetables are good for your health."/>
+    <node name="026" file="e_files/026.mp3" artist="" label="026It's really hot. Be careful."/>
+    <node name="027" file="e_files/027.mp3" artist="" label="027Don't eat too many rice dumplings. You can only have one."/>
+    <node name="028" file="e_files/028.mp3" artist="" label="028Would you like to have some chicken rice?"/>
+    <node name="029" file="e_files/029.mp3" artist="" label="029Do you want to buy a cotton candy ?"/>
+    <node name="030" file="e_files/030.mp3" artist="" label="030Who made the coffee? It smells great!"/>
+    <node name="031" file="e_files/031.mp3" artist="" label="031This is home-made popcorn."/>
+    <node name="032" file="e_files/032.mp3" artist="" label="032What should we do with the leftovers?"/>
+    <node name="033" file="e_files/033.mp3" artist="" label="033I have a purple hat"/>
+    <node name="034" file="e_files/034.mp3" artist="" label="034It's getting cold. Put more clothes on."/>
+    <node name="035" file="e_files/035.mp3" artist="" label="035The shirt is too small, and the pants are also a little bit too short."/>
+    <node name="036" file="e_files/036.mp3" artist="" label="036Zip up your pants."/>
+    <node name="037" file="e_files/037.mp3" artist="" label="037Roll up your sleeves."/>
+    <node name="038" file="e_files/038.mp3" artist="" label="038Lace up your shoes."/>
+    <node name="039" file="e_files/039.mp3" artist="" label="039Put on socks before wearing your shoes."/>
+    <node name="040" file="e_files/040.mp3" artist="" label="040It's raining. Hurry up! Put your raincoat and boots on."/>
+    <node name="041" file="e_files/041.mp3" artist="" label="041The shoes pinch me."/>
+    <node name="042" file="e_files/042.mp3" artist="" label="042The coat is too expensive."/>
+    <node name="043" file="e_files/043.mp3" artist="" label="043You put on your clothes the wrong side and buttoned up the wrong way."/>
+    <node name="044" file="e_files/044.mp3" artist="" label="044People wear thick underwears and sweaters in winter."/>
+    <node name="045" file="e_files/045.mp3" artist="" label="045The outfit can keep you warm."/>
+    <node name="046" file="e_files/046.mp3" artist="" label="046We have to wear the uniform to school today."/>
+    <node name="047" file="e_files/047.mp3" artist="" label="047You have to wear sports-suit in PE class."/>
+    <node name="048" file="e_files/048.mp3" artist="" label="048You can wear casual clothes to school on Wednesdays."/>
+    <node name="049" file="e_files/049.mp3" artist="" label="049My younger brother looks cute in jeans."/>
+    <node name="050" file="e_files/050.mp3" artist="" label="050I have a pair of sneakers and a pair of shoes."/>
+    <node name="051" file="e_files/051.mp3" artist="" label="051My mom likes to wear high heels."/>
+    <node name="052" file="e_files/052.mp3" artist="" label="052Some clothes can't be washed with others because the color might fade away."/>
+    <node name="053" file="e_files/053.mp3" artist="" label="053What can I do to the clothes stained with ink?"/>
+    <node name="054" file="e_files/054.mp3" artist="" label="054A button has come off your clothes."/>
+    <node name="055" file="e_files/055.mp3" artist="" label="055I usually help my mom with the laundry."/>
+    <node name="056" file="e_files/056.mp3" artist="" label="056Being clean and tidy is more important than wearing new clothes."/>
+    <node name="057" file="e_files/057.mp3" artist="" label="057My sleeve was torn by my classmate."/>
+    <node name="058" file="e_files/058.mp3" artist="" label="058I have many vests."/>
+    <node name="059" file="e_files/059.mp3" artist="" label="059Let's have a seat in the living room."/>
+    <node name="060" file="e_files/060.mp3" artist="" label="060We eat dinner in the dining room."/>
+    <node name="061" file="e_files/061.mp3" artist="" label="061Mom is cooking in the kitchen."/>
+    <node name="062" file="e_files/062.mp3" artist="" label="062My younger sister is sleeping in her bedroom."/>
+    <node name="063" file="e_files/063.mp3" artist="" label="063Who is taking a shower in the bathroom? Please be quick."/>
+    <node name="064" file="e_files/064.mp3" artist="" label="064My teacher's car is parked in the garage, not on the street."/>
+    <node name="065" file="e_files/065.mp3" artist="" label="065I fell down the stairs this morning."/>
+    <node name="066" file="e_files/066.mp3" artist="" label="066My textbooks are in the drawer."/>
+    <node name="067" file="e_files/067.mp3" artist="" label="067Please hang your coat in the closet."/>
+    <node name="068" file="e_files/068.mp3" artist="" label="068My painting is displayed in the auditorium."/>
+    <node name="069" file="e_files/069.mp3" artist="" label="069We are using the computers in the computer lab."/>
+    <node name="070" file="e_files/070.mp3" artist="" label="070My teacher is broad casting now."/>
+    <node name="071" file="e_files/071.mp3" artist="" label="071My teacher contacts the students' parents by cellphone."/>
+    <node name="072" file="e_files/072.mp3" artist="" label="072I will pack my school bag myself."/>
+    <node name="073" file="e_files/073.mp3" artist="" label="073I will get my bowl and chopsticks myself."/>
+    <node name="074" file="e_files/074.mp3" artist="" label="074Someone is knocking on the door. Go and see who it is?"/>
+    <node name="075" file="e_files/075.mp3" artist="" label="075Can someone open the door for me?"/>
+    <node name="076" file="e_files/076.mp3" artist="" label="076Take off your shoes and put on the slippers."/>
+    <node name="077" file="e_files/077.mp3" artist="" label="077Don't worry. I'll be back on time."/>
+    <node name="078" file="e_files/078.mp3" artist="" label="078The remote control is on the table."/>
+    <node name="079" file="e_files/079.mp3" artist="" label="079Wash your hands and get ready for lunch."/>
+    <node name="080" file="e_files/080.mp3" artist="" label="080Clean up the classroom because it's too messy."/>
+    <node name="081" file="e_files/081.mp3" artist="" label="081Don't forget to turn off the lights."/>
+    <node name="082" file="e_files/082.mp3" artist="" label="082Could you come to the office for a minute?"/>
+    <node name="083" file="e_files/083.mp3" artist="" label="083Step away from the alcohol lamp; I don't want you to get burned."/>
+    <node name="084" file="e_files/084.mp3" artist="" label="084Please take out the garbage."/>
+    <node name="085" file="e_files/085.mp3" artist="" label="085The school bell is ringing."/>
+    <node name="086" file="e_files/086.mp3" artist="" label="086I overslept."/>
+    <node name="087" file="e_files/087.mp3" artist="" label="087I can't fall asleep."/>
+    <node name="088" file="e_files/088.mp3" artist="" label="088No TV until you finish your homework."/>
+    <node name="089" file="e_files/089.mp3" artist="" label="089Go study for the exam."/>
+    <node name="090" file="e_files/090.mp3" artist="" label="090The faucet is dripping."/>
+    <node name="091" file="e_files/091.mp3" artist="" label="091The sink is blocked."/>
+    <node name="092" file="e_files/092.mp3" artist="" label="092We are running out of soap."/>
+    <node name="093" file="e_files/093.mp3" artist="" label="093Flush the toilet after you finish."/>
+    <node name="094" file="e_files/094.mp3" artist="" label="094Please turn off the faucet completely before you leave."/>
+    <node name="095" file="e_files/095.mp3" artist="" label="095Have you watered the flowers?"/>
+    <node name="096" file="e_files/096.mp3" artist="" label="096It's time for spring-cleaning."/>
+    <node name="097" file="e_files/097.mp3" artist="" label="097Bundle the waste paper and take it out."/>
+    <node name="098" file="e_files/098.mp3" artist="" label="098I'll help clean the windows."/>
+    <node name="099" file="e_files/099.mp3" artist="" label="099The windows need washing."/>
+    <node name="100" file="e_files/100.mp3" artist="" label="100A supermarket is opposite to our school."/>
+    <node name="101" file="e_files/101.mp3" artist="" label="101There are many restaurants near our school."/>
+    <node name="102" file="e_files/102.mp3" artist="" label="102Where do you live? I live in Taipei County."/>
+    <node name="103" file="e_files/103.mp3" artist="" label="103There are five floors in this building."/>
+    <node name="104" file="e_files/104.mp3" artist="" label="104He just came to this school. Everything here is new to him."/>
+    <node name="105" file="e_files/105.mp3" artist="" label="105We live on the same street."/>
+    <node name="106" file="e_files/106.mp3" artist="" label="106Turn left here and you can find the health center."/>
+    <node name="107" file="e_files/107.mp3" artist="" label="107This is my seat, not yours."/>
+    <node name="108" file="e_files/108.mp3" artist="" label="108My classmate, Jill, is my neighbor."/>
+    <node name="109" file="e_files/109.mp3" artist="" label="109It's safer to walk along the roadside."/>
+    <node name="110" file="e_files/110.mp3" artist="" label="110All pedestrians should use the crossover bridge in the downtown."/>
+    <node name="111" file="e_files/111.mp3" artist="" label="111Look at the traffic light before crossing the road."/>
+    <node name="112" file="e_files/112.mp3" artist="" label="112Look about before crossing the road."/>
+    <node name="113" file="e_files/113.mp3" artist="" label="113Wear a helmet when you ride a motorcycle."/>
+    <node name="114" file="e_files/114.mp3" artist="" label="114Safety is the only way home."/>
+    <node name="115" file="e_files/115.mp3" artist="" label="115Before getting on the bus, you should let other passengers get off first."/>
+    <node name="116" file="e_files/116.mp3" artist="" label="116Please offer your seat to those in need."/>
+    <node name="117" file="e_files/117.mp3" artist="" label="117I take the train to Taipei"/>
+    <node name="118" file="e_files/118.mp3" artist="" label="118He takes the MRT to Chung-ho."/>
+    <node name="119" file="e_files/119.mp3" artist="" label="119Walk along 500 meters, and you can see a bus stop."/>
+    <node name="120" file="e_files/120.mp3" artist="" label="120I've bought two train tickets."/>
+    <node name="121" file="e_files/121.mp3" artist="" label="121Here is a ticket vending machine."/>
+    <node name="122" file="e_files/122.mp3" artist="" label="122Please fasten your seat belt before you drive."/>
+    <node name="123" file="e_files/123.mp3" artist="" label="123Please turn right at the next corner."/>
+    <node name="124" file="e_files/124.mp3" artist="" label="124Keep distance for safety."/>
+    <node name="125" file="e_files/125.mp3" artist="" label="125Please remember the car plate when you take a taxi."/>
+    <node name="126" file="e_files/126.mp3" artist="" label="126Prepare some coins before taking a bus."/>
+    <node name="127" file="e_files/127.mp3" artist="" label="127Excuse me. Could you tell me how to get to Chung Shan Road?"/>
+    <node name="128" file="e_files/128.mp3" artist="" label="128He gets carsick easily."/>
+    <node name="129" file="e_files/129.mp3" artist="" label="129Don't run in the hallway."/>
+    <node name="130" file="e_files/130.mp3" artist="" label="130Please walk along the righthand side when you go upstairs or downstairs."/>
+    <node name="131" file="e_files/131.mp3" artist="" label="131Don't push in the queue."/>
+    <node name="132" file="e_files/132.mp3" artist="" label="132Please sit down！"/>
+    <node name="133" file="e_files/133.mp3" artist="" label="133OK. It's over. Close the book, please."/>
+    <node name="134" file="e_files/134.mp3" artist="" label="134Would you like to play ball?"/>
+    <node name="135" file="e_files/135.mp3" artist="" label="135Put away your toys first!"/>
+    <node name="136" file="e_files/136.mp3" artist="" label="136What day is today? It's Sunday."/>
+    <node name="137" file="e_files/137.mp3" artist="" label="137Can you find out the correct words? Yes, I would try it."/>
+    <node name="138" file="e_files/138.mp3" artist="" label="138How is the weather? It's raining."/>
+    <node name="139" file="e_files/139.mp3" artist="" label="139Please don't play with scissors."/>
+    <node name="140" file="e_files/140.mp3" artist="" label="140Can you match them up?"/>
+    <node name="141" file="e_files/141.mp3" artist="" label="141Don't litter!"/>
+    <node name="142" file="e_files/142.mp3" artist="" label="142You have caught a cold. Drink more water and take more rest."/>
+    <node name="143" file="e_files/143.mp3" artist="" label="143You've hurt your knees. Let me like to take you to the health center."/>
+    <node name="144" file="e_files/144.mp3" artist="" label="144Let's play in the playground."/>
+    <node name="145" file="e_files/145.mp3" artist="" label="145Close the door gently."/>
+    <node name="146" file="e_files/146.mp3" artist="" label="146I am sorry. That's OK."/>
+    <node name="147" file="e_files/147.mp3" artist="" label="147You look nice."/>
+    <node name="148" file="e_files/148.mp3" artist="" label="148May I go to the bathroom?"/>
+    <node name="149" file="e_files/149.mp3" artist="" label="149What do you have in your pencil case?"/>
+    <node name="150" file="e_files/150.mp3" artist="" label="150May I help you?"/>
+    <node name="151" file="e_files/151.mp3" artist="" label="151Nice to see you. Me, too."/>
+    <node name="152" file="e_files/152.mp3" artist="" label="152Pick up your notebook and a pencil."/>
+    <node name="153" file="e_files/153.mp3" artist="" label="153Hold your pencil correctly."/>
+    <node name="154" file="e_files/154.mp3" artist="" label="154That is too sloppy! Erase it and try again."/>
+    <node name="155" file="e_files/155.mp3" artist="" label="155Let me measure your height."/>
+    <node name="156" file="e_files/156.mp3" artist="" label="156Where is our teacher? He is upstairs."/>
+    <node name="157" file="e_files/157.mp3" artist="" label="157Don't worry! I'll show you how."/>
+    <node name="158" file="e_files/158.mp3" artist="" label="158Be careful."/>
+    <node name="159" file="e_files/159.mp3" artist="" label="159It's too noisy. I can't study."/>
+    <node name="160" file="e_files/160.mp3" artist="" label="160Turn off the faucet."/>
+    <node name="161" file="e_files/161.mp3" artist="" label="161Thank you, Teacher. Happy Teachers' Day!"/>
+    <node name="162" file="e_files/162.mp3" artist="" label="162The present is for you."/>
+    <node name="163" file="e_files/163.mp3" artist="" label="163Sorry! I'm late."/>
+    <node name="164" file="e_files/164.mp3" artist="" label="164What did you put on the bookshelf?"/>
+    <node name="165" file="e_files/165.mp3" artist="" label="165It's OK. Let's do it again."/>
+    <node name="166" file="e_files/166.mp3" artist="" label="166Are you looking for something?"/>
+    <node name="167" file="e_files/167.mp3" artist="" label="167What's wrong with you? I got a stomachache."/>
+    <node name="168" file="e_files/168.mp3" artist="" label="168Do you have brothers or sisters?"/>
+    <node name="169" file="e_files/169.mp3" artist="" label="169Go! Go!"/>
+    <node name="170" file="e_files/170.mp3" artist="" label="170The game is over now."/>
+    <node name="171" file="e_files/171.mp3" artist="" label="171You did a good job."/>
+    <node name="172" file="e_files/172.mp3" artist="" label="172What game can we play?"/>
+    <node name="173" file="e_files/173.mp3" artist="" label="173It's your turn."/>
+    <node name="174" file="e_files/174.mp3" artist="" label="174Watch the way I serve."/>
+    <node name="175" file="e_files/175.mp3" artist="" label="175I like to go to the zoo."/>
+    <node name="176" file="e_files/176.mp3" artist="" label="176What a breath-taking view!"/>
+    <node name="177" file="e_files/177.mp3" artist="" label="177Let's sing."/>
+    <node name="178" file="e_files/178.mp3" artist="" label="178The song has a pleasant melody."/>
+    <node name="179" file="e_files/179.mp3" artist="" label="179You sing beautifully."/>
+    <node name="180" file="e_files/180.mp3" artist="" label="180My favorite music is pop"/>
+    <node name="181" file="e_files/181.mp3" artist="" label="181Music is my life."/>
+    <node name="182" file="e_files/182.mp3" artist="" label="182How far can you swim?"/>
+    <node name="183" file="e_files/183.mp3" artist="" label="183Our team won by three points."/>
+    <node name="184" file="e_files/184.mp3" artist="" label="184It's wonderful to be in the great outdoors."/>
+    <node name="185" file="e_files/185.mp3" artist="" label="185We lost the game today."/>
+    <node name="186" file="e_files/186.mp3" artist="" label="186That's a good exercise."/>
+    <node name="187" file="e_files/187.mp3" artist="" label="187You are out of tune."/>
+    <node name="188" file="e_files/188.mp3" artist="" label="188Will you play chess with me?"/>
+    <node name="189" file="e_files/189.mp3" artist="" label="189My friends like to play hide-and-seek during the break."/>
+    <node name="190" file="e_files/190.mp3" artist="" label="190How was the game?"/>
+    <node name="191" file="e_files/191.mp3" artist="" label="191What a game!"/>
+    <node name="192" file="e_files/192.mp3" artist="" label="192It's your turn to play."/>
+    <node name="193" file="e_files/193.mp3" artist="" label="193The student plays the flute well."/>
+    <node name="194" file="e_files/194.mp3" artist="" label="194All children love games and stories."/>
+    <node name="195" file="e_files/195.mp3" artist="" label="195Do more exercise or you will get fat."/>
+    <node name="196" file="e_files/196.mp3" artist="" label="196She likes to sing because her voice is very sweet."/>
+    <node name="197" file="e_files/197.mp3" artist="" label="197I know you enjoy mountain-climbing."/>
+    <node name="198" file="e_files/198.mp3" artist="" label="198I would like to watch a movie."/>
+    <node name="199" file="e_files/199.mp3" artist="" label="199What time does the performance begin?"/>
+    <node name="200" file="e_files/200.mp3" artist="" label="200Where can we play basketball?"/>
+    <node name="201" file="e_files/201.mp3" artist="" label="201"/>
+    <node name="202" file="e_files/202.mp3" artist="" label="202zero one two three four five six seven eight nine ten"/>
+    <node name="203" file="e_files/203.mp3" artist="" label="203eleven twelve thirteen fourteen fifteen sixteen seventeen eightee nineteen twenty"/>
+    <node name="204" file="e_files/204.mp3" artist="" label="204twenty-one twenty-two twenty-three twenty-four twenty-five twenty-six twenty-seven twenty-eight twenty-nine thirty"/>
+    <node name="205" file="e_files/205.mp3" artist="" label="205ten、twenty、thirty、forty、fifty、seventy、eighty、ninety、one-hundred"/>
+    <node name="206" file="e_files/206.mp3" artist="" label="206one-thousand、ten-thousand、one-hundred-thousand、one-million、one-hundred-million、one-billion"/>
+  </node>
+
+  </tree>
+
+  <label
+   x="269"
+   y="50"
+   w="53"
+   h="16"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="f"
+  ></label>
+
+  <scrolllabel
+   x="32"
+   y="245"
+   w="291"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  </jukebox>
+
+</coffeecupjukebox>

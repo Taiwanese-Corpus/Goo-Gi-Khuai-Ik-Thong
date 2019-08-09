@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+
+<coffeecupjukebox version="4.5">
+
+  <jukebox
+   x="0"
+   y="0"
+   w="360"
+   h="302"
+   playonstartup="f"
+   loop="f"
+   shuffle="f"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="g_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+disableclicktoactiveprompt="false"
+  <rewindbutton
+   x="82"
+   y="27"
+   w="61"
+   h="43"
+   toggle="f"
+   btnupimg="g_files/previous.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="205"
+   y="27"
+   w="63"
+   h="43"
+   toggle="f"
+   btnupimg="g_files/next.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="143"
+   y="27"
+   w="61"
+   h="43"
+   toggle="t"
+   btnupimg="g_files/play.jpg"
+   btndownimg="g_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="272"
+   y="47"
+   w="35"
+   h="14"
+   toggle="t"
+   action="shuf"
+   visible="f"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="351"
+   y="246"
+   w="92"
+   h="21"
+   visible="f"
+  ></volume>
+
+  <progress
+   x="32"
+   y="262"
+   w="291"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="33"
+   y="75"
+   w="291"
+   h="166"
+   visible="t"
+  >
+  <node label="">
+    <node name="001" file="g_files/001.mp3" artist="" label="001學校附近有什麼好吃的東西？"/>
+    <node name="002" file="g_files/002.mp3" artist="" label="002好吃的東西？那可多囉！"/>
+    <node name="003" file="g_files/003.mp3" artist="" label="003我最喜歡去夜市吃東西。"/>
+    <node name="004" file="g_files/004.mp3" artist="" label="004晚餐準備好了，來吃飯吧！"/>
+    <node name="005" file="g_files/005.mp3" artist="" label="005趁熱，快吃吧！"/>
+    <node name="006" file="g_files/006.mp3" artist="" label="006好豐盛的晚餐。"/>
+    <node name="007" file="g_files/007.mp3" artist="" label="007這道菜很好吃。"/>
+    <node name="008" file="g_files/008.mp3" artist="" label="008要不要來點水果？好啊！我要吃香蕉。"/>
+    <node name="009" file="g_files/009.mp3" artist="" label="009我可以再喝一杯茶嗎？"/>
+    <node name="010" file="g_files/010.mp3" artist="" label="010你要不要吃點東西？"/>
+    <node name="011" file="g_files/011.mp3" artist="" label="011我吃飽了，謝謝！"/>
+    <node name="012" file="g_files/012.mp3" artist="" label="012我沒吃過這種東西。"/>
+    <node name="013" file="g_files/013.mp3" artist="" label="013今天的晚餐豐盛嗎？"/>
+    <node name="014" file="g_files/014.mp3" artist="" label="014不錯！非常豐盛。"/>
+    <node name="015" file="g_files/015.mp3" artist="" label="015我吃得好飽，吃不下了！"/>
+    <node name="016" file="g_files/016.mp3" artist="" label="016你想喝果汁還是汽水？"/>
+    <node name="017" file="g_files/017.mp3" artist="" label="017我想要吃蚵仔煎。"/>
+    <node name="018" file="g_files/018.mp3" artist="" label="018我帶了一些糖果，你們想吃嗎？"/>
+    <node name="019" file="g_files/019.mp3" artist="" label="019太燙了！先吹一吹再吃。"/>
+    <node name="020" file="g_files/020.mp3" artist="" label="020晚餐再等一下子就好了！"/>
+    <node name="021" file="g_files/021.mp3" artist="" label="021吃紅蘿蔔對你的眼睛有好處。"/>
+    <node name="022" file="g_files/022.mp3" artist="" label="022不要在飯前吃那麼多零食。"/>
+    <node name="023" file="g_files/023.mp3" artist="" label="023吃飯時，不要拿筷子敲碗。"/>
+    <node name="024" file="g_files/024.mp3" artist="" label="024小孩子不要挑食，要把盤子裡的東西都吃完。"/>
+    <node name="025" file="g_files/025.mp3" artist="" label="025吃蔬菜對你的身體有幫助。"/>
+    <node name="026" file="g_files/026.mp3" artist="" label="026很燙喔！要小心！"/>
+    <node name="027" file="g_files/027.mp3" artist="" label="027粽子不要吃太多，只能吃一個！"/>
+    <node name="028" file="g_files/028.mp3" artist="" label="028你要吃雞肉飯嗎？"/>
+    <node name="029" file="g_files/029.mp3" artist="" label="029你要買棉花糖嗎？"/>
+    <node name="030" file="g_files/030.mp3" artist="" label="030誰泡的咖啡？怎麼那麼香！"/>
+    <node name="031" file="g_files/031.mp3" artist="" label="031這是自己做的爆米花。"/>
+    <node name="032" file="g_files/032.mp3" artist="" label="032這些剩菜該如何處理呢？"/>
+    <node name="033" file="g_files/033.mp3" artist="" label="033我有一頂紫色的帽子。"/>
+    <node name="034" file="g_files/034.mp3" artist="" label="034天氣變冷了，要多穿衣服。"/>
+    <node name="035" file="g_files/035.mp3" artist="" label="035衣服太小了，褲子也變短了。"/>
+    <node name="036" file="g_files/036.mp3" artist="" label="036把褲子的拉鏈拉好。"/>
+    <node name="037" file="g_files/037.mp3" artist="" label="037袖子捲起來。"/>
+    <node name="038" file="g_files/038.mp3" artist="" label="038鞋帶綁好。"/>
+    <node name="039" file="g_files/039.mp3" artist="" label="039穿鞋之前要先穿襪子。"/>
+    <node name="040" file="g_files/040.mp3" artist="" label="040下雨了，快穿上雨衣和雨鞋。"/>
+    <node name="041" file="g_files/041.mp3" artist="" label="041鞋子太小穿起來有點緊。"/>
+    <node name="042" file="g_files/042.mp3" artist="" label="042這件大衣的價錢很昂貴。"/>
+    <node name="043" file="g_files/043.mp3" artist="" label="043衣服穿反了，扣子扣錯了。"/>
+    <node name="044" file="g_files/044.mp3" artist="" label="044冬天大家都穿衛生衣和毛線衣。"/>
+    <node name="045" file="g_files/045.mp3" artist="" label="045這件衣服穿起來很保暖。"/>
+    <node name="046" file="g_files/046.mp3" artist="" label="046今天要穿制服上學。"/>
+    <node name="047" file="g_files/047.mp3" artist="" label="047體育課的時候要穿運動服。"/>
+    <node name="048" file="g_files/048.mp3" artist="" label="048星期三可以穿便服上學。"/>
+    <node name="049" file="g_files/049.mp3" artist="" label="049弟弟穿牛仔褲很可愛。"/>
+    <node name="050" file="g_files/050.mp3" artist="" label="050我有一雙布鞋和一雙皮鞋。"/>
+    <node name="051" file="g_files/051.mp3" artist="" label="051媽媽喜歡穿高跟鞋。"/>
+    <node name="052" file="g_files/052.mp3" artist="" label="052有些衣服會褪色，不可以放在一起洗。"/>
+    <node name="053" file="g_files/053.mp3" artist="" label="053衣服沾到墨水，怎麼辦？"/>
+    <node name="054" file="g_files/054.mp3" artist="" label="054你的衣服掉了一顆鈕扣。"/>
+    <node name="055" file="g_files/055.mp3" artist="" label="055我常幫媽媽洗衣服、晾衣服。"/>
+    <node name="056" file="g_files/056.mp3" artist="" label="056不一定要穿新衣服，只要乾淨整齊就好。"/>
+    <node name="057" file="g_files/057.mp3" artist="" label="057我的袖口被同學扯破了。"/>
+    <node name="058" file="g_files/058.mp3" artist="" label="058我有很多件背心。"/>
+    <node name="059" file="g_files/059.mp3" artist="" label="059我們到客廳坐坐吧！"/>
+    <node name="060" file="g_files/060.mp3" artist="" label="060我們在飯廳吃晚餐。"/>
+    <node name="061" file="g_files/061.mp3" artist="" label="061媽媽在廚房煮東西。"/>
+    <node name="062" file="g_files/062.mp3" artist="" label="062妹妹在她的房裡睡覺。"/>
+    <node name="063" file="g_files/063.mp3" artist="" label="063誰在浴室洗澡？請快一點！"/>
+    <node name="064" file="g_files/064.mp3" artist="" label="064老師的車停在車庫裡。"/>
+    <node name="065" file="g_files/065.mp3" artist="" label="065今天早上，我從樓梯上跌下來。"/>
+    <node name="066" file="g_files/066.mp3" artist="" label="066我的課本放在抽屜裡。"/>
+    <node name="067" file="g_files/067.mp3" artist="" label="067把外套拿到衣櫥裡掛起來。"/>
+    <node name="068" file="g_files/068.mp3" artist="" label="068我的畫掛在禮堂。"/>
+    <node name="069" file="g_files/069.mp3" artist="" label="069我們在電腦教室打電腦。"/>
+    <node name="070" file="g_files/070.mp3" artist="" label="070老師正在廣播。"/>
+    <node name="071" file="g_files/071.mp3" artist="" label="071老師用手機和家長聯絡。"/>
+    <node name="072" file="g_files/072.mp3" artist="" label="072我會自己收拾書包。"/>
+    <node name="073" file="g_files/073.mp3" artist="" label="073我會自己拿碗筷。"/>
+    <node name="074" file="g_files/074.mp3" artist="" label="074有人在敲門，去看看是誰。"/>
+    <node name="075" file="g_files/075.mp3" artist="" label="075誰幫我開個門？"/>
+    <node name="076" file="g_files/076.mp3" artist="" label="076把鞋子脫掉，穿上拖鞋。"/>
+    <node name="077" file="g_files/077.mp3" artist="" label="077別擔心，我會準時回家。"/>
+    <node name="078" file="g_files/078.mp3" artist="" label="078遙控器在桌子上。"/>
+    <node name="079" file="g_files/079.mp3" artist="" label="079去洗手，準備吃午餐。"/>
+    <node name="080" file="g_files/080.mp3" artist="" label="080教室太亂了，收拾收拾。"/>
+    <node name="081" file="g_files/081.mp3" artist="" label="081別忘了關電燈。"/>
+    <node name="082" file="g_files/082.mp3" artist="" label="082你可以來辦公室一下嗎？"/>
+    <node name="083" file="g_files/083.mp3" artist="" label="083離酒精燈遠一點，我怕你被燙到。"/>
+    <node name="084" file="g_files/084.mp3" artist="" label="084麻煩你去倒垃圾。"/>
+    <node name="085" file="g_files/085.mp3" artist="" label="085學校的鐘聲響了。"/>
+    <node name="086" file="g_files/086.mp3" artist="" label="086我睡過頭了。"/>
+    <node name="087" file="g_files/087.mp3" artist="" label="087我睡不著。"/>
+    <node name="088" file="g_files/088.mp3" artist="" label="088做完功課才能看電視。"/>
+    <node name="089" file="g_files/089.mp3" artist="" label="089去看書，準備考試。"/>
+    <node name="090" file="g_files/090.mp3" artist="" label="090水龍頭在滴水。"/>
+    <node name="091" file="g_files/091.mp3" artist="" label="091洗手台塞住了。"/>
+    <node name="092" file="g_files/092.mp3" artist="" label="092肥皂快用完了。"/>
+    <node name="093" file="g_files/093.mp3" artist="" label="093上完廁所要沖水。"/>
+    <node name="094" file="g_files/094.mp3" artist="" label="094離開前，請把水關緊。"/>
+    <node name="095" file="g_files/095.mp3" artist="" label="095你澆花了嗎？"/>
+    <node name="096" file="g_files/096.mp3" artist="" label="096掃除的時間到囉。"/>
+    <node name="097" file="g_files/097.mp3" artist="" label="097把廢紙整理好拿出去。"/>
+    <node name="098" file="g_files/098.mp3" artist="" label="098我會幫忙擦窗戶。"/>
+    <node name="099" file="g_files/099.mp3" artist="" label="099這些窗戶要洗一洗。"/>
+    <node name="100" file="g_files/100.mp3" artist="" label="100學校對面，有一家超級市場。"/>
+    <node name="101" file="g_files/101.mp3" artist="" label="101我們學校附近有很多餐廳。"/>
+    <node name="102" file="g_files/102.mp3" artist="" label="102你住在哪裡？我住在台北縣。"/>
+    <node name="103" file="g_files/103.mp3" artist="" label="103這是一棟五層樓的建築物。"/>
+    <node name="104" file="g_files/104.mp3" artist="" label="104他剛來到這個學校，對這裡還是很陌生。"/>
+    <node name="105" file="g_files/105.mp3" artist="" label="105我們住在同一條街上。"/>
+    <node name="106" file="g_files/106.mp3" artist="" label="106由這裡向左轉，你就可以找到健康中心了。"/>
+    <node name="107" file="g_files/107.mp3" artist="" label="107這是我的坐位，不是你的。"/>
+    <node name="108" file="g_files/108.mp3" artist="" label="108我同學阿吉是我鄰居。"/>
+    <node name="109" file="g_files/109.mp3" artist="" label="109走路要靠邊才安全。"/>
+    <node name="110" file="g_files/110.mp3" artist="" label="110在市區行人要走天橋。"/>
+    <node name="111" file="g_files/111.mp3" artist="" label="111過馬路要看紅綠燈。"/>
+    <node name="112" file="g_files/112.mp3" artist="" label="112穿過馬路要看清左右，沒有來車才可通過。"/>
+    <node name="113" file="g_files/113.mp3" artist="" label="113機車要戴安全帽。"/>
+    <node name="114" file="g_files/114.mp3" artist="" label="114安全是通往家中唯一的路。"/>
+    <node name="115" file="g_files/115.mp3" artist="" label="115乘車次序是先下後上。"/>
+    <node name="116" file="g_files/116.mp3" artist="" label="116在車上應讓座給需要的人。"/>
+    <node name="117" file="g_files/117.mp3" artist="" label="117我搭火車到台北。"/>
+    <node name="118" file="g_files/118.mp3" artist="" label="118他搭捷運到中和。"/>
+    <node name="119" file="g_files/119.mp3" artist="" label="119前面五百公尺就有公車站牌。"/>
+    <node name="120" file="g_files/120.mp3" artist="" label="120我買了兩張火車票。"/>
+    <node name="121" file="g_files/121.mp3" artist="" label="121這裡有自動售票機。"/>
+    <node name="122" file="g_files/122.mp3" artist="" label="122開車前要繫安全帶。"/>
+    <node name="123" file="g_files/123.mp3" artist="" label="123下一個十字路口請右轉。"/>
+    <node name="124" file="g_files/124.mp3" artist="" label="124保持距離，以策安全。"/>
+    <node name="125" file="g_files/125.mp3" artist="" label="125搭計程車請記下車號。"/>
+    <node name="126" file="g_files/126.mp3" artist="" label="126搭公車要準備零錢。"/>
+    <node name="127" file="g_files/127.mp3" artist="" label="127你能告訴我中山路怎麼走嗎？"/>
+    <node name="128" file="g_files/128.mp3" artist="" label="128他很容易暈車。"/>
+    <node name="129" file="g_files/129.mp3" artist="" label="129走廊上不能奔跑。"/>
+    <node name="130" file="g_files/130.mp3" artist="" label="130上下樓梯要靠右邊走。"/>
+    <node name="131" file="g_files/131.mp3" artist="" label="131排路隊不要推擠。"/>
+    <node name="132" file="g_files/132.mp3" artist="" label="132請坐下！"/>
+    <node name="133" file="g_files/133.mp3" artist="" label="133讀完了，把課本合上。"/>
+    <node name="134" file="g_files/134.mp3" artist="" label="134想要玩球嗎？"/>
+    <node name="135" file="g_files/135.mp3" artist="" label="135先把玩具收好。"/>
+    <node name="136" file="g_files/136.mp3" artist="" label="136今天星期幾？今天是星期天。"/>
+    <node name="137" file="g_files/137.mp3" artist="" label="137你會找出正確的字嗎？我試試看。"/>
+    <node name="138" file="g_files/138.mp3" artist="" label="138外面天氣怎麼樣？下雨了。"/>
+    <node name="139" file="g_files/139.mp3" artist="" label="139請別拿剪刀玩。"/>
+    <node name="140" file="g_files/140.mp3" artist="" label="140你可以連連看嗎？"/>
+    <node name="141" file="g_files/141.mp3" artist="" label="141垃圾別亂丟。"/>
+    <node name="142" file="g_files/142.mp3" artist="" label="142你感冒了要多喝水多休息。"/>
+    <node name="143" file="g_files/143.mp3" artist="" label="143你的膝蓋受傷了，我扶你去健康中心。"/>
+    <node name="144" file="g_files/144.mp3" artist="" label="144我們去操場玩。"/>
+    <node name="145" file="g_files/145.mp3" artist="" label="145關門要輕輕的。"/>
+    <node name="146" file="g_files/146.mp3" artist="" label="146對不起！沒關係！"/>
+    <node name="147" file="g_files/147.mp3" artist="" label="147你看起來不錯！"/>
+    <node name="148" file="g_files/148.mp3" artist="" label="148老師！我可以去上廁所嗎？"/>
+    <node name="149" file="g_files/149.mp3" artist="" label="149你的鉛筆盒裡有什麼？"/>
+    <node name="150" file="g_files/150.mp3" artist="" label="150我可以幫你做什麼？"/>
+    <node name="151" file="g_files/151.mp3" artist="" label="151很高興認識你！我也是！"/>
+    <node name="152" file="g_files/152.mp3" artist="" label="152拿起你的筆記本和鉛筆。"/>
+    <node name="153" file="g_files/153.mp3" artist="" label="153握筆的姿勢要正確。"/>
+    <node name="154" file="g_files/154.mp3" artist="" label="154寫得太潦草了，擦掉重寫。"/>
+    <node name="155" file="g_files/155.mp3" artist="" label="155我幫你量身高。"/>
+    <node name="156" file="g_files/156.mp3" artist="" label="156老師現在在哪兒？老師在樓上。"/>
+    <node name="157" file="g_files/157.mp3" artist="" label="157別擔心！我會教你怎麼做。"/>
+    <node name="158" file="g_files/158.mp3" artist="" label="158小心一點。"/>
+    <node name="159" file="g_files/159.mp3" artist="" label="159太吵了！我讀不下書！"/>
+    <node name="160" file="g_files/160.mp3" artist="" label="160去把水龍頭關好。"/>
+    <node name="161" file="g_files/161.mp3" artist="" label="161謝謝老師！教師節快樂！"/>
+    <node name="162" file="g_files/162.mp3" artist="" label="162這份禮物是送給你的。"/>
+    <node name="163" file="g_files/163.mp3" artist="" label="163抱歉！我遲到了。"/>
+    <node name="164" file="g_files/164.mp3" artist="" label="164你在書櫃裡放什麼？"/>
+    <node name="165" file="g_files/165.mp3" artist="" label="165沒關係！再重做一次。"/>
+    <node name="166" file="g_files/166.mp3" artist="" label="166你在找什麼東西？"/>
+    <node name="167" file="g_files/167.mp3" artist="" label="167怎麼了？我的肚子痛。"/>
+    <node name="168" file="g_files/168.mp3" artist="" label="168你有沒有兄弟姊妹？"/>
+    <node name="169" file="g_files/169.mp3" artist="" label="169加油！加油！"/>
+    <node name="170" file="g_files/170.mp3" artist="" label="170現在比賽結束了。"/>
+    <node name="171" file="g_files/171.mp3" artist="" label="171你做得很好。"/>
+    <node name="172" file="g_files/172.mp3" artist="" label="172我們要玩什麼？"/>
+    <node name="173" file="g_files/173.mp3" artist="" label="173輪到你了。"/>
+    <node name="174" file="g_files/174.mp3" artist="" label="174看我發球的方式。"/>
+    <node name="175" file="g_files/175.mp3" artist="" label="175我喜歡去動物園。"/>
+    <node name="176" file="g_files/176.mp3" artist="" label="176這裡的風景很漂亮。"/>
+    <node name="177" file="g_files/177.mp3" artist="" label="177我們一起來唱歌吧！"/>
+    <node name="178" file="g_files/178.mp3" artist="" label="178這首歌的旋律很美。"/>
+    <node name="179" file="g_files/179.mp3" artist="" label="179妳唱歌真好聽。"/>
+    <node name="180" file="g_files/180.mp3" artist="" label="180我最喜歡的音樂是流行歌曲。"/>
+    <node name="181" file="g_files/181.mp3" artist="" label="181音樂是我的生命。"/>
+    <node name="182" file="g_files/182.mp3" artist="" label="182你可以游多遠？"/>
+    <node name="183" file="g_files/183.mp3" artist="" label="183我們這一隊贏了三分。"/>
+    <node name="184" file="g_files/184.mp3" artist="" label="184親近大自然是件好棒的事。"/>
+    <node name="185" file="g_files/185.mp3" artist="" label="185我們輸了今天的比賽。"/>
+    <node name="186" file="g_files/186.mp3" artist="" label="186那是一個好的運動。"/>
+    <node name="187" file="g_files/187.mp3" artist="" label="187你唱走調了。"/>
+    <node name="188" file="g_files/188.mp3" artist="" label="188我們來下棋，好嗎?。"/>
+    <node name="189" file="g_files/189.mp3" artist="" label="189下課時，我們喜歡玩捉迷藏。"/>
+    <node name="190" file="g_files/190.mp3" artist="" label="190比賽的結果如何?。"/>
+    <node name="191" file="g_files/191.mp3" artist="" label="191怎麼這麼好玩！"/>
+    <node name="192" file="g_files/192.mp3" artist="" label="192該你玩了！"/>
+    <node name="193" file="g_files/193.mp3" artist="" label="193那位學生笛子吹得很好。"/>
+    <node name="194" file="g_files/194.mp3" artist="" label="194孩子們都喜歡玩遊戲和聽故事。"/>
+    <node name="195" file="g_files/195.mp3" artist="" label="195不喜歡運動會變胖。"/>
+    <node name="196" file="g_files/196.mp3" artist="" label="196她的聲音甜美所以她喜歡唱歌。"/>
+    <node name="197" file="g_files/197.mp3" artist="" label="197我知道你喜歡爬山。"/>
+    <node name="198" file="g_files/198.mp3" artist="" label="198我想去看電影。"/>
+    <node name="199" file="g_files/199.mp3" artist="" label="199表演何時開始？"/>
+    <node name="200" file="g_files/200.mp3" artist="" label="200什麼地方可以打籃球？"/>
+    <node name="201" file="g_files/201.mp3" artist="" label="201衫、短、褲、闊、人、美、鼻、直。"/>
+    <node name="202" file="g_files/202.mp3" artist="" label="2020、1、2、3、4、5、6、7、8、9、10。"/>
+    <node name="203" file="g_files/203.mp3" artist="" label="20311、12、13、14、15、16、17、18、19、20。"/>
+    <node name="204" file="g_files/204.mp3" artist="" label="20421、22、23、24、25、26、27、28、29、30。"/>
+    <node name="205" file="g_files/205.mp3" artist="" label="20510、20、30、40、50、60、70、80、90。"/>
+    <node name="206" file="g_files/206.mp3" artist="" label="206一千、一萬、十萬、百萬、千萬、一億。"/>
+
+  </node>
+
+  </tree>
+
+  <label
+   x="269"
+   y="50"
+   w="53"
+   h="16"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="f"
+  ></label>
+
+  <scrolllabel
+   x="32"
+   y="245"
+   w="291"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x000000"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  </jukebox>
+
+</coffeecupjukebox>
